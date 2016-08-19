@@ -1,0 +1,324 @@
+- var site_title = "Qrac GitHub";
+- var page_title = "MOFTONE";
+- var page_description = "Material Design Colorをベースに、もふもふな優しい色を生成しました。";
+- var page_url = "https://qrac.github.io/moftone/";
+- var github_url = "https://github.com/qrac/moftone/";
+- var twitter_id = "Qrac_jp";
+
+doctype html
+html(lang="ja")
+  head
+
+    //- Encording
+    meta(charset="UTF-8")
+
+    //- Site Meta
+    title #{page_title} - #{site_title}
+    meta(name="description" content="#{page_description}")
+    meta(name="keywords", content="#{page_keywords}")
+
+    //- Viewport
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    //-meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui")
+    //-meta(name="viewport" content="width=1024")
+
+    //- Facebook OGP
+    meta(property="og:title" content="#{page_title}")
+    meta(property="og:description" content="#{page_description}")
+    meta(property="og:url" content="#{page_url}")
+    meta(property="og:image" content="#{page_url}mark/ogp.png")
+    meta(property="og:site_name" content="#{site_title}")
+    meta(property="og:type" content="website")
+
+    //- Twitter Card
+    meta(name="twitter:card", content="summary_large_image")
+    meta(name="twitter:site", content="#{twitter_id}")
+    meta(name="twitter:creator", content="#{twitter_id}")
+    meta(name="twitter:title", content="#{page_title}")
+    meta(name="twitter:description", content="#{page_description}")
+    meta(name="twitter:image:src", content="#{page_url}mark/ogp.png")
+
+    //- Icon
+    link(rel="apple-touch-icon" href="mark/apple-touch-icon.png")
+    link(rel="shortcut icon" href="mark/favicon.ico")
+
+    //- Path to Basic Library CSS
+    //-link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css", integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY", crossorigin="anonymous")
+    //-link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Da")
+    //-link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster")
+    //-link(rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css")
+    link(rel="stylesheet" href="lib/yakuhanjp/css/yakuhanjp.css")
+    //-link(rel="stylesheet" href="lib/yakuhanjp/css/yakuhanjp_s.css")
+
+    //- Path to Test Library CSS
+
+    //- Path to Custom CSS
+    link(rel="stylesheet" href="css/style.css")
+
+  body
+
+    .wrapper
+
+      header.header
+        .-inner
+          h1.heading_h1 #{page_title}
+          h2.heading_h2 #{page_description}
+          .-box
+            a.link_btn(href="#{github_url}") GitHub
+            a.link_btn(href="https://twitter.com/#{twitter_id}") Contact
+
+      main.main
+        .-inner
+          .-row.-center.-wrap
+
+            // MOF Red
+            .-col.-fix
+              .-box
+                .pallet.-red
+                  .-bar.-cut
+                    p.-name MOF Red
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Pink
+            .-col.-fix
+              .-box
+                .pallet.-pink
+                  .-bar.-cut
+                    p.-name MOF Pink
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Purple
+            .-col.-fix
+              .-box
+                .pallet.-purple
+                  .-bar.-cut
+                    p.-name MOF Purple
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Deep Purple
+            .-col.-fix
+              .-box
+                .pallet.-deep-purple
+                  .-bar.-cut
+                    p.-name MOF Deep Purple
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Indigo
+            .-col.-fix
+              .-box
+                .pallet.-indigo
+                  .-bar.-cut
+                    p.-name MOF Indigo
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Blue
+            .-col.-fix
+              .-box
+                .pallet.-blue
+                  .-bar.-cut
+                    p.-name MOF Blue
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Light Blue
+            .-col.-fix
+              .-box
+                .pallet.-light-blue
+                  .-bar.-cut
+                    p.-name MOF Light Blue
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Cyan
+            .-col.-fix
+              .-box
+                .pallet.-cyan
+                  .-bar.-cut
+                    p.-name MOF Cyan
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Teal
+            .-col.-fix
+              .-box
+                .pallet.-teal
+                  .-bar.-cut
+                    p.-name MOF Teal
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Green
+            .-col.-fix
+              .-box
+                .pallet.-green
+                  .-bar.-cut
+                    p.-name MOF Green
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Light Green
+            .-col.-fix
+              .-box
+                .pallet.-light-green
+                  .-bar.-cut
+                    p.-name MOF Light Green
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Lime
+            .-col.-fix
+              .-box
+                .pallet.-lime
+                  .-bar.-cut
+                    p.-name MOF Lime
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Yellow
+            .-col.-fix
+              .-box
+                .pallet.-yellow
+                  .-bar.-cut
+                    p.-name MOF Yellow
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Amber
+            .-col.-fix
+              .-box
+                .pallet.-amber
+                  .-bar.-cut
+                    p.-name MOF Amber
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Orange
+            .-col.-fix
+              .-box
+                .pallet.-orange
+                  .-bar.-cut
+                    p.-name MOF Orange
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Deep Orange
+            .-col.-fix
+              .-box
+                .pallet.-deep-orange
+                  .-bar.-cut
+                    p.-name MOF Deep Orange
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar14
+
+            // MOF Brown
+            .-col.-fix
+              .-box
+                .pallet.-brown
+                  .-bar.-cut
+                    p.-name MOF Brown
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar8
+
+            // MOF Grey
+            .-col.-fix
+              .-box
+                .pallet.-grey
+                  .-bar.-cut
+                    p.-name MOF Grey
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar8
+
+            // MOF Blue Grey
+            .-col.-fix
+              .-box
+                .pallet.-blue-grey
+                  .-bar.-cut
+                    p.-name MOF Blue Grey
+                    .-data
+                      p.-shade 500
+                      p.-hex
+                  include _bar8
+
+            // Black & White
+            .-col.-fix
+              .-box
+                .pallet.-black-and-white
+                  .-bar
+                    .-data
+                      p.-shade Black
+                      p.-hex
+                  .-bar
+                    .-data
+                      p.-shade White
+                      p.-hex
+
+    //- jQuery
+    script(src="https://code.jquery.com/jquery-3.0.0.min.js")
+    //-script(src="https://code.jquery.com/jquery-3.0.0.slim.min.js")
+    //-script(src="https://code.jquery.com/jquery-2.2.2.min.js")
+    //-script(src="https://code.jquery.com/jquery-1.12.1.min.js")
+    //-script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js")
+    //-script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js")
+
+    //- Path to Basic Library JS
+    //-script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js", integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY", crossorigin="anonymous")
+    //-script(src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js", integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB", crossorigin="anonymous")
+    //-script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js", integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD", crossorigin="anonymous")
+
+    //- Path to Test Library JS
+
+    //- Original Script
+    script.
+      $(function() {
+          $('.pallet .-bar').each(function(){
+              var bgColor = $(this).css('background-color');
+              bgColor = bgColor.replace("rgb(","");
+              bgColor = bgColor.replace(")","");
+              bgColor = bgColor.split(",");
+              bgColor = "#"+parseInt(bgColor[0]).toString(16)+parseInt(bgColor[1]).toString(16)+parseInt(bgColor[2]).toString(16);
+              $('.-data .-hex',this).html(bgColor);
+          });
+      });

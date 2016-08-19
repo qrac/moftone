@@ -1,0 +1,76 @@
+//----------------------------------------------------
+// Variable: Font size
+//----------------------------------------------------
+
+// Font Size Base For "mixin: +rem & +px"
+$font-size-base: 16 !default;
+$font-size-lg: 20 !default;
+$font-size-sm: 14 !default;
+$font-size-xs: 12 !default;
+
+// Font Size Heading For "mixin: +rem & +px"
+$font-size-h1: 48 !default;
+$font-size-h2: 40 !default;
+$font-size-h3: 32 !default;
+$font-size-h4: 24 !default;
+$font-size-h5: 16 !default;
+$font-size-h6: 16 !default;
+
+//----------------------------------------------------
+// Variable: Line Height
+//----------------------------------------------------
+
+// Line Height Base
+$line-height-base: 1.5 !default;
+$line-height-none: 1 !default;
+
+//----------------------------------------------------
+// Variable: Font weight
+//----------------------------------------------------
+
+// Font Weight Base
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+//----------------------------------------------------
+// Variable: Font Family
+//----------------------------------------------------
+
+// 1. PickUP the Device Font
+$font-apple-en: -apple-system, Helvetica Neue !default;
+$font-apple-go: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3" !default;
+$font-apple-mi: "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3" !default;
+$font-google: Verdana, Roboto !default;
+$font-yu-go: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic" !default;
+$font-yu-mi: "游明朝", "Yu Mincho", "游明朝体", YuMincho !default;
+$font-meiryo-ui: "Meiryo UI" !default;
+$font-meiryo: Meiryo, メイリオ, Osaka !default;
+$font-sans: Osaka, "ＭＳ Ｐゴシック", "MS PGothic", arial, sans-serif !default;
+$font-serif: Georgia, "Times New Roman", Times, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif !default;
+$font-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+// 2. PickUP the Unique Font
+$font-open: "Open Sans" !default;
+$font-noto: "Noto Sans Japanese" !default;
+$font-yakuhanjp: "YakuHanJP" !default;
+$font-yakuhanjps: "YakuHanJPs" !default;
+
+// 3. Grouping the Font
+$family-sans: $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-serif: $font-apple-mi, $font-serif !default;
+$family-google: $font-google, $font-noto, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-win10: $font-meiryo-ui, $font-meiryo, $font-sans !default;
+$family-yu-go: $font-apple-en, $font-yu-go, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-yu-mi: $font-yu-mi, $font-apple-mi, $font-serif !default;
+$family-open: $font-open, $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-noto: $font-noto, $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-notohanjp: $font-yakuhanjp, $font-noto, $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-notohanjps: $font-yakuhanjps, $font-noto, $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-yakuhanjp: $font-apple-en, $font-yakuhanjp, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-yakuhanjps: $font-apple-en, $font-yakuhanjps, $font-meiryo, $font-apple-go, $font-sans !default;
+$family-mono: $font-mono !default;
+
+// 4. Setting the Font
+$font-family-sans: $family-yakuhanjp !default;
+$font-family-selif: $family-serif !default;
+$font-family-mono: $font-mono !default;

@@ -1,0 +1,15 @@
+//----------------------------------------------------
+// Base: Base SCSS
+//----------------------------------------------------
+
+// Body Font
+body {
+  font-family: $font-family-sans;
+  @include rem($font-size-base);
+}
+
+// Code Font
+code,
+pre {
+  font-family: $font-family-mono;
+}

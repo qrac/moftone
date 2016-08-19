@@ -1,0 +1,285 @@
+//----------------------------------------------------
+//  Title: MOFTONE
+//  License: CC0 1.0 Public Domain
+//  GitHub: https://github.com/qrac/moftone/
+//  ---
+//  Author: Qrac
+//  Author WebSite: https://qrac.jp
+//  Author Contact: https://twitter.com/Qrac_jp
+//----------------------------------------------------
+
+$mt-red-50: lighten(desaturate(#ffebee, 25%),3%) !default;
+$mt-red-100: lighten(desaturate(#ffcdd2, 25%),3%) !default;
+$mt-red-200: lighten(desaturate(#ef9a9a, 25%),3%) !default;
+$mt-red-300: lighten(desaturate(#e57373, 25%),3%) !default;
+$mt-red-400: lighten(desaturate(#ef5350, 25%),3%) !default;
+$mt-red-500: lighten(desaturate(#f44336, 25%),3%) !default;
+$mt-red-600: lighten(desaturate(#e53935, 25%),3%) !default;
+$mt-red-700: lighten(desaturate(#d32f2f, 25%),3%) !default;
+$mt-red-800: lighten(desaturate(#c62828, 25%),3%) !default;
+$mt-red-900: lighten(desaturate(#b71c1c, 25%),3%) !default;
+$mt-red-a100: lighten(desaturate(#ff8a80, 35%),3%) !default;
+$mt-red-a200: lighten(desaturate(#ff5252, 35%),3%) !default;
+$mt-red-a400: lighten(desaturate(#ff1744, 35%),3%) !default;
+$mt-red-a700: lighten(desaturate(#d50000, 35%),3%) !default;
+
+$mt-pink-50: lighten(desaturate(#fce4ec, 25%),3%) !default;
+$mt-pink-100: lighten(desaturate(#f8bbd0, 25%),3%) !default;
+$mt-pink-200: lighten(desaturate(#f48fb1, 25%),3%) !default;
+$mt-pink-300: lighten(desaturate(#f06292, 25%),3%) !default;
+$mt-pink-400: lighten(desaturate(#ec407a, 25%),3%) !default;
+$mt-pink-500: lighten(desaturate(#e91e63, 25%),3%) !default;
+$mt-pink-600: lighten(desaturate(#d81b60, 25%),3%) !default;
+$mt-pink-700: lighten(desaturate(#c2185b, 25%),3%) !default;
+$mt-pink-800: lighten(desaturate(#ad1457, 25%),3%) !default;
+$mt-pink-900: lighten(desaturate(#880e4f, 25%),3%) !default;
+$mt-pink-a100: lighten(desaturate(#ff80ab, 35%),3%) !default;
+$mt-pink-a200: lighten(desaturate(#ff4081, 35%),3%) !default;
+$mt-pink-a400: lighten(desaturate(#f50057, 35%),3%) !default;
+$mt-pink-a700: lighten(desaturate(#c51162, 35%),3%) !default;
+
+$mt-purple-50: lighten(desaturate(#f3e5f5, 25%),3%) !default;
+$mt-purple-100: lighten(desaturate(#e1bee7, 25%),3%) !default;
+$mt-purple-200: lighten(desaturate(#ce93d8, 25%),3%) !default;
+$mt-purple-300: lighten(desaturate(#ba68c8, 25%),3%) !default;
+$mt-purple-400: lighten(desaturate(#ab47bc, 25%),3%) !default;
+$mt-purple-500: lighten(desaturate(#9c27b0, 25%),3%) !default;
+$mt-purple-600: lighten(desaturate(#8e24aa, 25%),3%) !default;
+$mt-purple-700: lighten(desaturate(#7b1fa2, 25%),3%) !default;
+$mt-purple-800: lighten(desaturate(#6a1b9a, 25%),3%) !default;
+$mt-purple-900: lighten(desaturate(#4a148c, 25%),3%) !default;
+$mt-purple-a100: lighten(desaturate(#ea80fc, 35%),3%) !default;
+$mt-purple-a200: lighten(desaturate(#e040fb, 35%),3%) !default;
+$mt-purple-a400: lighten(desaturate(#d500f9, 35%),3%) !default;
+$mt-purple-a700: lighten(desaturate(#aa00ff, 35%),3%) !default;
+
+$mt-deep-purple-50: lighten(desaturate(#ede7f6, 25%),3%) !default;
+$mt-deep-purple-100: lighten(desaturate(#d1c4e9, 25%),3%) !default;
+$mt-deep-purple-200: lighten(desaturate(#b39ddb, 25%),3%) !default;
+$mt-deep-purple-300: lighten(desaturate(#9575cd, 25%),3%) !default;
+$mt-deep-purple-400: lighten(desaturate(#7e57c2, 25%),3%) !default;
+$mt-deep-purple-500: lighten(desaturate(#673ab7, 25%),3%) !default;
+$mt-deep-purple-600: lighten(desaturate(#5e35b1, 25%),3%) !default;
+$mt-deep-purple-700: lighten(desaturate(#512da8, 25%),3%) !default;
+$mt-deep-purple-800: lighten(desaturate(#4527a0, 25%),3%) !default;
+$mt-deep-purple-900: lighten(desaturate(#311b92, 25%),3%) !default;
+$mt-deep-purple-a100: lighten(desaturate(#b388ff, 35%),3%) !default;
+$mt-deep-purple-a200: lighten(desaturate(#7c4dff, 35%),3%) !default;
+$mt-deep-purple-a400: lighten(desaturate(#651fff, 35%),3%) !default;
+$mt-deep-purple-a700: lighten(desaturate(#6200ea, 35%),3%) !default;
+
+$mt-indigo-50: lighten(desaturate(#e8eaf6, 25%),3%) !default;
+$mt-indigo-100: lighten(desaturate(#c5cae9, 25%),3%) !default;
+$mt-indigo-200: lighten(desaturate(#9fa8da, 25%),3%) !default;
+$mt-indigo-300: lighten(desaturate(#7986cb, 25%),3%) !default;
+$mt-indigo-400: lighten(desaturate(#5c6bc0, 25%),3%) !default;
+$mt-indigo-500: lighten(desaturate(#3f51b5, 25%),3%) !default;
+$mt-indigo-600: lighten(desaturate(#3949ab, 25%),3%) !default;
+$mt-indigo-700: lighten(desaturate(#303f9f, 25%),3%) !default;
+$mt-indigo-800: lighten(desaturate(#283593, 25%),3%) !default;
+$mt-indigo-900: lighten(desaturate(#1a237e, 25%),3%) !default;
+$mt-indigo-a100: lighten(desaturate(#8c9eff, 35%),3%) !default;
+$mt-indigo-a200: lighten(desaturate(#536dfe, 35%),3%) !default;
+$mt-indigo-a400: lighten(desaturate(#3d5afe, 35%),3%) !default;
+$mt-indigo-a700: lighten(desaturate(#304ffe, 35%),3%) !default;
+
+$mt-blue-50: lighten(desaturate(#e3f2fd, 25%),3%) !default;
+$mt-blue-100: lighten(desaturate(#bbdefb, 25%),3%) !default;
+$mt-blue-200: lighten(desaturate(#90caf9, 25%),3%) !default;
+$mt-blue-300: lighten(desaturate(#64b5f6, 25%),3%) !default;
+$mt-blue-400: lighten(desaturate(#42a5f5, 25%),3%) !default;
+$mt-blue-500: lighten(desaturate(#2196f3, 25%),3%) !default;
+$mt-blue-600: lighten(desaturate(#1e88e5, 25%),3%) !default;
+$mt-blue-700: lighten(desaturate(#1976d2, 25%),3%) !default;
+$mt-blue-800: lighten(desaturate(#1565c0, 25%),3%) !default;
+$mt-blue-900: lighten(desaturate(#0d47a1, 25%),3%) !default;
+$mt-blue-a100: lighten(desaturate(#82b1ff, 35%),3%) !default;
+$mt-blue-a200: lighten(desaturate(#448aff, 35%),3%) !default;
+$mt-blue-a400: lighten(desaturate(#2979ff, 35%),3%) !default;
+$mt-blue-a700: lighten(desaturate(#2962ff, 35%),3%) !default;
+
+$mt-light-blue-50: lighten(desaturate(#e1f5fe, 25%),3%) !default;
+$mt-light-blue-100: lighten(desaturate(#b3e5fc, 25%),3%) !default;
+$mt-light-blue-200: lighten(desaturate(#81d4fa, 25%),3%) !default;
+$mt-light-blue-300: lighten(desaturate(#4fc3f7, 25%),3%) !default;
+$mt-light-blue-400: lighten(desaturate(#29b6f6, 25%),3%) !default;
+$mt-light-blue-500: lighten(desaturate(#03a9f4, 25%),3%) !default;
+$mt-light-blue-600: lighten(desaturate(#039be5, 25%),3%) !default;
+$mt-light-blue-700: lighten(desaturate(#0288d1, 25%),3%) !default;
+$mt-light-blue-800: lighten(desaturate(#0277bd, 25%),3%) !default;
+$mt-light-blue-900: lighten(desaturate(#01579b, 25%),3%) !default;
+$mt-light-blue-a100: lighten(desaturate(#80d8ff, 35%),3%) !default;
+$mt-light-blue-a200: lighten(desaturate(#40c4ff, 35%),3%) !default;
+$mt-light-blue-a400: lighten(desaturate(#00b0ff, 35%),3%) !default;
+$mt-light-blue-a700: lighten(desaturate(#0091ea, 35%),3%) !default;
+
+$mt-cyan-50: lighten(desaturate(#e0f7fa, 25%),3%) !default;
+$mt-cyan-100: lighten(desaturate(#b2ebf2, 25%),3%) !default;
+$mt-cyan-200: lighten(desaturate(#80deea, 25%),3%) !default;
+$mt-cyan-300: lighten(desaturate(#4dd0e1, 25%),3%) !default;
+$mt-cyan-400: lighten(desaturate(#26c6da, 25%),3%) !default;
+$mt-cyan-500: lighten(desaturate(#00bcd4, 25%),3%) !default;
+$mt-cyan-600: lighten(desaturate(#00acc1, 25%),3%) !default;
+$mt-cyan-700: lighten(desaturate(#0097a7, 25%),3%) !default;
+$mt-cyan-800: lighten(desaturate(#00838f, 25%),3%) !default;
+$mt-cyan-900: lighten(desaturate(#006064, 25%),3%) !default;
+$mt-cyan-a100: lighten(desaturate(#84ffff, 35%),3%) !default;
+$mt-cyan-a200: lighten(desaturate(#18ffff, 35%),3%) !default;
+$mt-cyan-a400: lighten(desaturate(#00e5ff, 35%),3%) !default;
+$mt-cyan-a700: lighten(desaturate(#00b8d4, 35%),3%) !default;
+
+$mt-teal-50: lighten(desaturate(#e0f2f1, 25%),3%) !default;
+$mt-teal-100: lighten(desaturate(#b2dfdb, 25%),3%) !default;
+$mt-teal-200: lighten(desaturate(#80cbc4, 25%),3%) !default;
+$mt-teal-300: lighten(desaturate(#4db6ac, 25%),3%) !default;
+$mt-teal-400: lighten(desaturate(#26a69a, 25%),3%) !default;
+$mt-teal-500: lighten(desaturate(#009688, 25%),3%) !default;
+$mt-teal-600: lighten(desaturate(#00897b, 25%),3%) !default;
+$mt-teal-700: lighten(desaturate(#00796b, 25%),3%) !default;
+$mt-teal-800: lighten(desaturate(#00695c, 25%),3%) !default;
+$mt-teal-900: lighten(desaturate(#004d40, 25%),3%) !default;
+$mt-teal-a100: lighten(desaturate(#a7ffeb, 35%),3%) !default;
+$mt-teal-a200: lighten(desaturate(#64ffda, 35%),3%) !default;
+$mt-teal-a400: lighten(desaturate(#1de9b6, 35%),3%) !default;
+$mt-teal-a700: lighten(desaturate(#00bfa5, 35%),3%) !default;
+
+$mt-green-50: lighten(desaturate(#e8f5e9, 25%),3%) !default;
+$mt-green-100: lighten(desaturate(#c8e6c9, 25%),3%) !default;
+$mt-green-200: lighten(desaturate(#a5d6a7, 25%),3%) !default;
+$mt-green-300: lighten(desaturate(#81c784, 25%),3%) !default;
+$mt-green-400: lighten(desaturate(#66bb6a, 25%),3%) !default;
+$mt-green-500: lighten(desaturate(#4caf50, 25%),3%) !default;
+$mt-green-600: lighten(desaturate(#43a047, 25%),3%) !default;
+$mt-green-700: lighten(desaturate(#388e3c, 25%),3%) !default;
+$mt-green-800: lighten(desaturate(#2e7d32, 25%),3%) !default;
+$mt-green-900: lighten(desaturate(#1b5e20, 25%),3%) !default;
+$mt-green-a100: lighten(desaturate(#b9f6ca, 35%),3%) !default;
+$mt-green-a200: lighten(desaturate(#69f0ae, 35%),3%) !default;
+$mt-green-a400: lighten(desaturate(#00e676, 35%),3%) !default;
+$mt-green-a700: lighten(desaturate(#00c853, 35%),3%) !default;
+
+$mt-light-green-50: lighten(desaturate(#f1f8e9, 25%),3%) !default;
+$mt-light-green-100: lighten(desaturate(#dcedc8, 25%),3%) !default;
+$mt-light-green-200: lighten(desaturate(#c5e1a5, 25%),3%) !default;
+$mt-light-green-300: lighten(desaturate(#aed581, 25%),3%) !default;
+$mt-light-green-400: lighten(desaturate(#9ccc65, 25%),3%) !default;
+$mt-light-green-500: lighten(desaturate(#8bc34a, 25%),3%) !default;
+$mt-light-green-600: lighten(desaturate(#7cb342, 25%),3%) !default;
+$mt-light-green-700: lighten(desaturate(#689f38, 25%),3%) !default;
+$mt-light-green-800: lighten(desaturate(#558b2f, 25%),3%) !default;
+$mt-light-green-900: lighten(desaturate(#33691e, 25%),3%) !default;
+$mt-light-green-a100: lighten(desaturate(#ccff90, 35%),3%) !default;
+$mt-light-green-a200: lighten(desaturate(#b2ff59, 35%),3%) !default;
+$mt-light-green-a400: lighten(desaturate(#76ff03, 35%),3%) !default;
+$mt-light-green-a700: lighten(desaturate(#64dd17, 35%),3%) !default;
+
+$mt-lime-50: lighten(desaturate(#f9fbe7, 25%),3%) !default;
+$mt-lime-100: lighten(desaturate(#f0f4c3, 25%),3%) !default;
+$mt-lime-200: lighten(desaturate(#e6ee9c, 25%),3%) !default;
+$mt-lime-300: lighten(desaturate(#dce775, 25%),3%) !default;
+$mt-lime-400: lighten(desaturate(#d4e157, 25%),3%) !default;
+$mt-lime-500: lighten(desaturate(#cddc39, 25%),3%) !default;
+$mt-lime-600: lighten(desaturate(#c0ca33, 25%),3%) !default;
+$mt-lime-700: lighten(desaturate(#afb42b, 25%),3%) !default;
+$mt-lime-800: lighten(desaturate(#9e9d24, 25%),3%) !default;
+$mt-lime-900: lighten(desaturate(#827717, 25%),3%) !default;
+$mt-lime-a100: lighten(desaturate(#f4ff81, 35%),3%) !default;
+$mt-lime-a200: lighten(desaturate(#eeff41, 35%),3%) !default;
+$mt-lime-a400: lighten(desaturate(#c6ff00, 35%),3%) !default;
+$mt-lime-a700: lighten(desaturate(#aeea00, 35%),3%) !default;
+
+$mt-yellow-50: lighten(desaturate(#fffde7, 25%),3%) !default;
+$mt-yellow-100: lighten(desaturate(#fff9c4, 25%),3%) !default;
+$mt-yellow-200: lighten(desaturate(#fff59d, 25%),3%) !default;
+$mt-yellow-300: lighten(desaturate(#fff176, 25%),3%) !default;
+$mt-yellow-400: lighten(desaturate(#ffee58, 25%),3%) !default;
+$mt-yellow-500: lighten(desaturate(#ffeb3b, 25%),3%) !default;
+$mt-yellow-600: lighten(desaturate(#fdd835, 25%),3%) !default;
+$mt-yellow-700: lighten(desaturate(#fbc02d, 25%),3%) !default;
+$mt-yellow-800: lighten(desaturate(#f9a825, 25%),3%) !default;
+$mt-yellow-900: lighten(desaturate(#f57f17, 25%),3%) !default;
+$mt-yellow-a100: lighten(desaturate(#ffff8d, 35%),3%) !default;
+$mt-yellow-a200: lighten(desaturate(#ffff00, 35%),3%) !default;
+$mt-yellow-a400: lighten(desaturate(#ffea00, 35%),3%) !default;
+$mt-yellow-a700: lighten(desaturate(#ffd600, 35%),3%) !default;
+
+$mt-amber-50: lighten(desaturate(#fff8e1, 25%),3%) !default;
+$mt-amber-100: lighten(desaturate(#ffecb3, 25%),3%) !default;
+$mt-amber-200: lighten(desaturate(#ffe082, 25%),3%) !default;
+$mt-amber-300: lighten(desaturate(#ffd54f, 25%),3%) !default;
+$mt-amber-400: lighten(desaturate(#ffca28, 25%),3%) !default;
+$mt-amber-500: lighten(desaturate(#ffc107, 25%),3%) !default;
+$mt-amber-600: lighten(desaturate(#ffb300, 25%),3%) !default;
+$mt-amber-700: lighten(desaturate(#ffa000, 25%),3%) !default;
+$mt-amber-800: lighten(desaturate(#ff8f00, 25%),3%) !default;
+$mt-amber-900: lighten(desaturate(#ff6f00, 25%),3%) !default;
+$mt-amber-a100: lighten(desaturate(#ffe57f, 35%),3%) !default;
+$mt-amber-a200: lighten(desaturate(#ffd740, 35%),3%) !default;
+$mt-amber-a400: lighten(desaturate(#ffc400, 35%),3%) !default;
+$mt-amber-a700: lighten(desaturate(#ffab00, 35%),3%) !default;
+
+$mt-orange-50: lighten(desaturate(#fff3e0, 25%),3%) !default;
+$mt-orange-100: lighten(desaturate(#ffe0b2, 25%),3%) !default;
+$mt-orange-200: lighten(desaturate(#ffcc80, 25%),3%) !default;
+$mt-orange-300: lighten(desaturate(#ffb74d, 25%),3%) !default;
+$mt-orange-400: lighten(desaturate(#ffa726, 25%),3%) !default;
+$mt-orange-500: lighten(desaturate(#ff9800, 25%),3%) !default;
+$mt-orange-600: lighten(desaturate(#fb8c00, 25%),3%) !default;
+$mt-orange-700: lighten(desaturate(#f57c00, 25%),3%) !default;
+$mt-orange-800: lighten(desaturate(#ef6c00, 25%),3%) !default;
+$mt-orange-900: lighten(desaturate(#e65100, 25%),3%) !default;
+$mt-orange-a100: lighten(desaturate(#ffd180, 35%),3%) !default;
+$mt-orange-a200: lighten(desaturate(#ffab40, 35%),3%) !default;
+$mt-orange-a400: lighten(desaturate(#ff9100, 35%),3%) !default;
+$mt-orange-a700: lighten(desaturate(#ff6d00, 35%),3%) !default;
+
+$mt-deep-orange-50: lighten(desaturate(#fbe9e7, 25%),3%) !default;
+$mt-deep-orange-100: lighten(desaturate(#ffccbc, 25%),3%) !default;
+$mt-deep-orange-200: lighten(desaturate(#ffab91, 25%),3%) !default;
+$mt-deep-orange-300: lighten(desaturate(#ff8a65, 25%),3%) !default;
+$mt-deep-orange-400: lighten(desaturate(#ff7043, 25%),3%) !default;
+$mt-deep-orange-500: lighten(desaturate(#ff5722, 25%),3%) !default;
+$mt-deep-orange-600: lighten(desaturate(#f4511e, 25%),3%) !default;
+$mt-deep-orange-700: lighten(desaturate(#e64a19, 25%),3%) !default;
+$mt-deep-orange-800: lighten(desaturate(#d84315, 25%),3%) !default;
+$mt-deep-orange-900: lighten(desaturate(#bf360c, 25%),3%) !default;
+$mt-deep-orange-a100: lighten(desaturate(#ff9e80, 35%),3%) !default;
+$mt-deep-orange-a200: lighten(desaturate(#ff6e40, 35%),3%) !default;
+$mt-deep-orange-a400: lighten(desaturate(#ff3d00, 35%),3%) !default;
+$mt-deep-orange-a700: lighten(desaturate(#dd2c00, 35%),3%) !default;
+
+$mt-brown-50: lighten(desaturate(#efebe9, 10%),3%) !default;
+$mt-brown-100: lighten(desaturate(#d7ccc8, 10%),3%) !default;
+$mt-brown-200: lighten(desaturate(#bcaaa4, 10%),3%) !default;
+$mt-brown-300: lighten(desaturate(#a1887f, 10%),3%) !default;
+$mt-brown-400: lighten(desaturate(#8d6e63, 10%),3%) !default;
+$mt-brown-500: lighten(desaturate(#795548, 10%),3%) !default;
+$mt-brown-600: lighten(desaturate(#6d4c41, 10%),3%) !default;
+$mt-brown-700: lighten(desaturate(#5d4037, 10%),3%) !default;
+$mt-brown-800: lighten(desaturate(#4e342e, 10%),3%) !default;
+$mt-brown-900: lighten(desaturate(#3e2723, 10%),3%) !default;
+
+$mt-grey-50: lighten(desaturate(#fafafa, 10%),0%) !default;
+$mt-grey-100: lighten(desaturate(#f5f5f5, 10%),0%) !default;
+$mt-grey-200: lighten(desaturate(#eeeeee, 10%),0%) !default;
+$mt-grey-300: lighten(desaturate(#e0e0e0, 10%),0%) !default;
+$mt-grey-400: lighten(desaturate(#bdbdbd, 10%),0%) !default;
+$mt-grey-500: lighten(desaturate(#9e9e9e, 10%),0%) !default;
+$mt-grey-600: lighten(desaturate(#757575, 10%),0%) !default;
+$mt-grey-700: lighten(desaturate(#616161, 10%),0%) !default;
+$mt-grey-800: lighten(desaturate(#424242, 10%),0%) !default;
+$mt-grey-900: lighten(desaturate(#212121, 10%),0%) !default;
+
+$mt-blue-grey-50: lighten(desaturate(#eceff1, 10%),0%) !default;
+$mt-blue-grey-100: lighten(desaturate(#cfd8dc, 10%),0%) !default;
+$mt-blue-grey-200: lighten(desaturate(#b0bec5, 10%),0%) !default;
+$mt-blue-grey-300: lighten(desaturate(#90a4ae, 10%),0%) !default;
+$mt-blue-grey-400: lighten(desaturate(#78909c, 10%),0%) !default;
+$mt-blue-grey-500: lighten(desaturate(#607d8b, 10%),0%) !default;
+$mt-blue-grey-600: lighten(desaturate(#546e7a, 10%),0%) !default;
+$mt-blue-grey-700: lighten(desaturate(#455a64, 10%),0%) !default;
+$mt-blue-grey-800: lighten(desaturate(#37474f, 10%),0%) !default;
+$mt-blue-grey-900: lighten(desaturate(#263238, 10%),0%) !default;
+
+$mt-black: #000000 !default;
+$mt-white: #ffffff !default;

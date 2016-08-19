@@ -1,0 +1,52 @@
+//----------------------------------------------------
+// Variable: Color Mix
+//----------------------------------------------------
+
+$white: #ffffff !default;
+$black: #000000 !default;
+
+$dark-primary: rgba( $black, 0.87 ) !default;
+$dark-secondary: rgba( $black, 0.54 ) !default;
+$dark-auxiliary: rgba( $black, 0.38 ) !default;
+$dark-dividers: rgba( $black, 0.12 ) !default;
+
+$light-primary: rgba( $white, 1 ) !default;
+$light-secondary: rgba( $white, 0.7 ) !default;
+$light-auxiliary: rgba( $white, 0.5 ) !default;
+$light-divider: rgba( $white, 0.12 ) !default;
+
+//----------------------------------------------------
+// Variable: Color Setting
+//----------------------------------------------------
+
+// Dark > Text / icon / divider
+$dark-txt1: $dark-primary !default;
+$dark-txt2: $dark-secondary !default;
+$dark-disable: $dark-auxiliary !default;
+$dark-hint: $dark-auxiliary !default;
+$dark-icon-on: $dark-secondary !default;
+$dark-icon-off: $dark-auxiliary !default;
+$dark-divider: $dark-dividers !default;
+
+// Light > Text / icon / divider
+$light-txt1: $light-primary !default;
+$light-txt2: $light-secondary !default;
+$light-disable: $light-auxiliary !default;
+$light-hint: $light-auxiliary !default;
+$light-icon-on: $light-secondary !default;
+$light-icon-off: $light-auxiliary !default;
+$light-divider: $light-dividers !default;
+
+// Light Theme
+$light-stbar: #e0e0e0 !default;
+$light-appbar: #f5f5f5 !default;
+$light-bg: #fafafa !default;
+$light-card: #ffffff !default;
+$light-dialog: #ffffff !default;
+
+// Dark Theme
+$dark-stbar: #000000 !default;
+$dark-appbar: #212121 !default;
+$dark-bg: #303030 !default;
+$dark-card: #424242 !default;
+$dark-dialog: #424242 !default;
