@@ -1858,8 +1858,8 @@
               bgColor = bgColor.replace("rgb(","");
               bgColor = bgColor.replace(")","");
               bgColor = bgColor.split(",");
-              bgColor = "#"+parseInt(bgColor[0]).toString(16)+parseInt(bgColor[1]).toString(16)+parseInt(bgColor[2]).toString(16);
-              $('.-data .-hex',this).html(bgColor);
+              bgColor = "#" + ("0" + parseInt(bgColor[0]).toString(16)).slice(-2) + ("0" + parseInt(bgColor[1]).toString(16)).slice(-2) + ("0" + parseInt(bgColor[2]).toString(16)).slice(-2);
+              $('.-data .-hex',this).text(bgColor);
           });
       });
     </script>
