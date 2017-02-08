@@ -8,67 +8,37 @@
 doctype html
 html(lang="ja")
   head
-
-    //- Encording
     meta(charset="UTF-8")
-
-    //- Site Meta
     title #{page_title} - #{site_title}
-    meta(name="description" content="#{page_description}")
-    meta(name="keywords", content="#{page_keywords}")
-
-    //- Viewport
+    meta(name="description" content=page_description)
+    meta(name="keywords", content=page_keywords)
     meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
     meta(http-equiv="x-ua-compatible", content="ie=edge")
-    //-meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui")
-    //-meta(name="viewport" content="width=1024")
-
-    //- Facebook OGP
-    meta(property="og:title" content="#{page_title}")
-    meta(property="og:description" content="#{page_description}")
-    meta(property="og:url" content="#{page_url}")
-    meta(property="og:image" content="#{page_url}mark/ogp.png")
-    meta(property="og:site_name" content="#{site_title}")
+    meta(property="og:title" content=page_title)
+    meta(property="og:description" content=page_description)
+    meta(property="og:url" content=page_url)
+    meta(property="og:image" content=page_url+"img/ogp.png")
+    meta(property="og:site_name" content=site_title)
     meta(property="og:type" content="website")
-
-    //- Twitter Card
     meta(name="twitter:card", content="summary_large_image")
-    meta(name="twitter:site", content="#{twitter_id}")
-    meta(name="twitter:creator", content="#{twitter_id}")
-    meta(name="twitter:title", content="#{page_title}")
-    meta(name="twitter:description", content="#{page_description}")
-    meta(name="twitter:image:src", content="#{page_url}mark/ogp.png")
-
-    //- Icon
-    link(rel="apple-touch-icon" href="mark/apple-touch-icon.png")
-    link(rel="shortcut icon" href="mark/favicon.ico")
-
-    //- Path to Basic Library CSS
-    //-link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css", integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY", crossorigin="anonymous")
-    //-link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css")
+    meta(name="twitter:site", content=twitter_id)
+    meta(name="twitter:creator", content=twitter_id)
+    meta(name="twitter:title", content=page_title)
+    meta(name="twitter:description", content=page_description)
+    meta(name="twitter:image:src", content=page_url+"img/ogp.png")
+    link(rel="apple-touch-icon" href="img/apple-touch-icon.png")
+    link(rel="shortcut icon" href="img/favicon.ico")
     link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Da")
-    //-link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster")
-    //-link(rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css")
-    link(rel="stylesheet" href="lib/yakuhanjp/css/yakuhanjp.css")
-    //-link(rel="stylesheet" href="lib/yakuhanjp/css/yakuhanjp_s.css")
-
-    //- Path to Test Library CSS
-
-    //- Path to Custom CSS
-    link(rel="stylesheet" href="css/style.css")
-
+    link(rel="stylesheet" href="css/style.min.css")
   body
-
     .wrapper
-
       header.header
         .-inner
           h1.heading_h1 #{page_title}
           h2.heading_h2 #{page_description}
           .-box
-            a.link_btn(href="#{github_url}") GitHub
+            a.link_btn(href=github_url) GitHub
             a.link_btn(href="https://twitter.com/#{twitter_id}") Contact
-
       main.main
         .-inner
           .-row.-center.-wrap
@@ -82,7 +52,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Pink
             .-col.-fix
@@ -93,7 +63,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Purple
             .-col.-fix
@@ -104,7 +74,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Deep Purple
             .-col.-fix
@@ -115,7 +85,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Indigo
             .-col.-fix
@@ -126,7 +96,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Blue
             .-col.-fix
@@ -137,7 +107,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Light Blue
             .-col.-fix
@@ -148,7 +118,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Cyan
             .-col.-fix
@@ -159,7 +129,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Teal
             .-col.-fix
@@ -170,7 +140,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Green
             .-col.-fix
@@ -181,7 +151,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Light Green
             .-col.-fix
@@ -192,7 +162,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Lime
             .-col.-fix
@@ -203,7 +173,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Yellow
             .-col.-fix
@@ -214,7 +184,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Amber
             .-col.-fix
@@ -225,7 +195,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Orange
             .-col.-fix
@@ -236,7 +206,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Deep Orange
             .-col.-fix
@@ -247,7 +217,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar14
+                  include _bar14.pug
 
             // MOF Brown
             .-col.-fix
@@ -258,7 +228,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar8
+                  include _bar8.pug
 
             // MOF Grey
             .-col.-fix
@@ -269,7 +239,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar8
+                  include _bar8.pug
 
             // MOF Blue Grey
             .-col.-fix
@@ -280,7 +250,7 @@ html(lang="ja")
                     .-data
                       p.-shade 500
                       p.-hex
-                  include _bar8
+                  include _bar8.pug
 
             // Black & White
             .-col.-fix
@@ -295,22 +265,7 @@ html(lang="ja")
                       p.-shade White
                       p.-hex
 
-    //- jQuery
-    script(src="https://code.jquery.com/jquery-3.0.0.min.js")
-    //-script(src="https://code.jquery.com/jquery-3.0.0.slim.min.js")
-    //-script(src="https://code.jquery.com/jquery-2.2.2.min.js")
-    //-script(src="https://code.jquery.com/jquery-1.12.1.min.js")
-    //-script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js")
-    //-script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js")
-
-    //- Path to Basic Library JS
-    //-script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js", integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY", crossorigin="anonymous")
-    //-script(src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js", integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB", crossorigin="anonymous")
-    //-script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js", integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD", crossorigin="anonymous")
-
-    //- Path to Test Library JS
-
-    //- Original Script
+    script(src="https://code.jquery.com/jquery-3.1.1.min.js")
     script.
       $(function() {
           $('.pallet .-bar').each(function(){
