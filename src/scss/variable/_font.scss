@@ -1,76 +1,194 @@
 //----------------------------------------------------
-// Variable: Font size
+// Variable: Font
 //----------------------------------------------------
 
-// Font Size Base For "mixin: +rem & +px"
-$font-size-base: 16 !default;
-$font-size-lg: 20 !default;
-$font-size-sm: 14 !default;
-$font-size-xs: 12 !default;
+$font-sans:
+  -apple-system, BlinkMacSystemFont,
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-// Font Size Heading For "mixin: +rem & +px"
-$font-size-h1: 48 !default;
-$font-size-h2: 40 !default;
-$font-size-h3: 32 !default;
-$font-size-h4: 24 !default;
-$font-size-h5: 16 !default;
-$font-size-h6: 16 !default;
+$font-sans-yakuhanjp:
+  -apple-system, BlinkMacSystemFont,
+  YakuHanJP,
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-//----------------------------------------------------
-// Variable: Line Height
-//----------------------------------------------------
+$font-sans-yakuhanjps:
+  -apple-system, BlinkMacSystemFont,
+  YakuHanJPs,
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-// Line Height Base
-$line-height-base: 1.5 !default;
-$line-height-none: 1 !default;
+$font-sans-hiragino:
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-//----------------------------------------------------
-// Variable: Font weight
-//----------------------------------------------------
+$font-sans-hiragino-yakuhanjp:
+  YakuHanJP,
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-// Font Weight Base
-$font-weight-normal: 400 !default;
-$font-weight-bold: 700 !default;
+$font-sans-hiragino-yakuhanjps:
+  YakuHanJPs,
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-//----------------------------------------------------
-// Variable: Font Family
-//----------------------------------------------------
+$font-sans-yugo:
+  "Yu Gothic", YuGothic,
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-// 1. PickUP the Device Font
-$font-apple-en: -apple-system, Helvetica Neue !default;
-$font-apple-go: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3" !default;
-$font-apple-mi: "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3" !default;
-$font-google: Verdana, Roboto !default;
-$font-yu-go: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic" !default;
-$font-yu-mi: "游明朝", "Yu Mincho", "游明朝体", YuMincho !default;
-$font-meiryo-ui: "Meiryo UI" !default;
-$font-meiryo: Meiryo, メイリオ, Osaka !default;
-$font-sans: Osaka, "ＭＳ Ｐゴシック", "MS PGothic", arial, sans-serif !default;
-$font-serif: Georgia, "Times New Roman", Times, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif !default;
-$font-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-sans-yugo-yakuhanjp:
+  YakuHanJP,
+  "Yu Gothic", YuGothic,
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-// 2. PickUP the Unique Font
-$font-open: "Open Sans" !default;
-$font-noto: "Noto Sans Japanese" !default;
-$font-yakuhanjp: "YakuHanJP" !default;
-$font-yakuhanjps: "YakuHanJPs" !default;
+$font-sans-yugo-yakuhanjps:
+  YakuHanJPs,
+  "Yu Gothic", YuGothic,
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-// 3. Grouping the Font
-$family-sans: $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-serif: $font-apple-mi, $font-serif !default;
-$family-google: $font-google, $font-noto, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-win10: $font-meiryo-ui, $font-meiryo, $font-sans !default;
-$family-yu-go: $font-apple-en, $font-yu-go, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-yu-mi: $font-yu-mi, $font-apple-mi, $font-serif !default;
-$family-open: $font-open, $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-noto: $font-noto, $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-notohanjp: $font-yakuhanjp, $font-noto, $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-notohanjps: $font-yakuhanjps, $font-noto, $font-apple-en, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-yakuhanjp: $font-apple-en, $font-yakuhanjp, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-yakuhanjps: $font-apple-en, $font-yakuhanjps, $font-meiryo, $font-apple-go, $font-sans !default;
-$family-mono: $font-mono !default;
+$font-sans-noto:
+  "Noto Sans Japanese",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
 
-// 4. Setting the Font
-$font-family-sans: $family-yakuhanjp !default;
-$font-family-selif: $family-serif !default;
-$font-family-mono: $font-mono !default;
+$font-sans-noto-yakuhanjp:
+  YakuHanJP,
+  "Noto Sans Japanese",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
+
+$font-sans-noto-yakuhanjps:
+  YakuHanJPs,
+  "Noto Sans Japanese",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif !default;
+
+$font-sans-meiryo:
+  Meiryo,
+  "Hiragino Sans",
+  sans-serif !default;
+
+$font-sans-meiryo-yakuhanjp:
+  YakuHanJP,
+  Meiryo,
+  "Hiragino Sans",
+  sans-serif !default;
+
+$font-sans-meiryo-yakuhanjps:
+  YakuHanJPs,
+  Meiryo,
+  "Hiragino Sans",
+  sans-serif !default;
+
+$font-serif:
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-yakuhanmp:
+  YakuHanMP,
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-yakuhanmps:
+  YakuHanMPs,
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-hiragino:
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-hiragino-yakuhanmp:
+  YakuHanMP,
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-hiragino-yakuhanmps:
+  YakuHanMPs,
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-yumi:
+  "Yu Mincho", YuMincho,
+  "Hiragino Mincho ProN",
+  serif !default;
+
+$font-serif-yumi-yakuhanmp:
+  YakuHanMP,
+  "Yu Mincho", YuMincho,
+  "Hiragino Mincho ProN",
+  serif !default;
+
+$font-serif-yumi-yakuhanmps:
+  YakuHanMPs,
+  "Yu Mincho", YuMincho,
+  "Hiragino Mincho ProN",
+  serif !default;
+
+$font-serif-noto:
+  "Noto Serif Japanese",
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-noto-yakuhanmp:
+  YakuHanMP,
+  "Noto Serif Japanese",
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-noto-yakuhanmps:
+  YakuHanMPs,
+  "Noto Serif Japanese",
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-meiryo:
+  meiryo,
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-meiryo-yakuhanmp:
+  YakuHanMP,
+  meiryo,
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-serif-meiryo-yakuhanmps:
+  YakuHanMPs,
+  meiryo,
+  "Hiragino Mincho ProN",
+  "Yu Mincho", YuMincho,
+  serif !default;
+
+$font-mono:
+  Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New",
+  Meiryo,
+  monospace, serif !default;

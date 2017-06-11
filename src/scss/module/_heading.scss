@@ -1,8 +1,8 @@
 //----------------------------------------------------
-// Mixin: Font Size "Rem"
+// Module: Heading
 //----------------------------------------------------
 
-@mixin rem($size) {
-  font-size: $size + px;
-  font-size: ($size / 10) + rem;
+.heading.is-title {
+  font-size: 48px;
+  font-family: "Baloo Da", cursive;
 }

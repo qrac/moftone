@@ -1,28 +1,44 @@
 //----------------------------------------------------
-// Style
+/* MOFTONE Demo CSS */
 //----------------------------------------------------
 
-// Variable: Customize
 @import "variable/_customize";
-
-// Variable: Theme
 @import "variable/_moftone";
-
-// Variable: Default
-@import "variable/_breakpoint";
-@import "variable/_font";
 @import "variable/_color";
-
-// Mixin
+@import "variable/_breakpoint";
+@import "variable/_split";
+@import "variable/_font";
+@import "variable/_shadow";
 @import "mixin/_mediaquery";
 @import "mixin/_placeholder";
-@import "mixin/_rem";
 
-// Reset
-@import "reset/_shitaji";
+//----------------------------------------------------
+// Library CSS
+//----------------------------------------------------
 
-// Base
-@import "base/_base";
+@import "library/_musubii";
 
-// Page
-@import "page/_page"
+//----------------------------------------------------
+// Project CSS
+//----------------------------------------------------
+
+@import "base/_shitaji";
+@import "base/_global";
+@import "layout/_section";
+@import "layout/_space";
+@import "layout/_grid";
+@import "module/_group";
+@import "module/_object";
+@import "module/_heading";
+@import "module/_text";
+@import "module/_button";
+@import "module/_list";
+@import "module/_table";
+@import "module/_form";
+@import "module/_icon";
+@import "module/_alert";
+@import "module/_wysiwyg";
+@import "utility/_size";
+@import "utility/_deco";
+@import "utility/_display";
+@import "utility/_clearfix";
