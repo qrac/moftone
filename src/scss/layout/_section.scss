@@ -1,0 +1,18 @@
+//----------------------------------------------------
+// Layout: Section
+//----------------------------------------------------
+
+.section.is-header {
+  padding: 2.5em 0 3em;
+  background-color: $mof-amber-500;
+}
+
+.section.is-main {
+  padding: 2em 1em;
+  background-color: $light;
+}
+
+.section.is-footer {
+  padding: 1em 0;
+  background-color: $mof-amber-500;
+}

@@ -1,20 +1,18 @@
 # MOFTONE
 
+## Demo
+
+- [Demo Page][link-demo]
+
 ## About
 
-Material Design Colorをベースに、もふもふな優しい色を生成しました。
+Material Design Colorをベースに、もふもふな優しい色を生成しました。「マテリアルデザインをそのまま使うとドぎつすぎるなー」と思ったときに参照する使い方を想定しています。
 
-＞ [Demo Page](https://qrac.github.io/moftone/)
-
-カラーバリュエーションはSass(SCSS)の色変数計算で彩度を落とし、自動出力しています。[Demo Page](https://qrac.github.io/moftone/)では、出力された背景色を更にjQueryで取得、RGBを16進数に変換しつつテキストで出力しています。
-
-「マテリアルデザインをそのまま使うと、この案件にはどぎつすぎるなー」と思ったときに参照する程度の使い方を想定しています。
-
-## How To Use
+## Use
 
 ### 色をWebデザインで使う場合
 
-[Demo Page](https://qrac.github.io/moftone/)に色コードを出力していますので、コピペください。
+[Demo Page][link-demo]に16進数の色コードを自動出力していますので、コピーしてお使いください。
 
 ### SCSSの変数として利用する場合
 
@@ -26,6 +24,8 @@ Material Design Colorをベースに、もふもふな優しい色を生成し�
 
 ## License
 
-CC0 1.0 Public Domain
+- CC0 1.0 Public Domain
+- Author: [Qrac][link-twitter]
 
-Author: [Qrac](https://twitter.com/Qrac_jp)
+[link-demo]:https://qrac.github.io/musubii/
+[link-twitter]:https://twitter.com/Qrac_JP

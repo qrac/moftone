@@ -1,279 +1,84 @@
-- var site_title = "Qrac GitHub";
-- var page_title = "MOFTONE";
-- var page_description = "Material Design Colorをベースに、もふもふな優しい色を生成しました。";
-- var page_url = "https://qrac.github.io/moftone/";
-- var github_url = "https://github.com/qrac/moftone/";
-- var twitter_id = "Qrac_jp";
+//----------------------------------------------------
+//- Page: Index
+//----------------------------------------------------
+extends base/_layout.pug
 
-doctype html
-html(lang="ja")
-  head
-    meta(charset="UTF-8")
-    title #{page_title} - #{site_title}
-    meta(name="description" content=page_description)
-    meta(name="keywords", content=page_keywords)
-    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
-    meta(http-equiv="x-ua-compatible", content="ie=edge")
-    meta(property="og:title" content=page_title)
-    meta(property="og:description" content=page_description)
-    meta(property="og:url" content=page_url)
-    meta(property="og:image" content=page_url+"img/ogp.png")
-    meta(property="og:site_name" content=site_title)
-    meta(property="og:type" content="website")
-    meta(name="twitter:card", content="summary_large_image")
-    meta(name="twitter:site", content=twitter_id)
-    meta(name="twitter:creator", content=twitter_id)
-    meta(name="twitter:title", content=page_title)
-    meta(name="twitter:description", content=page_description)
-    meta(name="twitter:image:src", content=page_url+"img/ogp.png")
-    link(rel="apple-touch-icon" href="img/apple-touch-icon.png")
-    link(rel="shortcut icon" href="img/favicon.ico")
-    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Da")
-    link(rel="stylesheet" href="css/style.min.css")
-  body
-    .wrapper
-      header.header
-        .-inner
-          h1.heading_h1 #{page_title}
-          h2.heading_h2 #{page_description}
-          .-box
-            a.link_btn(href=github_url) GitHub
-            a.link_btn(href="https://twitter.com/#{twitter_id}") Contact
-      main.main
-        .-inner
-          .-row.-center.-wrap
+block vars
+  include base/_config.pug
+  - var key = "index"
+  - var page = pages[key]
 
-            // MOF Red
-            .-col.-fix
-              .-box
-                .pallet.-red
-                  .-bar.-cut
-                    p.-name MOF Red
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
+block contents
 
-            // MOF Pink
-            .-col.-fix
-              .-box
-                .pallet.-pink
-                  .-bar.-cut
-                    p.-name MOF Pink
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
+  header.section.is-header.is-center
+    .inner
+      h1.heading.is-title.is-light #{page.title}
+      h2.text.is-light #{page.desc}
+      p.texts.is-light.is-strong
+        | #{github.ver}
+      p.text.is-light
+        i.fa.fa-github(aria-hidden="true")
+        a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo)
+          span.text Repository
+        | &nbsp;/&nbsp;
+        a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo+"/releases")
+          span.text Releases
 
-            // MOF Purple
-            .-col.-fix
-              .-box
-                .pallet.-purple
-                  .-bar.-cut
-                    p.-name MOF Purple
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
+  main.section.is-main
+    .group
+      .grid.is-center
+        each val in color
+          .col.is-mobile-auto
+            .pallet(class="is-" + val.id ontouchstart="")
+              .bar.is-cut
+                h3.texts.is-color-name= val.name
+                .group.is-color-data
+                  .grid.is-between
+                    .col
+                      p.texts.is-shade 500
+                    .col
+                      p.texts.is-hex
+              case val.amount
+                when 14
+                  each num in ["50", "100", "200", "300", "400", "500", "600", "700", "800", "900", "A100", "A200", "A400", "A700"]
+                    .bar
+                      .group.is-color-data
+                        .grid.is-between
+                          .col
+                            p.texts.is-shade= num
+                          .col
+                            p.texts.is-hex
+                when 8
+                  each num in ["50", "100", "200", "300", "400", "500", "600", "700", "800", "900"]
+                    .bar
+                      .group.is-color-data
+                        .grid.is-between
+                          .col
+                            p.texts.is-shade= num
+                          .col
+                            p.texts.is-hex
+        .col.is-mobile-auto
+          .pallet.is-black-and-white
+            each bw in ["black", "white"]
+              .bar
+                .group.is-color-data
+                  .grid.is-between
+                    .col
+                      p.texts.is-shade= bw
+                    .col
+                      p.texts.is-hex
 
-            // MOF Deep Purple
-            .-col.-fix
-              .-box
-                .pallet.-deep-purple
-                  .-bar.-cut
-                    p.-name MOF Deep Purple
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Indigo
-            .-col.-fix
-              .-box
-                .pallet.-indigo
-                  .-bar.-cut
-                    p.-name MOF Indigo
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Blue
-            .-col.-fix
-              .-box
-                .pallet.-blue
-                  .-bar.-cut
-                    p.-name MOF Blue
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Light Blue
-            .-col.-fix
-              .-box
-                .pallet.-light-blue
-                  .-bar.-cut
-                    p.-name MOF Light Blue
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Cyan
-            .-col.-fix
-              .-box
-                .pallet.-cyan
-                  .-bar.-cut
-                    p.-name MOF Cyan
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Teal
-            .-col.-fix
-              .-box
-                .pallet.-teal
-                  .-bar.-cut
-                    p.-name MOF Teal
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Green
-            .-col.-fix
-              .-box
-                .pallet.-green
-                  .-bar.-cut
-                    p.-name MOF Green
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Light Green
-            .-col.-fix
-              .-box
-                .pallet.-light-green
-                  .-bar.-cut
-                    p.-name MOF Light Green
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Lime
-            .-col.-fix
-              .-box
-                .pallet.-lime
-                  .-bar.-cut
-                    p.-name MOF Lime
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Yellow
-            .-col.-fix
-              .-box
-                .pallet.-yellow
-                  .-bar.-cut
-                    p.-name MOF Yellow
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Amber
-            .-col.-fix
-              .-box
-                .pallet.-amber
-                  .-bar.-cut
-                    p.-name MOF Amber
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Orange
-            .-col.-fix
-              .-box
-                .pallet.-orange
-                  .-bar.-cut
-                    p.-name MOF Orange
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Deep Orange
-            .-col.-fix
-              .-box
-                .pallet.-deep-orange
-                  .-bar.-cut
-                    p.-name MOF Deep Orange
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar14.pug
-
-            // MOF Brown
-            .-col.-fix
-              .-box
-                .pallet.-brown
-                  .-bar.-cut
-                    p.-name MOF Brown
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar8.pug
-
-            // MOF Grey
-            .-col.-fix
-              .-box
-                .pallet.-grey
-                  .-bar.-cut
-                    p.-name MOF Grey
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar8.pug
-
-            // MOF Blue Grey
-            .-col.-fix
-              .-box
-                .pallet.-blue-grey
-                  .-bar.-cut
-                    p.-name MOF Blue Grey
-                    .-data
-                      p.-shade 500
-                      p.-hex
-                  include _bar8.pug
-
-            // Black & White
-            .-col.-fix
-              .-box
-                .pallet.-black-and-white
-                  .-bar
-                    .-data
-                      p.-shade Black
-                      p.-hex
-                  .-bar
-                    .-data
-                      p.-shade White
-                      p.-hex
-
-    script(src="https://code.jquery.com/jquery-3.1.1.min.js")
-    script.
-      $(function() {
-          $('.pallet .-bar').each(function(){
-              var bgColor = $(this).css('background-color');
-              bgColor = bgColor.replace("rgb(","");
-              bgColor = bgColor.replace(")","");
-              bgColor = bgColor.split(",");
-              bgColor = "#" + ("0" + parseInt(bgColor[0]).toString(16)).slice(-2) + ("0" + parseInt(bgColor[1]).toString(16)).slice(-2) + ("0" + parseInt(bgColor[2]).toString(16)).slice(-2);
-              $('.-data .-hex',this).text(bgColor);
-          });
-      });
+  footer.section.is-footer
+    .inner
+      .group
+        .grid.is-center
+          .col
+            p.text.is-sm.is-light
+              | License:&nbsp;&nbsp;
+              i.fa.fa-balance-scale(aria-hidden="true")
+              span.text #{github.license}
+          .col
+            p.text.is-sm.is-light
+              | Author:&nbsp;&nbsp;
+              i.fa.fa-twitter(aria-hidden="true")
+              a.text.is-link-reverse(href=twitter.url+"/"+twitter.id target="_blank") Qrac
