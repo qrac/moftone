@@ -27,5 +27,5 @@ Material Design Colorをベースに、もふもふな優しい色を生成し�
 - CC0 1.0 Public Domain
 - Author: [Qrac][link-twitter]
 
-[link-demo]:https://qrac.github.io/musubii/
+[link-demo]:https://qrac.github.io/moftone/
 [link-twitter]:https://twitter.com/Qrac_JP
