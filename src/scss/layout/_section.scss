@@ -6,13 +6,13 @@
   padding: 2.5em 0;
   //background-color: $mof-amber-500;
   + .section.is-dist {
-    margin-top: -1.5em;
+    margin-top: -0.75em;
   }
 }
 
 .section.is-dist {
   padding: 1.5em 0;
-  background-color: $dark-7;
+  background-color: rgba($dark, 0.08);
 }
 
 .section.is-main {

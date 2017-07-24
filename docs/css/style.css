@@ -8,12 +8,12 @@
 }
 
 .section.is-header + .section.is-dist {
-  margin-top: -1.5em;
+  margin-top: -0.75em;
 }
 
 .section.is-dist {
   padding: 1.5em 0;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 .section.is-main {
