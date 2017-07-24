@@ -4,21 +4,17 @@
 }
 
 .section.is-header {
-  padding: 2.5em 0;
-}
-
-.section.is-header + .section.is-dist {
-  margin-top: -0.75em;
-}
-
-.section.is-dist {
-  padding: 1.5em 0;
-  background-color: rgba(0, 0, 0, 0.08);
+  padding: 2.5em 0 3em;
 }
 
 .section.is-main {
   padding: 2em 1em;
   background-color: #ffffff;
+}
+
+.section.is-dist {
+  padding: 3.5em 0 6em;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .section.is-footer {
@@ -1310,4 +1306,8 @@
 .heading.is-title {
   font-size: 48px;
   font-family: "Baloo Da", cursive;
+}
+
+.table.is-transdark {
+  background-color: transparent;
 }

@@ -3,21 +3,18 @@
 //----------------------------------------------------
 
 .section.is-header {
-  padding: 2.5em 0;
+  padding: 2.5em 0 3em;
   //background-color: $mof-amber-500;
-  + .section.is-dist {
-    margin-top: -0.75em;
-  }
-}
-
-.section.is-dist {
-  padding: 1.5em 0;
-  background-color: rgba($dark, 0.08);
 }
 
 .section.is-main {
   padding: 2em 1em;
   background-color: $light;
+}
+
+.section.is-dist {
+  padding: 3.5em 0 6em;
+  background-color: $dark-2;
 }
 
 .section.is-footer {

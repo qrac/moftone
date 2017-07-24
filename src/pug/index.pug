@@ -23,23 +23,11 @@ block contents
         | &nbsp;/&nbsp;
         a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo+"/releases")
           span.text Releases
-
-  section.section.is-dist
-    .inner
-      .btns.is-center.is-sm
-        a.btn.is-ghost.is-mobile-full.is-tablet-auto(href="dist/swatches-moftone.clr" download="swatches-moftone.clr")
-          i.fa.fa-download(aria-hidden="true")
-          span.text Swatches ( NSColorList )
-          sup ※
-        a.btn.is-ghost.is-mobile-full.is-tablet-auto(href="dist/swatches-moftone.ase" download="swatches-moftone.ase")
-          i.fa.fa-download(aria-hidden="true")
-          span.text Swatches ( Illustrator )
-        a.btn.is-ghost.is-mobile-full.is-tablet-auto(href="dist/template-moftone.ai" download="template-moftone.ai")
-          i.fa.fa-download(aria-hidden="true")
-          span.text Template ( Illustrator )
-      p.texts.is-light.is-center.is-xs
-        span.text.is-inline-block ※NSColorList = MacのSketchや
-        span.text.is-inline-block Keynoteで使用できます
+      .btns.is-center
+        a.btn.is-lg.is-ghost.is-round(href="#download")
+          i.fa.fa-paint-brush(aria-hidden="true")
+          span.text Swatches Download
+          i.fa.fa-angle-down(aria-hidden="true")
 
   main.section.is-main
     .group
@@ -84,6 +72,53 @@ block contents
                       p.texts.is-shade= bw
                     .col
                       p.texts.is-hex
+
+  section.section.is-dist#download
+    .inner
+      h2.heading.is-light.is-strong.is-center.is-title
+        span.text.is-xs Download
+      .group.is-scroll-x
+        table.table.is-border.is-center.is-middle.is-light.is-transdark.is-sm
+          thead
+            tr.box.is-strong
+              th(width="8")
+              th Illustrator
+              th Photoshop
+              th Sketch
+              th Keynote / Pages / Numbers
+          tbody
+            tr
+              td Swatches
+              td
+                .btns.is-center
+                  a.btn.is-plain.is-success(href="dist/swatches-moftone.ase" download="swatches-moftone.ase")
+                    i.fa.fa-download(aria-hidden="true")
+                    span.text Download
+              td
+                .btns.is-center
+                  a.btn.is-plain.is-success(href="dist/swatches-moftone.ase" download="swatches-moftone.ase")
+                    i.fa.fa-download(aria-hidden="true")
+                    span.text Download
+              td
+                .btns.is-center
+                  a.btn.is-plain.is-success(href="dist/swatches-moftone.clr" download="swatches-moftone.clr")
+                    i.fa.fa-download(aria-hidden="true")
+                    span.text Download
+              td
+                .btns.is-center
+                  a.btn.is-plain.is-success(href="dist/swatches-moftone.clr" download="swatches-moftone.clr")
+                    i.fa.fa-download(aria-hidden="true")
+                    span.text Download
+            tr
+              td Template
+              td
+                .btns.is-center
+                  a.btn.is-plain.is-success(href="dist/template-moftone.ai" download="template-moftone.ai")
+                    i.fa.fa-download(aria-hidden="true")
+                    span.text Download
+              td ---
+              td ---
+              td ---
 
   footer.section.is-footer
     .inner
