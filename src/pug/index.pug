@@ -13,7 +13,7 @@ block contents
   header.section.is-header.is-center
     .inner
       h1.heading.is-title.is-light #{page.title}
-      h2.text.is-light #{page.desc}
+      h2.texts.is-light #{page.desc}
       p.text.is-light.is-strong
         | #{github.ver}
       p.texts.is-light
@@ -23,8 +23,8 @@ block contents
         | &nbsp;/&nbsp;
         a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo+"/releases")
           span.text Releases
-      .btns.is-center
-        a.btn.is-lg.is-ghost.is-round(href="#download")
+      .btns.is-center.is-lg
+        a.btn.is-ghost.is-round(href="#download")
           i.fa.fa-paint-brush(aria-hidden="true")
           span.text Swatches Download
           i.fa.fa-angle-down(aria-hidden="true")
