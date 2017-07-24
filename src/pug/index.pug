@@ -14,15 +14,30 @@ block contents
     .inner
       h1.heading.is-title.is-light #{page.title}
       h2.text.is-light #{page.desc}
-      p.texts.is-light.is-strong
+      p.text.is-light.is-strong
         | #{github.ver}
-      p.text.is-light
+      p.texts.is-light
         i.fa.fa-github(aria-hidden="true")
         a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo)
           span.text Repository
         | &nbsp;/&nbsp;
         a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo+"/releases")
           span.text Releases
+
+  section.section.is-dist
+    .inner
+      .btns.is-center.is-sm
+        a.btn.is-ghost.is-mobile-full.is-tablet-auto(href="dist/swatches-moftone.clr" download="swatches-moftone.clr")
+          i.fa.fa-download(aria-hidden="true")
+          span.text Swatches ( NSColorList )
+          sup ※
+        a.btn.is-ghost.is-mobile-full.is-tablet-auto(href="dist/swatches-moftone.ase" download="swatches-moftone.ase")
+          i.fa.fa-download(aria-hidden="true")
+          span.text Swatches ( Illustrator )
+        a.btn.is-ghost.is-mobile-full.is-tablet-auto(href="dist/template-moftone.ai" download="template-moftone.ai")
+          i.fa.fa-download(aria-hidden="true")
+          span.text Template ( Illustrator )
+      p.texts.is-light.is-center.is-sm ※NSColorList = MacのSketchやKeynoteで使用できます
 
   main.section.is-main
     .group
