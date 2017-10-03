@@ -34,9 +34,11 @@ Material Design Colorをベースに、もふもふな優しい色を生成し�
 
 - CC0 1.0 Public Domain
 - Author: [Qrac][link-twitter]
+- Author Group: [QRANOKO][link-qranoko]
 
 [link-demo]:https://qrac.github.io/moftone/
 [link-dl-a1]:https://qrac.github.io/moftone/dist/swatches-moftone.ase
 [link-dl-a2]:https://qrac.github.io/moftone/dist/swatches-moftone.clr
 [link-dl-b1]:https://qrac.github.io/moftone/dist/template-moftone.ai
 [link-twitter]:https://twitter.com/Qrac_JP
+[link-qranoko]:https://qranoko.jp
