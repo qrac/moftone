@@ -54,7 +54,11 @@ gulp.task('scss', () => {
   return gulp.src(paths.src_scss + '**/*.scss')
     .pipe(sassGlob())
     .pipe(plumber({ errorHandler: notify.onError('Error: <%= error.message %>') }))
-    .pipe(sass(sassOptions))
+    .pipe(sass({
+        importer: packageImporter({
+          extensions: ['.scss', '.css']
+        })
+      }))
     .pipe(autoprefixer(['> 3% in JP', 'ie 11', 'android 4.4', 'last 1 versions']))
     .pipe(gcmq())
     .pipe(gulp.dest(paths.out_css))
