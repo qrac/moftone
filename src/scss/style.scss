@@ -11,10 +11,1146 @@
 @import "mixin/**";
 
 //----------------------------------------------------
-// / Glob Import > Project SCSS
+// Base: Global
 //----------------------------------------------------
 
-@import "base/**";
-@import "layout/**";
-@import "module/**";
-@import "utility/**";
+.moftone-demo {
+  background-color: $amber-500;
+}
+
+//----------------------------------------------------
+// Layout: Section
+//----------------------------------------------------
+
+.section.is-header {
+  padding: 2.5em 0 3em;
+}
+
+.section.is-main {
+  padding: 2em 1em;
+  background-color: $light;
+}
+
+.section.is-dist {
+  padding: 3.5em 0 6em;
+  background-color: $amber-600;
+}
+
+.section.is-footer {
+  padding: 2em 0;
+  background-color: $amber-700;
+}
+
+//----------------------------------------------------
+// Layout: Grid
+//----------------------------------------------------
+
+.grid.is-gap-6x:not(.is-gap-none) {
+  margin-left: -3em;
+  margin-bottom: -3em;
+  > .col {
+    padding-left: 3em;
+    padding-bottom: 3em;
+  }
+  + .grid.is-gap-6x:not(.is-gap-none) {
+    margin-top: 3em;
+  }
+}
+
+//----------------------------------------------------
+// Layout: Space
+//----------------------------------------------------
+
+.texts.is-color-name + .group.is-color-data {
+  margin-top: 4em;
+}
+
+//----------------------------------------------------
+// Module: Heading
+//----------------------------------------------------
+
+.heading.is-title {
+  font-size: 48px;
+  font-family: "Baloo Da", cursive;
+}
+
+//----------------------------------------------------
+// Module: Table
+//----------------------------------------------------
+
+.table.is-transdark {
+  background-color: transparent;
+}
+
+//----------------------------------------------------
+// Module: Object
+//----------------------------------------------------
+
+.obj.is-footer-logo {
+  display: block;
+  width: 8em;
+}
+
+//----------------------------------------------------
+// Module: Group
+//----------------------------------------------------
+
+.pallet {
+  width: 248px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: $font-mono;
+  text-transform: uppercase;
+  overflow: hidden;
+  .bar {
+    padding: 6px 12px;
+  }
+  .bar.is-cut + .bar {
+    margin-top: 4px;
+  }
+  .bar:nth-child(12) {
+    margin-top: 4px;
+  }
+}
+
+.pallet.is-red {
+  .bar:first-child {
+    background: $red-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $red-50;
+  }
+  .bar:nth-child(3) {
+    background: $red-100;
+  }
+  .bar:nth-child(4) {
+    background: $red-200;
+  }
+  .bar:nth-child(5) {
+    background: $red-300;
+    color: $light;
+  }
+  .bar:nth-child(6) {
+    background: $red-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $red-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $red-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $red-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $red-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $red-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $red-a100;
+  }
+  .bar:nth-child(13) {
+    background: $red-a200;
+    color: $light;
+  }
+  .bar:nth-child(14) {
+    background: $red-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $red-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-pink {
+  .bar:first-child {
+    background: $pink-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $pink-50;
+  }
+  .bar:nth-child(3) {
+    background: $pink-100;
+  }
+  .bar:nth-child(4) {
+    background: $pink-200;
+  }
+  .bar:nth-child(5) {
+    background: $pink-300;
+    color: $light;
+  }
+  .bar:nth-child(6) {
+    background: $pink-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $pink-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $pink-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $pink-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $pink-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $pink-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $pink-a100;
+  }
+  .bar:nth-child(13) {
+    background: $pink-a200;
+    color: $light;
+  }
+  .bar:nth-child(14) {
+    background: $pink-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $pink-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-purple {
+  .bar:first-child {
+    background: $purple-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $purple-50;
+  }
+  .bar:nth-child(3) {
+    background: $purple-100;
+  }
+  .bar:nth-child(4) {
+    background: $purple-200;
+  }
+  .bar:nth-child(5) {
+    background: $purple-300;
+    color: $light;
+  }
+  .bar:nth-child(6) {
+    background: $purple-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $purple-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $purple-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $purple-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $purple-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $purple-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $purple-a100;
+  }
+  .bar:nth-child(13) {
+    background: $purple-a200;
+    color: $light;
+  }
+  .bar:nth-child(14) {
+    background: $purple-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $purple-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-deep-purple {
+  .bar:first-child {
+    background: $deep-purple-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $deep-purple-50;
+  }
+  .bar:nth-child(3) {
+    background: $deep-purple-100;
+  }
+  .bar:nth-child(4) {
+    background: $deep-purple-200;
+  }
+  .bar:nth-child(5) {
+    background: $deep-purple-300;
+    color: $light;
+  }
+  .bar:nth-child(6) {
+    background: $deep-purple-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $deep-purple-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $deep-purple-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $deep-purple-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $deep-purple-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $deep-purple-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $deep-purple-a100;
+  }
+  .bar:nth-child(13) {
+    background: $deep-purple-a200;
+    color: $light;
+  }
+  .bar:nth-child(14) {
+    background: $deep-purple-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $deep-purple-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-indigo {
+  .bar:first-child {
+    background: $indigo-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $indigo-50;
+  }
+  .bar:nth-child(3) {
+    background: $indigo-100;
+  }
+  .bar:nth-child(4) {
+    background: $indigo-200;
+  }
+  .bar:nth-child(5) {
+    background: $indigo-300;
+    color: $light;
+  }
+  .bar:nth-child(6) {
+    background: $indigo-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $indigo-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $indigo-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $indigo-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $indigo-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $indigo-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $indigo-a100;
+  }
+  .bar:nth-child(13) {
+    background: $indigo-a200;
+    color: $light;
+  }
+  .bar:nth-child(14) {
+    background: $indigo-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $indigo-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-blue {
+  .bar:first-child {
+    background: $blue-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $blue-50;
+  }
+  .bar:nth-child(3) {
+    background: $blue-100;
+  }
+  .bar:nth-child(4) {
+    background: $blue-200;
+  }
+  .bar:nth-child(5) {
+    background: $blue-300;
+  }
+  .bar:nth-child(6) {
+    background: $blue-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $blue-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $blue-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $blue-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $blue-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $blue-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $blue-a100;
+  }
+  .bar:nth-child(13) {
+    background: $blue-a200;
+    color: $light;
+  }
+  .bar:nth-child(14) {
+    background: $blue-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $blue-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-light-blue {
+  .bar:first-child {
+    background: $light-blue-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $light-blue-50;
+  }
+  .bar:nth-child(3) {
+    background: $light-blue-100;
+  }
+  .bar:nth-child(4) {
+    background: $light-blue-200;
+  }
+  .bar:nth-child(5) {
+    background: $light-blue-300;
+  }
+  .bar:nth-child(6) {
+    background: $light-blue-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $light-blue-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $light-blue-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $light-blue-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $light-blue-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $light-blue-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $light-blue-a100;
+  }
+  .bar:nth-child(13) {
+    background: $light-blue-a200;
+  }
+  .bar:nth-child(14) {
+    background: $light-blue-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $light-blue-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-cyan {
+  .bar:first-child {
+    background: $cyan-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $cyan-50;
+  }
+  .bar:nth-child(3) {
+    background: $cyan-100;
+  }
+  .bar:nth-child(4) {
+    background: $cyan-200;
+  }
+  .bar:nth-child(5) {
+    background: $cyan-300;
+  }
+  .bar:nth-child(6) {
+    background: $cyan-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $cyan-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $cyan-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $cyan-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $cyan-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $cyan-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $cyan-a100;
+  }
+  .bar:nth-child(13) {
+    background: $cyan-a200;
+  }
+  .bar:nth-child(14) {
+    background: $cyan-a400;
+  }
+  .bar:nth-child(15) {
+    background: $cyan-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-teal {
+  .bar:first-child {
+    background: $teal-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $teal-50;
+  }
+  .bar:nth-child(3) {
+    background: $teal-100;
+  }
+  .bar:nth-child(4) {
+    background: $teal-200;
+  }
+  .bar:nth-child(5) {
+    background: $teal-300;
+    color: $light;
+  }
+  .bar:nth-child(6) {
+    background: $teal-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $teal-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $teal-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $teal-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $teal-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $teal-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $teal-a100;
+  }
+  .bar:nth-child(13) {
+    background: $teal-a200;
+  }
+  .bar:nth-child(14) {
+    background: $teal-a400;
+  }
+  .bar:nth-child(15) {
+    background: $teal-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-green {
+  .bar:first-child {
+    background: $green-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $green-50;
+  }
+  .bar:nth-child(3) {
+    background: $green-100;
+  }
+  .bar:nth-child(4) {
+    background: $green-200;
+  }
+  .bar:nth-child(5) {
+    background: $green-300;
+  }
+  .bar:nth-child(6) {
+    background: $green-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $green-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $green-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $green-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $green-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $green-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $green-a100;
+  }
+  .bar:nth-child(13) {
+    background: $green-a200;
+  }
+  .bar:nth-child(14) {
+    background: $green-a400;
+  }
+  .bar:nth-child(15) {
+    background: $green-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-light-green {
+  .bar:first-child {
+    background: $light-green-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $light-green-50;
+  }
+  .bar:nth-child(3) {
+    background: $light-green-100;
+  }
+  .bar:nth-child(4) {
+    background: $light-green-200;
+  }
+  .bar:nth-child(5) {
+    background: $light-green-300;
+  }
+  .bar:nth-child(6) {
+    background: $light-green-400;
+  }
+  .bar:nth-child(7) {
+    background: $light-green-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $light-green-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $light-green-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $light-green-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $light-green-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $light-green-a100;
+  }
+  .bar:nth-child(13) {
+    background: $light-green-a200;
+  }
+  .bar:nth-child(14) {
+    background: $light-green-a400;
+  }
+  .bar:nth-child(15) {
+    background: $light-green-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-lime {
+  .bar:first-child {
+    background: $lime-500;
+  }
+  .bar:nth-child(2) {
+    background: $lime-50;
+  }
+  .bar:nth-child(3) {
+    background: $lime-100;
+  }
+  .bar:nth-child(4) {
+    background: $lime-200;
+  }
+  .bar:nth-child(5) {
+    background: $lime-300;
+  }
+  .bar:nth-child(6) {
+    background: $lime-400;
+  }
+  .bar:nth-child(7) {
+    background: $lime-500;
+  }
+  .bar:nth-child(8) {
+    background: $lime-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $lime-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $lime-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $lime-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $lime-a100;
+  }
+  .bar:nth-child(13) {
+    background: $lime-a200;
+  }
+  .bar:nth-child(14) {
+    background: $lime-a400;
+  }
+  .bar:nth-child(15) {
+    background: $lime-a700;
+  }
+}
+
+.pallet.is-yellow {
+  .bar:first-child {
+    background: $yellow-500;
+  }
+  .bar:nth-child(2) {
+    background: $yellow-50;
+  }
+  .bar:nth-child(3) {
+    background: $yellow-100;
+  }
+  .bar:nth-child(4) {
+    background: $yellow-200;
+  }
+  .bar:nth-child(5) {
+    background: $yellow-300;
+  }
+  .bar:nth-child(6) {
+    background: $yellow-400;
+  }
+  .bar:nth-child(7) {
+    background: $yellow-500;
+  }
+  .bar:nth-child(8) {
+    background: $yellow-600;
+  }
+  .bar:nth-child(9) {
+    background: $yellow-700;
+  }
+  .bar:nth-child(10) {
+    background: $yellow-800;
+  }
+  .bar:nth-child(11) {
+    background: $yellow-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $yellow-a100;
+  }
+  .bar:nth-child(13) {
+    background: $yellow-a200;
+  }
+  .bar:nth-child(14) {
+    background: $yellow-a400;
+  }
+  .bar:nth-child(15) {
+    background: $yellow-a700;
+  }
+}
+
+.pallet.is-amber {
+  .bar:first-child {
+    background: $amber-500;
+  }
+  .bar:nth-child(2) {
+    background: $amber-50;
+  }
+  .bar:nth-child(3) {
+    background: $amber-100;
+  }
+  .bar:nth-child(4) {
+    background: $amber-200;
+  }
+  .bar:nth-child(5) {
+    background: $amber-300;
+  }
+  .bar:nth-child(6) {
+    background: $amber-400;
+  }
+  .bar:nth-child(7) {
+    background: $amber-500;
+  }
+  .bar:nth-child(8) {
+    background: $amber-600;
+  }
+  .bar:nth-child(9) {
+    background: $amber-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $amber-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $amber-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $amber-a100;
+  }
+  .bar:nth-child(13) {
+    background: $amber-a200;
+  }
+  .bar:nth-child(14) {
+    background: $amber-a400;
+  }
+  .bar:nth-child(15) {
+    background: $amber-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-orange {
+  .bar:first-child {
+    background: $orange-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $orange-50;
+  }
+  .bar:nth-child(3) {
+    background: $orange-100;
+  }
+  .bar:nth-child(4) {
+    background: $orange-200;
+  }
+  .bar:nth-child(5) {
+    background: $orange-300;
+  }
+  .bar:nth-child(6) {
+    background: $orange-400;
+  }
+  .bar:nth-child(7) {
+    background: $orange-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $orange-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $orange-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $orange-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $orange-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $orange-a100;
+  }
+  .bar:nth-child(13) {
+    background: $orange-a200;
+  }
+  .bar:nth-child(14) {
+    background: $orange-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $orange-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-deep-orange {
+  .bar:first-child {
+    background: $deep-orange-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $deep-orange-50;
+  }
+  .bar:nth-child(3) {
+    background: $deep-orange-100;
+  }
+  .bar:nth-child(4) {
+    background: $deep-orange-200;
+  }
+  .bar:nth-child(5) {
+    background: $deep-orange-300;
+  }
+  .bar:nth-child(6) {
+    background: $deep-orange-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $deep-orange-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $deep-orange-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $deep-orange-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $deep-orange-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $deep-orange-900;
+    color: $light;
+  }
+  .bar:nth-child(12) {
+    background: $deep-orange-a100;
+  }
+  .bar:nth-child(13) {
+    background: $deep-orange-a200;
+    color: $light;
+  }
+  .bar:nth-child(14) {
+    background: $deep-orange-a400;
+    color: $light;
+  }
+  .bar:nth-child(15) {
+    background: $deep-orange-a700;
+    color: $light;
+  }
+}
+
+.pallet.is-brown {
+  .bar:first-child {
+    background: $brown-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $brown-50;
+  }
+  .bar:nth-child(3) {
+    background: $brown-100;
+  }
+  .bar:nth-child(4) {
+    background: $brown-200;
+  }
+  .bar:nth-child(5) {
+    background: $brown-300;
+    color: $light;
+  }
+  .bar:nth-child(6) {
+    background: $brown-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $brown-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $brown-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $brown-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $brown-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $brown-900;
+    color: $light;
+  }
+}
+
+.pallet.is-grey {
+  .bar:first-child {
+    background: $grey-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $grey-50;
+  }
+  .bar:nth-child(3) {
+    background: $grey-100;
+  }
+  .bar:nth-child(4) {
+    background: $grey-200;
+  }
+  .bar:nth-child(5) {
+    background: $grey-300;
+  }
+  .bar:nth-child(6) {
+    background: $grey-400;
+  }
+  .bar:nth-child(7) {
+    background: $grey-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $grey-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $grey-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $grey-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $grey-900;
+    color: $light;
+  }
+}
+
+.pallet.is-blue-grey {
+  .bar:first-child {
+    background: $blue-grey-500;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $blue-grey-50;
+  }
+  .bar:nth-child(3) {
+    background: $blue-grey-100;
+  }
+  .bar:nth-child(4) {
+    background: $blue-grey-200;
+  }
+  .bar:nth-child(5) {
+    background: $blue-grey-300;
+    color: $light;
+  }
+  .bar:nth-child(6) {
+    background: $blue-grey-400;
+    color: $light;
+  }
+  .bar:nth-child(7) {
+    background: $blue-grey-500;
+    color: $light;
+  }
+  .bar:nth-child(8) {
+    background: $blue-grey-600;
+    color: $light;
+  }
+  .bar:nth-child(9) {
+    background: $blue-grey-700;
+    color: $light;
+  }
+  .bar:nth-child(10) {
+    background: $blue-grey-800;
+    color: $light;
+  }
+  .bar:nth-child(11) {
+    background: $blue-grey-900;
+    color: $light;
+  }
+}
+
+.pallet.is-black-and-white {
+  .bar:first-child {
+    background: $black;
+    color: $light;
+  }
+  .bar:nth-child(2) {
+    background: $white;
+  }
+}
