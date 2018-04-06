@@ -15,7 +15,7 @@ block contents
       h1.heading.is-title.is-light #{page.title}
       h2.texts.is-light #{page.desc}
       p.text.is-light.is-strong
-        | #{github.ver}
+        | v#{github.ver}
       p.texts.is-light
         i.fab.fa-github(aria-hidden="true")
         a.text.is-link-reverse(href=github.url+"/"+github.id+"/"+github.repo)
@@ -78,7 +78,7 @@ block contents
       h2.heading.is-light.is-strong.is-center.is-title
         span.text.is-xs Download
       .group.is-scroll-x
-        table.table.is-border.is-center.is-middle.is-light.is-transdark.is-sm
+        table.table.is-border.is-center.is-middle.is-sm
           thead
             tr.box.is-strong
               th(width="8")
@@ -109,6 +109,12 @@ block contents
                   a.btn.is-plain.is-success(href="dist/swatches-moftone.clr" download="swatches-moftone.clr")
                     i.fa.fa-download(aria-hidden="true")
                     span.text Download
+      h2.heading.is-light.is-strong.is-center.is-title
+        span.text.is-xs npm
+      p.texts.is-light.is-center SCSS変数ファイルのみをnpmでインストールできます。
+      pre.pre
+        code.code
+          | $ npm i -D moftone
 
   footer.section.is-footer
     .inner
