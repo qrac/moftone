@@ -22,7 +22,13 @@ Material Design Colorをベースに、もふもふな優しい色を生成し�
 ### コーディングで使う場合
 
 - CSS > [Demo Page][link-demo]の色コードを直接コピー
-- SCSS > `/src/scss/variable/_moftone.scss`を変数ファイルとしてinclude
+- SCSS > `/src/scss/variable/_moftone.scss` を変数ファイルとしてinclude
+
+npmで `_moftone.scss` のみをインストールして使えます。
+
+```bash
+$ npm i -D moftone
+```
 
 ## Reference
 

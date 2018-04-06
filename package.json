@@ -1,28 +1,28 @@
 {
   "name": "moftone",
-  "version": "5.0.0",
-  "description": "## Demo",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
+  "description": "MOFMOF SCSS Variable",
+  "version": "6.0.0",
+  "main": "src/scss/tone/_moftone.scss",
+  "keywords": [
+    "sass",
+    "scss",
+    "variable",
+    "color",
+    "moftone"
+  ],
+  "homepage": "https://github.com/qrac/moftone",
+  "bugs": {
+    "url": "https://github.com/qrac/moftone/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Qrac",
+    "web": "https://twitter.com/Qrac_JP"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qrac/moftone.git"
   },
-  "keywords": [],
-  "author": {
-    "name": "Qrac",
-    "web": "https://twitter.com/Qrac_JP"
-  },
   "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/qrac/moftone/issues"
-  },
-  "homepage": "https://github.com/qrac/moftone#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
