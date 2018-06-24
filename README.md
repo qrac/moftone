@@ -17,13 +17,13 @@ Material Design Color をベースに、もふもふな優しい色を生成し�
 
 |          |      Illustrator       |       Photoshop        |           Sketch           | Keynote / Pages / Numbers  |
 | :------: | :--------------------: | :--------------------: | :------------------------: | :------------------------: |
-| Swatches | [Download][link-dl-a1] | [Download][link-dl-a1] | [Download][link-dl-a2] (※) | [Download][link-dl-a2] (※) |
+| Swatches | [Download][link-dl-a1] | [Download][link-dl-a1] | [Download][link-dl-a2] (※) | [Download][link-dl-a2] (※) |
 
 ### コーディングで使う場合
 
 - CSS > [Demo Page][link-demo]の色コードを直接コピー
 - SCSS > `/src/scss/tone/_moftone.scss` を変数ファイルとして include
-- SCSS > `/src/stylus/tone/_moftone.styl` を変数ファイルとして include
+- Stylus > `/src/stylus/tone/_moftone.styl` を変数ファイルとして include
 
 npm で `_moftone.scss` や `_moftone.styl` をインストールして使えます。
 
