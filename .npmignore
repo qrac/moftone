@@ -4,3 +4,4 @@ src/js/
 src/img/
 src/scss/style.scss
 gulpfile.js
+.prettierignore
