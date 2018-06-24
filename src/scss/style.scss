@@ -3,11 +3,36 @@
 //----------------------------------------------------
 
 //----------------------------------------------------
-// / Import > Config SCSS
+// / Import > Config
 //----------------------------------------------------
 
 @import "tone/moftone";
-@import "~sass-dashi";
+
+//----------------------------------------------------
+// / Import > Module
+//----------------------------------------------------
+
+@import "~dashibox/src/scss/_dashibox.scss";
+@import "~musubii/src/scss/config/_variable.scss";
+@import "~shitajicss/src/scss/_shitaji.scss";
+@import "~musubii/src/scss/base/_global.scss";
+@import "~musubii/src/scss/layout/_section.scss";
+@import "~musubii/src/scss/layout/_grid.scss";
+@import "~musubii/src/scss/layout/_space.scss";
+@import "~musubii/src/scss/module/_heading.scss";
+@import "~musubii/src/scss/module/_text.scss";
+@import "~musubii/src/scss/module/_button.scss";
+@import "~musubii/src/scss/module/_list.scss";
+@import "~musubii/src/scss/module/_table.scss";
+@import "~musubii/src/scss/module/_form.scss";
+@import "~musubii/src/scss/module/_icon.scss";
+@import "~musubii/src/scss/module/_alert.scss";
+@import "~musubii/src/scss/module/_wysiwyg.scss";
+@import "~musubii/src/scss/utility/_size.scss";
+@import "~musubii/src/scss/utility/_flex.scss";
+@import "~musubii/src/scss/utility/_deco.scss";
+@import "~musubii/src/scss/utility/_display.scss";
+@import "~musubii/src/scss/utility/_clearfix.scss";
 
 //----------------------------------------------------
 // Base: Global
