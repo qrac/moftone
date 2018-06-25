@@ -1651,9 +1651,9 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-dashibox@^0.3.4:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/dashibox/-/dashibox-0.3.4.tgz#200c19f8c0e8968db781523cb3e9068dc62c70f7"
+dashibox@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/dashibox/-/dashibox-0.3.6.tgz#8ad31de1dc8c5eaf1fac43654d1f19d2ecdeecda"
 
 dateformat@^2.0.0:
   version "2.2.0"
