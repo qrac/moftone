@@ -1,7 +1,7 @@
 {
   "name": "moftone",
   "description": "MOFMOF Variable of SCSS & Stylus",
-  "version": "6.1.1",
+  "version": "6.2.0",
   "main": "src/scss/tone/_moftone.scss",
   "keywords": [
     "sass",
