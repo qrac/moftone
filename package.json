@@ -29,7 +29,6 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.24.4",
-    "dashibox": "^0.3.6",
     "gulp": "^4.0.0",
     "gulp-babel": "^7.0.1",
     "gulp-clean-css": "^3.9.4",
@@ -50,6 +49,7 @@
     "musubii": "^6.1.0",
     "node-sass-package-importer": "^5.1.3",
     "postcss-flexbugs-fixes": "^3.3.1",
+    "sass-dashi": "^0.3.0",
     "shitajicss": "^4.5.1"
   }
 }
