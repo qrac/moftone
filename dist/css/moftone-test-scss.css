@@ -1,11 +1,3 @@
-.section.is-main {
-  padding: 1em;
-}
-
-.texts.is-color-name + .group.is-color-data {
-  margin-top: 4em;
-}
-
 .pallet-scss {
   width: 140px;
   margin-bottom: 32px;
