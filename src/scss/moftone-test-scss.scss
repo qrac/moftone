@@ -2,7 +2,7 @@
 // MOFTONE Test SCSS
 //----------------------------------------------------
 
-@import "tone/moftone";
+@import "tone/_moftone-ex.scss";
 @import "sass-dashi/src/scss/_dashi.scss";
 
 //----------------------------------------------------
@@ -10,7 +10,7 @@
 //----------------------------------------------------
 
 .pallet-scss {
-  width: 140px;
+  width: 248px;
   margin-bottom: 32px;
   border-radius: 4px;
   font-size: 14px;
