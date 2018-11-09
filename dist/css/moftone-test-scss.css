@@ -302,12 +302,12 @@
 }
 
 .pallet-scss.is-deep-purple .bar:nth-child(14) {
-  background: #7743d0;
+  background: #7d4bd2;
   color: #ffffff;
 }
 
 .pallet-scss.is-deep-purple .bar:nth-child(15) {
-  background: #602eb8;
+  background: #6530c0;
   color: #ffffff;
 }
 
@@ -373,12 +373,12 @@
 }
 
 .pallet-scss.is-indigo .bar:nth-child(14) {
-  background: #4358d0;
+  background: #4b60d2;
   color: #ffffff;
 }
 
 .pallet-scss.is-indigo .bar:nth-child(15) {
-  background: #2e43b8;
+  background: #3046c0;
   color: #ffffff;
 }
 
@@ -581,7 +581,7 @@
 }
 
 .pallet-scss.is-cyan .bar:nth-child(14) {
-  background: #11cfe8;
+  background: #11c7df;
 }
 
 .pallet-scss.is-cyan .bar:nth-child(15) {
