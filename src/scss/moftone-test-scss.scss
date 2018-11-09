@@ -11,6 +11,7 @@
 
 .pallet-scss {
   width: 248px;
+  width: 72px; //Test
   margin-bottom: 32px;
   border-radius: 4px;
   font-size: 14px;
@@ -19,6 +20,11 @@
   overflow: hidden;
   .bar {
     padding: 6px 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    .texts {
+      opacity: 0; //Test
+    }
   }
   .bar.is-cut + .bar {
     margin-top: 4px;
