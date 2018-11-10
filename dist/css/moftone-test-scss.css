@@ -104,11 +104,11 @@
 }
 
 .pallet-scss.is-pink .bar:nth-child(2) {
-  background: #f9e7ed;
+  background: #f8e2ea;
 }
 
 .pallet-scss.is-pink .bar:nth-child(3) {
-  background: #f5d6e0;
+  background: #f4d2dd;
 }
 
 .pallet-scss.is-pink .bar:nth-child(4) {
@@ -151,21 +151,21 @@
 }
 
 .pallet-scss.is-pink .bar:nth-child(12) {
-  background: #f8aac4;
+  background: #f9b8ce;
 }
 
 .pallet-scss.is-pink .bar:nth-child(13) {
-  background: #f476a0;
+  background: #f692b4;
   color: #ffffff;
 }
 
 .pallet-scss.is-pink .bar:nth-child(14) {
-  background: #f0477f;
+  background: #ef3e79;
   color: #ffffff;
 }
 
 .pallet-scss.is-pink .bar:nth-child(15) {
-  background: #cb104f;
+  background: #c1104b;
   color: #ffffff;
 }
 
