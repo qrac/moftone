@@ -2,7 +2,7 @@
 
 ## Site
 
-- ...
+- https://qrac.github.io/moftone/
 
 ## About
 
@@ -13,7 +13,7 @@ Material Design Color をベースに、もふもふな優しい色を生成し�
 ### デザインツールで使う場合
 
 - ツールに合わせて `dist/swatches` のスウォッチファイルを使用
-- NSColorList 形式のスウォッチ(※)は Mac のさまざまなソフトウェアで共有利用が可能
+- NSColorList 形式のスウォッチは Mac のさまざまなソフトウェアで共有利用が可能
 
 ### コーディングで使う場合
 
