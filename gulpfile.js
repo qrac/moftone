@@ -4,6 +4,7 @@
 
 const gulp = require("gulp")
 const fs = require("fs")
+const del = require("del")
 const exec = require("gulp-exec")
 const notify = require("gulp-notify")
 const plumber = require("gulp-plumber")
@@ -28,11 +29,17 @@ const paths = {
     scss: pjt.setting.src + "/scss/",
     stylus: pjt.setting.src + "/stylus/"
   },
+  lib: {
+    dir: pjt.setting.lib + "/",
+    json2clr: pjt.setting.lib + "/ColorGen/Build/",
+    clr2ase: pjt.setting.lib + "/ColorTools-0.3/"
+  },
   dist: {
     dir: pjt.setting.dist + "/",
     html: pjt.setting.dist + "/",
     css: pjt.setting.dist + "/css/",
-    data: pjt.setting.dist + "/data/"
+    data: pjt.setting.dist + "/data/",
+    swatches: pjt.setting.dist + "/swatches/"
   }
 }
 
@@ -125,18 +132,59 @@ gulp.task("data-replace", () => {
     .src(paths.dist.data + pkg.name + "-data.json")
     .pipe(replace(/\$/g, ""))
     .pipe(replace(/-/g, " "))
-    .pipe(replace(/#/g, ""))
     .pipe(replace(/.*\"value\"[\s\S]*?\,\n/g, ""))
-    .pipe(replace(/compiledValue/g, "hex"))
-    .pipe(replace(/whitesmoke/g, "f5f5f5"))
-    .pipe(replace(/\"hex\"\: \"black\"/g, '"hex": "000000"'))
-    .pipe(replace(/\"hex\"\: \"white\"/g, '"hex": "ffffff"'))
+    .pipe(replace(/compiledValue/g, "color"))
+    .pipe(replace(/whitesmoke/g, "#f5f5f5"))
+    .pipe(replace(/\"hex\"\: \"black\"/g, '"hex": "#000000"'))
+    .pipe(replace(/\"hex\"\: \"white\"/g, '"hex": "#ffffff"'))
     .pipe(
       rename({
         basename: pkg.name + "-data-out"
       })
     )
     .pipe(gulp.dest(paths.dist.data))
+})
+
+gulp.task("json2clr", () => {
+  return gulp
+    .src(paths.dist.data + pkg.name + "-data-out.json")
+    .pipe(
+      exec(
+        paths.lib.json2clr +
+          "ColorGen -i " +
+          paths.dist.data +
+          pkg.name +
+          "-data-out.json -o " +
+          paths.dist.swatches +
+          pkg.name +
+          ".clr"
+      )
+    )
+    .pipe(exec.reporter())
+})
+
+gulp.task("clr2ase", () => {
+  return gulp
+    .src(paths.dist.swatches + pkg.name + ".clr")
+    .pipe(gulp.dest(paths.lib.clr2ase))
+    .pipe(
+      exec("cd ./" + paths.lib.clr2ase + "&& ./Clr2Ase " + pkg.name + ".clr")
+    )
+    .pipe(exec.reporter())
+})
+
+gulp.task("copy-ase", () => {
+  return gulp
+    .src(paths.lib.clr2ase + pkg.name + ".ase")
+    .pipe(gulp.dest(paths.dist.swatches))
+})
+
+gulp.task("clean-tmp", function(done) {
+  del([
+    paths.lib.clr2ase + pkg.name + ".clr",
+    paths.lib.clr2ase + pkg.name + ".ase"
+  ])
+  done()
 })
 
 // Browser Sync
@@ -167,6 +215,13 @@ gulp.task(
   "build",
   gulp.parallel(
     gulp.series("scss", "stylus"),
-    gulp.series("sass-export", "data-replace")
+    gulp.series(
+      "sass-export",
+      "data-replace",
+      "json2clr",
+      "clr2ase",
+      "copy-ase",
+      "clean-tmp"
+    )
   )
 )

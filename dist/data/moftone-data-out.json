@@ -1,1026 +1,1026 @@
 [
   {
     "name": "red 50",
-    "hex": "fbeaea"
+    "color": "#fbeaea"
   },
   {
     "name": "red 100",
-    "hex": "f5d1d1"
+    "color": "#f5d1d1"
   },
   {
     "name": "red 200",
-    "hex": "eeafaf"
+    "color": "#eeafaf"
   },
   {
     "name": "red 300",
-    "hex": "e89292"
+    "color": "#e89292"
   },
   {
     "name": "red 400",
-    "hex": "e27474"
+    "color": "#e27474"
   },
   {
     "name": "red 500",
-    "hex": "db5757"
+    "color": "#db5757"
   },
   {
     "name": "red 600",
-    "hex": "d53939"
+    "color": "#d53939"
   },
   {
     "name": "red 700",
-    "hex": "c22929"
+    "color": "#c22929"
   },
   {
     "name": "red 800",
-    "hex": "a42323"
+    "color": "#a42323"
   },
   {
     "name": "red 900",
-    "hex": "871d1d"
+    "color": "#871d1d"
   },
   {
     "name": "red a100",
-    "hex": "fbb6b6"
+    "color": "#fbb6b6"
   },
   {
     "name": "red a200",
-    "hex": "f99090"
+    "color": "#f99090"
   },
   {
     "name": "red a400",
-    "hex": "f64c4c"
+    "color": "#f64c4c"
   },
   {
     "name": "red a700",
-    "hex": "cb0b0b"
+    "color": "#cb0b0b"
   },
   {
     "name": "pink 50",
-    "hex": "f8e2ea"
+    "color": "#f8e2ea"
   },
   {
     "name": "pink 100",
-    "hex": "f4d2dd"
+    "color": "#f4d2dd"
   },
   {
     "name": "pink 200",
-    "hex": "ecb1c5"
+    "color": "#ecb1c5"
   },
   {
     "name": "pink 300",
-    "hex": "e28da9"
+    "color": "#e28da9"
   },
   {
     "name": "pink 400",
-    "hex": "d9688e"
+    "color": "#d9688e"
   },
   {
     "name": "pink 500",
-    "hex": "d14775"
+    "color": "#d14775"
   },
   {
     "name": "pink 600",
-    "hex": "cc3366"
+    "color": "#cc3366"
   },
   {
     "name": "pink 700",
-    "hex": "b82e5c"
+    "color": "#b82e5c"
   },
   {
     "name": "pink 800",
-    "hex": "9f2850"
+    "color": "#9f2850"
   },
   {
     "name": "pink 900",
-    "hex": "832141"
+    "color": "#832141"
   },
   {
     "name": "pink a100",
-    "hex": "f9b8ce"
+    "color": "#f9b8ce"
   },
   {
     "name": "pink a200",
-    "hex": "f692b4"
+    "color": "#f692b4"
   },
   {
     "name": "pink a400",
-    "hex": "ef3e79"
+    "color": "#ef3e79"
   },
   {
     "name": "pink a700",
-    "hex": "c1104b"
+    "color": "#c1104b"
   },
   {
     "name": "purple 50",
-    "hex": "f0e3f2"
+    "color": "#f0e3f2"
   },
   {
     "name": "purple 100",
-    "hex": "e4cee9"
+    "color": "#e4cee9"
   },
   {
     "name": "purple 200",
-    "hex": "cda4d5"
+    "color": "#cda4d5"
   },
   {
     "name": "purple 300",
-    "hex": "b67ac2"
+    "color": "#b67ac2"
   },
   {
     "name": "purple 400",
-    "hex": "a357b2"
+    "color": "#a357b2"
   },
   {
     "name": "purple 500",
-    "hex": "8f489d"
+    "color": "#8f489d"
   },
   {
     "name": "purple 600",
-    "hex": "793d85"
+    "color": "#793d85"
   },
   {
     "name": "purple 700",
-    "hex": "693573"
+    "color": "#693573"
   },
   {
     "name": "purple 800",
-    "hex": "5c2f65"
+    "color": "#5c2f65"
   },
   {
     "name": "purple 900",
-    "hex": "4f2857"
+    "color": "#4f2857"
   },
   {
     "name": "purple a100",
-    "hex": "e3b7eb"
+    "color": "#e3b7eb"
   },
   {
     "name": "purple a200",
-    "hex": "d087de"
+    "color": "#d087de"
   },
   {
     "name": "purple a400",
-    "hex": "b33fca"
+    "color": "#b33fca"
   },
   {
     "name": "purple a700",
-    "hex": "822994"
+    "color": "#822994"
   },
   {
     "name": "deep purple 50",
-    "hex": "e9e4f1"
+    "color": "#e9e4f1"
   },
   {
     "name": "deep purple 100",
-    "hex": "d5cde4"
+    "color": "#d5cde4"
   },
   {
     "name": "deep purple 200",
-    "hex": "b9acd2"
+    "color": "#b9acd2"
   },
   {
     "name": "deep purple 300",
-    "hex": "a08ec2"
+    "color": "#a08ec2"
   },
   {
     "name": "deep purple 400",
-    "hex": "8670b2"
+    "color": "#8670b2"
   },
   {
     "name": "deep purple 500",
-    "hex": "7359a6"
+    "color": "#7359a6"
   },
   {
     "name": "deep purple 600",
-    "hex": "675095"
+    "color": "#675095"
   },
   {
     "name": "deep purple 700",
-    "hex": "5a4681"
+    "color": "#5a4681"
   },
   {
     "name": "deep purple 800",
-    "hex": "4c3b6d"
+    "color": "#4c3b6d"
   },
   {
     "name": "deep purple 900",
-    "hex": "40325d"
+    "color": "#40325d"
   },
   {
     "name": "deep purple a100",
-    "hex": "c6b4e9"
+    "color": "#c6b4e9"
   },
   {
     "name": "deep purple a200",
-    "hex": "a78cde"
+    "color": "#a78cde"
   },
   {
     "name": "deep purple a400",
-    "hex": "7d55ce"
+    "color": "#7d55ce"
   },
   {
     "name": "deep purple a700",
-    "hex": "5e34b2"
+    "color": "#5e34b2"
   },
   {
     "name": "indigo 50",
-    "hex": "e4e7f1"
+    "color": "#e4e7f1"
   },
   {
     "name": "indigo 100",
-    "hex": "cdd1e4"
+    "color": "#cdd1e4"
   },
   {
     "name": "indigo 200",
-    "hex": "acb3d2"
+    "color": "#acb3d2"
   },
   {
     "name": "indigo 300",
-    "hex": "8b94c1"
+    "color": "#8b94c1"
   },
   {
     "name": "indigo 400",
-    "hex": "707bb2"
+    "color": "#707bb2"
   },
   {
     "name": "indigo 500",
-    "hex": "5d69a8"
+    "color": "#5d69a8"
   },
   {
     "name": "indigo 600",
-    "hex": "505c95"
+    "color": "#505c95"
   },
   {
     "name": "indigo 700",
-    "hex": "475285"
+    "color": "#475285"
   },
   {
     "name": "indigo 800",
-    "hex": "3d4571"
+    "color": "#3d4571"
   },
   {
     "name": "indigo 900",
-    "hex": "343b60"
+    "color": "#343b60"
   },
   {
     "name": "indigo a100",
-    "hex": "a8b2e6"
+    "color": "#a8b2e6"
   },
   {
     "name": "indigo a200",
-    "hex": "7989d8"
+    "color": "#7989d8"
   },
   {
     "name": "indigo a400",
-    "hex": "5166cd"
+    "color": "#5166cd"
   },
   {
     "name": "indigo a700",
-    "hex": "364cba"
+    "color": "#364cba"
   },
   {
     "name": "blue 50",
-    "hex": "deecf8"
+    "color": "#deecf8"
   },
   {
     "name": "blue 100",
-    "hex": "c0dcf1"
+    "color": "#c0dcf1"
   },
   {
     "name": "blue 200",
-    "hex": "a3cceb"
+    "color": "#a3cceb"
   },
   {
     "name": "blue 300",
-    "hex": "82b9e3"
+    "color": "#82b9e3"
   },
   {
     "name": "blue 400",
-    "hex": "68abde"
+    "color": "#68abde"
   },
   {
     "name": "blue 500",
-    "hex": "4b9bd8"
+    "color": "#4b9bd8"
   },
   {
     "name": "blue 600",
-    "hex": "2e8ad1"
+    "color": "#2e8ad1"
   },
   {
     "name": "blue 700",
-    "hex": "2777b4"
+    "color": "#2777b4"
   },
   {
     "name": "blue 800",
-    "hex": "216497"
+    "color": "#216497"
   },
   {
     "name": "blue 900",
-    "hex": "1c537d"
+    "color": "#1c537d"
   },
   {
     "name": "blue a100",
-    "hex": "96cdf8"
+    "color": "#96cdf8"
   },
   {
     "name": "blue a200",
-    "hex": "66b7f4"
+    "color": "#66b7f4"
   },
   {
     "name": "blue a400",
-    "hex": "2497f0"
+    "color": "#2497f0"
   },
   {
     "name": "blue a700",
-    "hex": "0d72bf"
+    "color": "#0d72bf"
   },
   {
     "name": "light blue 50",
-    "hex": "ddf1f8"
+    "color": "#ddf1f8"
   },
   {
     "name": "light blue 100",
-    "hex": "bfe5f2"
+    "color": "#bfe5f2"
   },
   {
     "name": "light blue 200",
-    "hex": "9dd7ec"
+    "color": "#9dd7ec"
   },
   {
     "name": "light blue 300",
-    "hex": "77c7e4"
+    "color": "#77c7e4"
   },
   {
     "name": "light blue 400",
-    "hex": "5dbcdf"
+    "color": "#5dbcdf"
   },
   {
     "name": "light blue 500",
-    "hex": "37add7"
+    "color": "#37add7"
   },
   {
     "name": "light blue 600",
-    "hex": "279ac4"
+    "color": "#279ac4"
   },
   {
     "name": "light blue 700",
-    "hex": "2286aa"
+    "color": "#2286aa"
   },
   {
     "name": "light blue 800",
-    "hex": "1d7291"
+    "color": "#1d7291"
   },
   {
     "name": "light blue 900",
-    "hex": "196480"
+    "color": "#196480"
   },
   {
     "name": "light blue a100",
-    "hex": "96def8"
+    "color": "#96def8"
   },
   {
     "name": "light blue a200",
-    "hex": "58caf3"
+    "color": "#58caf3"
   },
   {
     "name": "light blue a400",
-    "hex": "15b5ef"
+    "color": "#15b5ef"
   },
   {
     "name": "light blue a700",
-    "hex": "0d8fbf"
+    "color": "#0d8fbf"
   },
   {
     "name": "cyan 50",
-    "hex": "dff4f6"
+    "color": "#dff4f6"
   },
   {
     "name": "cyan 100",
-    "hex": "c4eaee"
+    "color": "#c4eaee"
   },
   {
     "name": "cyan 200",
-    "hex": "9cdbe2"
+    "color": "#9cdbe2"
   },
   {
     "name": "cyan 300",
-    "hex": "75cdd7"
+    "color": "#75cdd7"
   },
   {
     "name": "cyan 400",
-    "hex": "4dbfcb"
+    "color": "#4dbfcb"
   },
   {
     "name": "cyan 500",
-    "hex": "37b0be"
+    "color": "#37b0be"
   },
   {
     "name": "cyan 600",
-    "hex": "2f97a2"
+    "color": "#2f97a2"
   },
   {
     "name": "cyan 700",
-    "hex": "29848e"
+    "color": "#29848e"
   },
   {
     "name": "cyan 800",
-    "hex": "25767e"
+    "color": "#25767e"
   },
   {
     "name": "cyan 900",
-    "hex": "1f636b"
+    "color": "#1f636b"
   },
   {
     "name": "cyan a100",
-    "hex": "9de9f1"
+    "color": "#9de9f1"
   },
   {
     "name": "cyan a200",
-    "hex": "63dbe9"
+    "color": "#63dbe9"
   },
   {
     "name": "cyan a400",
-    "hex": "1ec0d2"
+    "color": "#1ec0d2"
   },
   {
     "name": "cyan a700",
-    "hex": "189baa"
+    "color": "#189baa"
   },
   {
     "name": "teal 50",
-    "hex": "e2f3f0"
+    "color": "#e2f3f0"
   },
   {
     "name": "teal 100",
-    "hex": "c6e7e1"
+    "color": "#c6e7e1"
   },
   {
     "name": "teal 200",
-    "hex": "a2d7ce"
+    "color": "#a2d7ce"
   },
   {
     "name": "teal 300",
-    "hex": "7ec8bc"
+    "color": "#7ec8bc"
   },
   {
     "name": "teal 400",
-    "hex": "5bb9a9"
+    "color": "#5bb9a9"
   },
   {
     "name": "teal 500",
-    "hex": "46a495"
+    "color": "#46a495"
   },
   {
     "name": "teal 600",
-    "hex": "3f9284"
+    "color": "#3f9284"
   },
   {
     "name": "teal 700",
-    "hex": "378174"
+    "color": "#378174"
   },
   {
     "name": "teal 800",
-    "hex": "317267"
+    "color": "#317267"
   },
   {
     "name": "teal 900",
-    "hex": "296057"
+    "color": "#296057"
   },
   {
     "name": "teal a100",
-    "hex": "a2ebdf"
+    "color": "#a2ebdf"
   },
   {
     "name": "teal a200",
-    "hex": "6ce0cc"
+    "color": "#6ce0cc"
   },
   {
     "name": "teal a400",
-    "hex": "2ac6ac"
+    "color": "#2ac6ac"
   },
   {
     "name": "teal a700",
-    "hex": "22a08b"
+    "color": "#22a08b"
   },
   {
     "name": "green 50",
-    "hex": "ebf5eb"
+    "color": "#ebf5eb"
   },
   {
     "name": "green 100",
-    "hex": "d3e9d3"
+    "color": "#d3e9d3"
   },
   {
     "name": "green 200",
-    "hex": "b1d8b1"
+    "color": "#b1d8b1"
   },
   {
     "name": "green 300",
-    "hex": "92c892"
+    "color": "#92c892"
   },
   {
     "name": "green 400",
-    "hex": "74b974"
+    "color": "#74b974"
   },
   {
     "name": "green 500",
-    "hex": "5cad5c"
+    "color": "#5cad5c"
   },
   {
     "name": "green 600",
-    "hex": "509f50"
+    "color": "#509f50"
   },
   {
     "name": "green 700",
-    "hex": "468b46"
+    "color": "#468b46"
   },
   {
     "name": "green 800",
-    "hex": "3c773c"
+    "color": "#3c773c"
   },
   {
     "name": "green 900",
-    "hex": "336633"
+    "color": "#336633"
   },
   {
     "name": "green a100",
-    "hex": "bbedbb"
+    "color": "#bbedbb"
   },
   {
     "name": "green a200",
-    "hex": "92e292"
+    "color": "#92e292"
   },
   {
     "name": "green a400",
-    "hex": "5ad35a"
+    "color": "#5ad35a"
   },
   {
     "name": "green a700",
-    "hex": "2ca52c"
+    "color": "#2ca52c"
   },
   {
     "name": "light green 50",
-    "hex": "edf5e5"
+    "color": "#edf5e5"
   },
   {
     "name": "light green 100",
-    "hex": "e3f0d6"
+    "color": "#e3f0d6"
   },
   {
     "name": "light green 200",
-    "hex": "cfe4b9"
+    "color": "#cfe4b9"
   },
   {
     "name": "light green 300",
-    "hex": "b8d897"
+    "color": "#b8d897"
   },
   {
     "name": "light green 400",
-    "hex": "a1cb76"
+    "color": "#a1cb76"
   },
   {
     "name": "light green 500",
-    "hex": "8cc059"
+    "color": "#8cc059"
   },
   {
     "name": "light green 600",
-    "hex": "7ab143"
+    "color": "#7ab143"
   },
   {
     "name": "light green 700",
-    "hex": "73a63f"
+    "color": "#73a63f"
   },
   {
     "name": "light green 800",
-    "hex": "639037"
+    "color": "#639037"
   },
   {
     "name": "light green 900",
-    "hex": "52762d"
+    "color": "#52762d"
   },
   {
     "name": "light green a100",
-    "hex": "d9f4be"
+    "color": "#d9f4be"
   },
   {
     "name": "light green a200",
-    "hex": "bfec93"
+    "color": "#bfec93"
   },
   {
     "name": "light green a400",
-    "hex": "96e04d"
+    "color": "#96e04d"
   },
   {
     "name": "light green a700",
-    "hex": "69b21f"
+    "color": "#69b21f"
   },
   {
     "name": "lime 50",
-    "hex": "f3f7de"
+    "color": "#f3f7de"
   },
   {
     "name": "lime 100",
-    "hex": "edf3ce"
+    "color": "#edf3ce"
   },
   {
     "name": "lime 200",
-    "hex": "e2ecb1"
+    "color": "#e2ecb1"
   },
   {
     "name": "lime 300",
-    "hex": "d4e28d"
+    "color": "#d4e28d"
   },
   {
     "name": "lime 400",
-    "hex": "c6d968"
+    "color": "#c6d968"
   },
   {
     "name": "lime 500",
-    "hex": "bad147"
+    "color": "#bad147"
   },
   {
     "name": "lime 600",
-    "hex": "abc431"
+    "color": "#abc431"
   },
   {
     "name": "lime 700",
-    "hex": "a1b82e"
+    "color": "#a1b82e"
   },
   {
     "name": "lime 800",
-    "hex": "8b9f28"
+    "color": "#8b9f28"
   },
   {
     "name": "lime 900",
-    "hex": "728321"
+    "color": "#728321"
   },
   {
     "name": "lime a100",
-    "hex": "ebf6b1"
+    "color": "#ebf6b1"
   },
   {
     "name": "lime a200",
-    "hex": "dcf07a"
+    "color": "#dcf07a"
   },
   {
     "name": "lime a400",
-    "hex": "cdea3e"
+    "color": "#cdea3e"
   },
   {
     "name": "lime a700",
-    "hex": "9cb814"
+    "color": "#9cb814"
   },
   {
     "name": "yellow 50",
-    "hex": "fcfade"
+    "color": "#fcfade"
   },
   {
     "name": "yellow 100",
-    "hex": "fbf7cb"
+    "color": "#fbf7cb"
   },
   {
     "name": "yellow 200",
-    "hex": "f8f1a5"
+    "color": "#f8f1a5"
   },
   {
     "name": "yellow 300",
-    "hex": "f5ec84"
+    "color": "#f5ec84"
   },
   {
     "name": "yellow 400",
-    "hex": "f2e663"
+    "color": "#f2e663"
   },
   {
     "name": "yellow 500",
-    "hex": "f0e142"
+    "color": "#f0e142"
   },
   {
     "name": "yellow 600",
-    "hex": "eed12b"
+    "color": "#eed12b"
   },
   {
     "name": "yellow 700",
-    "hex": "ecbd13"
+    "color": "#ecbd13"
   },
   {
     "name": "yellow 800",
-    "hex": "eca713"
+    "color": "#eca713"
   },
   {
     "name": "yellow 900",
-    "hex": "ec9213"
+    "color": "#ec9213"
   },
   {
     "name": "yellow a100",
-    "hex": "fdf6aa"
+    "color": "#fdf6aa"
   },
   {
     "name": "yellow a200",
-    "hex": "fcf179"
+    "color": "#fcf179"
   },
   {
     "name": "yellow a400",
-    "hex": "fae92e"
+    "color": "#fae92e"
   },
   {
     "name": "yellow a700",
-    "hex": "f9d006"
+    "color": "#f9d006"
   },
   {
     "name": "amber 50",
-    "hex": "fcf5de"
+    "color": "#fcf5de"
   },
   {
     "name": "amber 100",
-    "hex": "fbefcb"
+    "color": "#fbefcb"
   },
   {
     "name": "amber 200",
-    "hex": "f8e3a5"
+    "color": "#f8e3a5"
   },
   {
     "name": "amber 300",
-    "hex": "f4d67b"
+    "color": "#f4d67b"
   },
   {
     "name": "amber 400",
-    "hex": "f1c950"
+    "color": "#f1c950"
   },
   {
     "name": "amber 500",
-    "hex": "eebd2b"
+    "color": "#eebd2b"
   },
   {
     "name": "amber 600",
-    "hex": "ecb613"
+    "color": "#ecb613"
   },
   {
     "name": "amber 700",
-    "hex": "eca413"
+    "color": "#eca413"
   },
   {
     "name": "amber 800",
-    "hex": "ec8e13"
+    "color": "#ec8e13"
   },
   {
     "name": "amber 900",
-    "hex": "ec7513"
+    "color": "#ec7513"
   },
   {
     "name": "amber a100",
-    "hex": "fde8aa"
+    "color": "#fde8aa"
   },
   {
     "name": "amber a200",
-    "hex": "fcdb79"
+    "color": "#fcdb79"
   },
   {
     "name": "amber a400",
-    "hex": "fac72e"
+    "color": "#fac72e"
   },
   {
     "name": "amber a700",
-    "hex": "f9b006"
+    "color": "#f9b006"
   },
   {
     "name": "orange 50",
-    "hex": "fcf0de"
+    "color": "#fcf0de"
   },
   {
     "name": "orange 100",
-    "hex": "fbe7cb"
+    "color": "#fbe7cb"
   },
   {
     "name": "orange 200",
-    "hex": "f8d5a5"
+    "color": "#f8d5a5"
   },
   {
     "name": "orange 300",
-    "hex": "f4c27b"
+    "color": "#f4c27b"
   },
   {
     "name": "orange 400",
-    "hex": "f1ae50"
+    "color": "#f1ae50"
   },
   {
     "name": "orange 500",
-    "hex": "ee9d2b"
+    "color": "#ee9d2b"
   },
   {
     "name": "orange 600",
-    "hex": "ec9213"
+    "color": "#ec9213"
   },
   {
     "name": "orange 700",
-    "hex": "ec8313"
+    "color": "#ec8313"
   },
   {
     "name": "orange 800",
-    "hex": "e27012"
+    "color": "#e27012"
   },
   {
     "name": "orange 900",
-    "hex": "d95e12"
+    "color": "#d95e12"
   },
   {
     "name": "orange a100",
-    "hex": "fddbaa"
+    "color": "#fddbaa"
   },
   {
     "name": "orange a200",
-    "hex": "fcc579"
+    "color": "#fcc579"
   },
   {
     "name": "orange a400",
-    "hex": "faa52e"
+    "color": "#faa52e"
   },
   {
     "name": "orange a700",
-    "hex": "f98006"
+    "color": "#f98006"
   },
   {
     "name": "deep orange 50",
-    "hex": "fce6de"
+    "color": "#fce6de"
   },
   {
     "name": "deep orange 100",
-    "hex": "fbd7cb"
+    "color": "#fbd7cb"
   },
   {
     "name": "deep orange 200",
-    "hex": "f8baa5"
+    "color": "#f8baa5"
   },
   {
     "name": "deep orange 300",
-    "hex": "f5a184"
+    "color": "#f5a184"
   },
   {
     "name": "deep orange 400",
-    "hex": "f28763"
+    "color": "#f28763"
   },
   {
     "name": "deep orange 500",
-    "hex": "f06e42"
+    "color": "#f06e42"
   },
   {
     "name": "deep orange 600",
-    "hex": "ed5421"
+    "color": "#ed5421"
   },
   {
     "name": "deep orange 700",
-    "hex": "e24612"
+    "color": "#e24612"
   },
   {
     "name": "deep orange 800",
-    "hex": "cb3910"
+    "color": "#cb3910"
   },
   {
     "name": "deep orange 900",
-    "hex": "b82e0f"
+    "color": "#b82e0f"
   },
   {
     "name": "deep orange a100",
-    "hex": "fdc7b4"
+    "color": "#fdc7b4"
   },
   {
     "name": "deep orange a200",
-    "hex": "fca88d"
+    "color": "#fca88d"
   },
   {
     "name": "deep orange a400",
-    "hex": "fa7447"
+    "color": "#fa7447"
   },
   {
     "name": "deep orange a700",
-    "hex": "ef4006"
+    "color": "#ef4006"
   },
   {
     "name": "brown 50",
-    "hex": "f1ebea"
+    "color": "#f1ebea"
   },
   {
     "name": "brown 100",
-    "hex": "e4dbd7"
+    "color": "#e4dbd7"
   },
   {
     "name": "brown 200",
-    "hex": "c6b0a9"
+    "color": "#c6b0a9"
   },
   {
     "name": "brown 300",
-    "hex": "af9288"
+    "color": "#af9288"
   },
   {
     "name": "brown 400",
-    "hex": "997366"
+    "color": "#997366"
   },
   {
     "name": "brown 500",
-    "hex": "7a5c52"
+    "color": "#7a5c52"
   },
   {
     "name": "brown 600",
-    "hex": "6b5047"
+    "color": "#6b5047"
   },
   {
     "name": "brown 700",
-    "hex": "5c453d"
+    "color": "#5c453d"
   },
   {
     "name": "brown 800",
-    "hex": "4d3933"
+    "color": "#4d3933"
   },
   {
     "name": "brown 900",
-    "hex": "3d2e29"
+    "color": "#3d2e29"
   },
   {
     "name": "grey 50",
-    "hex": "fafafa"
+    "color": "#fafafa"
   },
   {
     "name": "grey 100",
-    "hex": "f5f5f5"
+    "color": "#f5f5f5"
   },
   {
     "name": "grey 200",
-    "hex": "ededed"
+    "color": "#ededed"
   },
   {
     "name": "grey 300",
-    "hex": "e0e0e0"
+    "color": "#e0e0e0"
   },
   {
     "name": "grey 400",
-    "hex": "bdbdbd"
+    "color": "#bdbdbd"
   },
   {
     "name": "grey 500",
-    "hex": "9e9e9e"
+    "color": "#9e9e9e"
   },
   {
     "name": "grey 600",
-    "hex": "757575"
+    "color": "#757575"
   },
   {
     "name": "grey 700",
-    "hex": "616161"
+    "color": "#616161"
   },
   {
     "name": "grey 800",
-    "hex": "424242"
+    "color": "#424242"
   },
   {
     "name": "grey 900",
-    "hex": "212121"
+    "color": "#212121"
   },
   {
     "name": "blue grey 50",
-    "hex": "eef0f2"
+    "color": "#eef0f2"
   },
   {
     "name": "blue grey 100",
-    "hex": "d1d8dc"
+    "color": "#d1d8dc"
   },
   {
     "name": "blue grey 200",
-    "hex": "b1bdc3"
+    "color": "#b1bdc3"
   },
   {
     "name": "blue grey 300",
-    "hex": "92a2ab"
+    "color": "#92a2ab"
   },
   {
     "name": "blue grey 400",
-    "hex": "7a8f99"
+    "color": "#7a8f99"
   },
   {
     "name": "blue grey 500",
-    "hex": "667a85"
+    "color": "#667a85"
   },
   {
     "name": "blue grey 600",
-    "hex": "596a73"
+    "color": "#596a73"
   },
   {
     "name": "blue grey 700",
-    "hex": "49585f"
+    "color": "#49585f"
   },
   {
     "name": "blue grey 800",
-    "hex": "3a454b"
+    "color": "#3a454b"
   },
   {
     "name": "blue grey 900",
-    "hex": "283034"
+    "color": "#283034"
   },
   {
     "name": "black",
-    "hex": "000000"
+    "color": "black"
   },
   {
     "name": "white",
-    "hex": "ffffff"
+    "color": "white"
   }
 ]

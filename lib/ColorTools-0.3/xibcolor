@@ -1,0 +1,108 @@
+#!/usr/bin/env python
+#
+# Storyboard/xib (xml based) search and replace colors
+#
+
+import sys
+from xml.dom.minidom import parse
+
+
+# <color key="titleColor" red="0.30196079609999998" green="0.30196079609999998" blue="0.30196079609999998" alpha="1" colorSpace="calibratedRGB"/>
+
+def clamp(x): 
+    return max(0, min(int(round(x)), 255))
+
+def argbtohex(a, r, g, b):
+  return "#{0:02x}{1:02x}{2:02x}{3:02x}".format(clamp(255.0*a), clamp(255.0*r), clamp(255.0*g), clamp(255.0*b))
+
+def hextoargb(hx):
+  if hx[0] == '#':
+    hx = hx[1:]
+  result = tuple(ord(c)/255.0 for c in hx.decode('hex'))
+  if len(hx) == 6:
+    result = (1.0,) + result # Add alpha of 1.0 
+  return result
+
+def listcolors(dom):
+  allcolors = []
+  for node in dom.getElementsByTagName('color'):  # visit every node <bar />
+    colsp = node.getAttribute('colorSpace')
+    if colsp == 'calibratedRGB' or colsp == 'deviceRGB':
+      red = node.getAttribute('red')
+      green = node.getAttribute('green')
+      blue = node.getAttribute('blue')
+      alpha = node.getAttribute('alpha')
+      hexv = argbtohex(float(alpha), float(red), float(green), float(blue))
+      allcolors.append(hexv)
+  for col in set(allcolors):
+    print col
+
+def replacecolor(dom, fromcol, tocol):
+  didreplace = False
+  (toa, tor, tog, tob) = hextoargb(tocol)
+  for node in dom.getElementsByTagName('color'):  # visit every node <bar />
+    colsp = node.getAttribute('colorSpace')
+    if colsp == 'calibratedRGB' or colsp == 'deviceRGB':
+      red = node.getAttribute('red')
+      green = node.getAttribute('green')
+      blue = node.getAttribute('blue')
+      alpha = node.getAttribute('alpha')
+      hexv = argbtohex(float(alpha), float(red), float(green), float(blue)) 
+      if not fromcol:
+        print hexv
+      if fromcol and hexv == fromcol.lower():
+        node.setAttribute('red', str(tor))
+        node.setAttribute('green', str(tog))
+        node.setAttribute('blue', str(tob))
+        node.setAttribute('alpha', str(toa))
+        didreplace = True
+  return didreplace
+
+def usage():
+  print "usage:"
+  print "xibcolor file [-l|replacements|[\"#fromcolor\" \"#tocolor\"]]"
+  print "file          a .storyboard or xib in new XML format"
+  print "-l            list colors present in the file"
+  print "replacements  a file consisting of pairs of hex-coded from->to colors"
+  print "#color        a pair of colors to replace" 
+  sys.exit(0)
+
+if len(sys.argv) == 1:
+  usage()
+
+if len(sys.argv) == 2 and sys.argv[1] == '-h':
+  usage()
+
+xibOrStoryboard = sys.argv[1]
+
+dom = parse(xibOrStoryboard)
+
+if dom is None:
+  print "Cannot open %s" % xibOrStoryboard
+  usage()
+
+if len(sys.argv) == 3 and sys.argv[2] == '-l':
+  listcolors(dom)
+elif len(sys.argv) == 3 and sys.argv[2] != '-l':
+  with open(sys.argv[2], 'r') as colors:
+    countOfReplacements = 0
+    for line in colors:
+      if len(line) > 0:
+        (fcol,tocol,) = line.split()
+	countOfReplacements += replacecolor(dom, fcol, tocol)
+    if countOfReplacements > 0:
+      with open(sys.argv[1], 'w') as ofile:
+        ofile.write(dom.toxml().encode('utf-8'))
+      print "%d colors replaced in %s" % (countOfReplacements, xibOrStoryboard)
+    else:
+      print "No colors were replaced in %s" % xibOrStoryboard
+elif len(sys.argv) == 4:
+  fromcol = sys.argv[2]
+  tocol = sys.argv[3]
+  print "From: %s to: %s" % (fromcol, tocol)
+  if replacecolor(dom, fromcol, tocol): 
+    with open('out.storyboard', 'w') as ofile:
+      ofile.write(dom.toxml().encode('utf-8'))
+else:
+  usage()
+
