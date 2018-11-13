@@ -1,4 +1,4 @@
-.pallet-stylus {
+.palette-stylus {
   width: 248px;
   width: 72px;
   margin-bottom: 32px;
@@ -8,998 +8,998 @@
   text-transform: uppercase;
   overflow: hidden;
 }
-.pallet-stylus .bar {
+.palette-stylus .bar {
   padding: 6px 12px;
   white-space: nowrap;
   overflow: hidden;
 }
-.pallet-stylus .bar .texts {
+.palette-stylus .bar .texts {
   opacity: 0;
 }
-.pallet-stylus .bar.is-cut + .bar {
+.palette-stylus .bar.is-cut + .bar {
   margin-top: 4px;
 }
-.pallet-stylus .bar:nth-child(12) {
+.palette-stylus .bar:nth-child(12) {
   margin-top: 4px;
 }
-.pallet-stylus.is-red .bar:first-child {
+.palette-stylus.is-red .bar:first-child {
   background: #db5757;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(2) {
+.palette-stylus.is-red .bar:nth-child(2) {
   background: #fbeaea;
 }
-.pallet-stylus.is-red .bar:nth-child(3) {
+.palette-stylus.is-red .bar:nth-child(3) {
   background: #f5d1d1;
 }
-.pallet-stylus.is-red .bar:nth-child(4) {
+.palette-stylus.is-red .bar:nth-child(4) {
   background: #eeafaf;
 }
-.pallet-stylus.is-red .bar:nth-child(5) {
+.palette-stylus.is-red .bar:nth-child(5) {
   background: #e89292;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(6) {
+.palette-stylus.is-red .bar:nth-child(6) {
   background: #e27474;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(7) {
+.palette-stylus.is-red .bar:nth-child(7) {
   background: #db5757;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(8) {
+.palette-stylus.is-red .bar:nth-child(8) {
   background: #d53939;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(9) {
+.palette-stylus.is-red .bar:nth-child(9) {
   background: #c22929;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(10) {
+.palette-stylus.is-red .bar:nth-child(10) {
   background: #a42323;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(11) {
+.palette-stylus.is-red .bar:nth-child(11) {
   background: #871d1d;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(12) {
+.palette-stylus.is-red .bar:nth-child(12) {
   background: #fbb6b6;
 }
-.pallet-stylus.is-red .bar:nth-child(13) {
+.palette-stylus.is-red .bar:nth-child(13) {
   background: #f99090;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(14) {
+.palette-stylus.is-red .bar:nth-child(14) {
   background: #f64c4c;
   color: #fff;
 }
-.pallet-stylus.is-red .bar:nth-child(15) {
+.palette-stylus.is-red .bar:nth-child(15) {
   background: #cb0b0b;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:first-child {
+.palette-stylus.is-pink .bar:first-child {
   background: #d14775;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(2) {
+.palette-stylus.is-pink .bar:nth-child(2) {
   background: #f8e2ea;
 }
-.pallet-stylus.is-pink .bar:nth-child(3) {
+.palette-stylus.is-pink .bar:nth-child(3) {
   background: #f4d2dd;
 }
-.pallet-stylus.is-pink .bar:nth-child(4) {
+.palette-stylus.is-pink .bar:nth-child(4) {
   background: #ecb1c5;
 }
-.pallet-stylus.is-pink .bar:nth-child(5) {
+.palette-stylus.is-pink .bar:nth-child(5) {
   background: #e28da9;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(6) {
+.palette-stylus.is-pink .bar:nth-child(6) {
   background: #d9688e;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(7) {
+.palette-stylus.is-pink .bar:nth-child(7) {
   background: #d14775;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(8) {
+.palette-stylus.is-pink .bar:nth-child(8) {
   background: #c36;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(9) {
+.palette-stylus.is-pink .bar:nth-child(9) {
   background: #b82e5c;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(10) {
+.palette-stylus.is-pink .bar:nth-child(10) {
   background: #9f2850;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(11) {
+.palette-stylus.is-pink .bar:nth-child(11) {
   background: #832141;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(12) {
+.palette-stylus.is-pink .bar:nth-child(12) {
   background: #f9b8ce;
 }
-.pallet-stylus.is-pink .bar:nth-child(13) {
+.palette-stylus.is-pink .bar:nth-child(13) {
   background: #f692b4;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(14) {
+.palette-stylus.is-pink .bar:nth-child(14) {
   background: #ef3e79;
   color: #fff;
 }
-.pallet-stylus.is-pink .bar:nth-child(15) {
+.palette-stylus.is-pink .bar:nth-child(15) {
   background: #c1104b;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:first-child {
+.palette-stylus.is-purple .bar:first-child {
   background: #8f489d;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(2) {
+.palette-stylus.is-purple .bar:nth-child(2) {
   background: #f0e3f2;
 }
-.pallet-stylus.is-purple .bar:nth-child(3) {
+.palette-stylus.is-purple .bar:nth-child(3) {
   background: #e4cee9;
 }
-.pallet-stylus.is-purple .bar:nth-child(4) {
+.palette-stylus.is-purple .bar:nth-child(4) {
   background: #cda4d5;
 }
-.pallet-stylus.is-purple .bar:nth-child(5) {
+.palette-stylus.is-purple .bar:nth-child(5) {
   background: #b67ac2;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(6) {
+.palette-stylus.is-purple .bar:nth-child(6) {
   background: #a357b2;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(7) {
+.palette-stylus.is-purple .bar:nth-child(7) {
   background: #8f489d;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(8) {
+.palette-stylus.is-purple .bar:nth-child(8) {
   background: #793d85;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(9) {
+.palette-stylus.is-purple .bar:nth-child(9) {
   background: #693573;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(10) {
+.palette-stylus.is-purple .bar:nth-child(10) {
   background: #5c2f65;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(11) {
+.palette-stylus.is-purple .bar:nth-child(11) {
   background: #4f2857;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(12) {
+.palette-stylus.is-purple .bar:nth-child(12) {
   background: #e3b7eb;
 }
-.pallet-stylus.is-purple .bar:nth-child(13) {
+.palette-stylus.is-purple .bar:nth-child(13) {
   background: #d087de;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(14) {
+.palette-stylus.is-purple .bar:nth-child(14) {
   background: #b33fca;
   color: #fff;
 }
-.pallet-stylus.is-purple .bar:nth-child(15) {
+.palette-stylus.is-purple .bar:nth-child(15) {
   background: #822994;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:first-child {
+.palette-stylus.is-deep-purple .bar:first-child {
   background: #7359a6;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(2) {
+.palette-stylus.is-deep-purple .bar:nth-child(2) {
   background: #e9e4f1;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(3) {
+.palette-stylus.is-deep-purple .bar:nth-child(3) {
   background: #d5cde4;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(4) {
+.palette-stylus.is-deep-purple .bar:nth-child(4) {
   background: #b9acd2;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(5) {
+.palette-stylus.is-deep-purple .bar:nth-child(5) {
   background: #a08ec2;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(6) {
+.palette-stylus.is-deep-purple .bar:nth-child(6) {
   background: #8670b2;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(7) {
+.palette-stylus.is-deep-purple .bar:nth-child(7) {
   background: #7359a6;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(8) {
+.palette-stylus.is-deep-purple .bar:nth-child(8) {
   background: #675095;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(9) {
+.palette-stylus.is-deep-purple .bar:nth-child(9) {
   background: #5a4681;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(10) {
+.palette-stylus.is-deep-purple .bar:nth-child(10) {
   background: #4c3b6d;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(11) {
+.palette-stylus.is-deep-purple .bar:nth-child(11) {
   background: #40325d;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(12) {
+.palette-stylus.is-deep-purple .bar:nth-child(12) {
   background: #c6b4e9;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(13) {
+.palette-stylus.is-deep-purple .bar:nth-child(13) {
   background: #a78cde;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(14) {
+.palette-stylus.is-deep-purple .bar:nth-child(14) {
   background: #7d55ce;
   color: #fff;
 }
-.pallet-stylus.is-deep-purple .bar:nth-child(15) {
+.palette-stylus.is-deep-purple .bar:nth-child(15) {
   background: #5e34b2;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:first-child {
+.palette-stylus.is-indigo .bar:first-child {
   background: #5d69a8;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(2) {
+.palette-stylus.is-indigo .bar:nth-child(2) {
   background: #e4e7f1;
 }
-.pallet-stylus.is-indigo .bar:nth-child(3) {
+.palette-stylus.is-indigo .bar:nth-child(3) {
   background: #cdd1e4;
 }
-.pallet-stylus.is-indigo .bar:nth-child(4) {
+.palette-stylus.is-indigo .bar:nth-child(4) {
   background: #acb3d2;
 }
-.pallet-stylus.is-indigo .bar:nth-child(5) {
+.palette-stylus.is-indigo .bar:nth-child(5) {
   background: #8b94c1;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(6) {
+.palette-stylus.is-indigo .bar:nth-child(6) {
   background: #707bb2;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(7) {
+.palette-stylus.is-indigo .bar:nth-child(7) {
   background: #5d69a8;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(8) {
+.palette-stylus.is-indigo .bar:nth-child(8) {
   background: #505c95;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(9) {
+.palette-stylus.is-indigo .bar:nth-child(9) {
   background: #475285;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(10) {
+.palette-stylus.is-indigo .bar:nth-child(10) {
   background: #3d4571;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(11) {
+.palette-stylus.is-indigo .bar:nth-child(11) {
   background: #343b60;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(12) {
+.palette-stylus.is-indigo .bar:nth-child(12) {
   background: #a8b2e6;
 }
-.pallet-stylus.is-indigo .bar:nth-child(13) {
+.palette-stylus.is-indigo .bar:nth-child(13) {
   background: #7989d8;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(14) {
+.palette-stylus.is-indigo .bar:nth-child(14) {
   background: #5166cd;
   color: #fff;
 }
-.pallet-stylus.is-indigo .bar:nth-child(15) {
+.palette-stylus.is-indigo .bar:nth-child(15) {
   background: #364cba;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:first-child {
+.palette-stylus.is-blue .bar:first-child {
   background: #4b9bd8;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(2) {
+.palette-stylus.is-blue .bar:nth-child(2) {
   background: #deecf8;
 }
-.pallet-stylus.is-blue .bar:nth-child(3) {
+.palette-stylus.is-blue .bar:nth-child(3) {
   background: #c0dcf1;
 }
-.pallet-stylus.is-blue .bar:nth-child(4) {
+.palette-stylus.is-blue .bar:nth-child(4) {
   background: #a3cceb;
 }
-.pallet-stylus.is-blue .bar:nth-child(5) {
+.palette-stylus.is-blue .bar:nth-child(5) {
   background: #82b9e3;
 }
-.pallet-stylus.is-blue .bar:nth-child(6) {
+.palette-stylus.is-blue .bar:nth-child(6) {
   background: #68abde;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(7) {
+.palette-stylus.is-blue .bar:nth-child(7) {
   background: #4b9bd8;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(8) {
+.palette-stylus.is-blue .bar:nth-child(8) {
   background: #2e8ad1;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(9) {
+.palette-stylus.is-blue .bar:nth-child(9) {
   background: #2777b4;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(10) {
+.palette-stylus.is-blue .bar:nth-child(10) {
   background: #216497;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(11) {
+.palette-stylus.is-blue .bar:nth-child(11) {
   background: #1c537d;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(12) {
+.palette-stylus.is-blue .bar:nth-child(12) {
   background: #96cdf8;
 }
-.pallet-stylus.is-blue .bar:nth-child(13) {
+.palette-stylus.is-blue .bar:nth-child(13) {
   background: #66b7f4;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(14) {
+.palette-stylus.is-blue .bar:nth-child(14) {
   background: #2497f0;
   color: #fff;
 }
-.pallet-stylus.is-blue .bar:nth-child(15) {
+.palette-stylus.is-blue .bar:nth-child(15) {
   background: #0d72bf;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:first-child {
+.palette-stylus.is-light-blue .bar:first-child {
   background: #37add7;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(2) {
+.palette-stylus.is-light-blue .bar:nth-child(2) {
   background: #ddf1f8;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(3) {
+.palette-stylus.is-light-blue .bar:nth-child(3) {
   background: #bfe5f2;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(4) {
+.palette-stylus.is-light-blue .bar:nth-child(4) {
   background: #9dd7ec;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(5) {
+.palette-stylus.is-light-blue .bar:nth-child(5) {
   background: #77c7e4;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(6) {
+.palette-stylus.is-light-blue .bar:nth-child(6) {
   background: #5dbcdf;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(7) {
+.palette-stylus.is-light-blue .bar:nth-child(7) {
   background: #37add7;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(8) {
+.palette-stylus.is-light-blue .bar:nth-child(8) {
   background: #279ac4;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(9) {
+.palette-stylus.is-light-blue .bar:nth-child(9) {
   background: #2286aa;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(10) {
+.palette-stylus.is-light-blue .bar:nth-child(10) {
   background: #1d7291;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(11) {
+.palette-stylus.is-light-blue .bar:nth-child(11) {
   background: #196480;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(12) {
+.palette-stylus.is-light-blue .bar:nth-child(12) {
   background: #96def8;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(13) {
+.palette-stylus.is-light-blue .bar:nth-child(13) {
   background: #58caf3;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(14) {
+.palette-stylus.is-light-blue .bar:nth-child(14) {
   background: #15b5ef;
   color: #fff;
 }
-.pallet-stylus.is-light-blue .bar:nth-child(15) {
+.palette-stylus.is-light-blue .bar:nth-child(15) {
   background: #0d8fbf;
   color: #fff;
 }
-.pallet-stylus.is-cyan .bar:first-child {
+.palette-stylus.is-cyan .bar:first-child {
   background: #37b0be;
   color: #fff;
 }
-.pallet-stylus.is-cyan .bar:nth-child(2) {
+.palette-stylus.is-cyan .bar:nth-child(2) {
   background: #dff4f6;
 }
-.pallet-stylus.is-cyan .bar:nth-child(3) {
+.palette-stylus.is-cyan .bar:nth-child(3) {
   background: #c4eaee;
 }
-.pallet-stylus.is-cyan .bar:nth-child(4) {
+.palette-stylus.is-cyan .bar:nth-child(4) {
   background: #9cdbe2;
 }
-.pallet-stylus.is-cyan .bar:nth-child(5) {
+.palette-stylus.is-cyan .bar:nth-child(5) {
   background: #75cdd7;
 }
-.pallet-stylus.is-cyan .bar:nth-child(6) {
+.palette-stylus.is-cyan .bar:nth-child(6) {
   background: #4dbfcb;
   color: #fff;
 }
-.pallet-stylus.is-cyan .bar:nth-child(7) {
+.palette-stylus.is-cyan .bar:nth-child(7) {
   background: #37b0be;
   color: #fff;
 }
-.pallet-stylus.is-cyan .bar:nth-child(8) {
+.palette-stylus.is-cyan .bar:nth-child(8) {
   background: #2f97a2;
   color: #fff;
 }
-.pallet-stylus.is-cyan .bar:nth-child(9) {
+.palette-stylus.is-cyan .bar:nth-child(9) {
   background: #29848e;
   color: #fff;
 }
-.pallet-stylus.is-cyan .bar:nth-child(10) {
+.palette-stylus.is-cyan .bar:nth-child(10) {
   background: #25767e;
   color: #fff;
 }
-.pallet-stylus.is-cyan .bar:nth-child(11) {
+.palette-stylus.is-cyan .bar:nth-child(11) {
   background: #1f636b;
   color: #fff;
 }
-.pallet-stylus.is-cyan .bar:nth-child(12) {
+.palette-stylus.is-cyan .bar:nth-child(12) {
   background: #9de9f1;
 }
-.pallet-stylus.is-cyan .bar:nth-child(13) {
+.palette-stylus.is-cyan .bar:nth-child(13) {
   background: #63dbe9;
 }
-.pallet-stylus.is-cyan .bar:nth-child(14) {
+.palette-stylus.is-cyan .bar:nth-child(14) {
   background: #1ec0d2;
 }
-.pallet-stylus.is-cyan .bar:nth-child(15) {
+.palette-stylus.is-cyan .bar:nth-child(15) {
   background: #189baa;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:first-child {
+.palette-stylus.is-teal .bar:first-child {
   background: #46a495;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:nth-child(2) {
+.palette-stylus.is-teal .bar:nth-child(2) {
   background: #e2f3f0;
 }
-.pallet-stylus.is-teal .bar:nth-child(3) {
+.palette-stylus.is-teal .bar:nth-child(3) {
   background: #c6e7e1;
 }
-.pallet-stylus.is-teal .bar:nth-child(4) {
+.palette-stylus.is-teal .bar:nth-child(4) {
   background: #a2d7ce;
 }
-.pallet-stylus.is-teal .bar:nth-child(5) {
+.palette-stylus.is-teal .bar:nth-child(5) {
   background: #7ec8bc;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:nth-child(6) {
+.palette-stylus.is-teal .bar:nth-child(6) {
   background: #5bb9a9;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:nth-child(7) {
+.palette-stylus.is-teal .bar:nth-child(7) {
   background: #46a495;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:nth-child(8) {
+.palette-stylus.is-teal .bar:nth-child(8) {
   background: #3f9284;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:nth-child(9) {
+.palette-stylus.is-teal .bar:nth-child(9) {
   background: #378174;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:nth-child(10) {
+.palette-stylus.is-teal .bar:nth-child(10) {
   background: #317267;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:nth-child(11) {
+.palette-stylus.is-teal .bar:nth-child(11) {
   background: #296057;
   color: #fff;
 }
-.pallet-stylus.is-teal .bar:nth-child(12) {
+.palette-stylus.is-teal .bar:nth-child(12) {
   background: #a2ebdf;
 }
-.pallet-stylus.is-teal .bar:nth-child(13) {
+.palette-stylus.is-teal .bar:nth-child(13) {
   background: #6ce0cc;
 }
-.pallet-stylus.is-teal .bar:nth-child(14) {
+.palette-stylus.is-teal .bar:nth-child(14) {
   background: #2ac6ac;
 }
-.pallet-stylus.is-teal .bar:nth-child(15) {
+.palette-stylus.is-teal .bar:nth-child(15) {
   background: #22a08b;
   color: #fff;
 }
-.pallet-stylus.is-green .bar:first-child {
+.palette-stylus.is-green .bar:first-child {
   background: #5cad5c;
   color: #fff;
 }
-.pallet-stylus.is-green .bar:nth-child(2) {
+.palette-stylus.is-green .bar:nth-child(2) {
   background: #ebf5eb;
 }
-.pallet-stylus.is-green .bar:nth-child(3) {
+.palette-stylus.is-green .bar:nth-child(3) {
   background: #d3e9d3;
 }
-.pallet-stylus.is-green .bar:nth-child(4) {
+.palette-stylus.is-green .bar:nth-child(4) {
   background: #b1d8b1;
 }
-.pallet-stylus.is-green .bar:nth-child(5) {
+.palette-stylus.is-green .bar:nth-child(5) {
   background: #92c892;
 }
-.pallet-stylus.is-green .bar:nth-child(6) {
+.palette-stylus.is-green .bar:nth-child(6) {
   background: #74b974;
   color: #fff;
 }
-.pallet-stylus.is-green .bar:nth-child(7) {
+.palette-stylus.is-green .bar:nth-child(7) {
   background: #5cad5c;
   color: #fff;
 }
-.pallet-stylus.is-green .bar:nth-child(8) {
+.palette-stylus.is-green .bar:nth-child(8) {
   background: #509f50;
   color: #fff;
 }
-.pallet-stylus.is-green .bar:nth-child(9) {
+.palette-stylus.is-green .bar:nth-child(9) {
   background: #468b46;
   color: #fff;
 }
-.pallet-stylus.is-green .bar:nth-child(10) {
+.palette-stylus.is-green .bar:nth-child(10) {
   background: #3c773c;
   color: #fff;
 }
-.pallet-stylus.is-green .bar:nth-child(11) {
+.palette-stylus.is-green .bar:nth-child(11) {
   background: #363;
   color: #fff;
 }
-.pallet-stylus.is-green .bar:nth-child(12) {
+.palette-stylus.is-green .bar:nth-child(12) {
   background: #bbedbb;
 }
-.pallet-stylus.is-green .bar:nth-child(13) {
+.palette-stylus.is-green .bar:nth-child(13) {
   background: #92e292;
 }
-.pallet-stylus.is-green .bar:nth-child(14) {
+.palette-stylus.is-green .bar:nth-child(14) {
   background: #5ad35a;
 }
-.pallet-stylus.is-green .bar:nth-child(15) {
+.palette-stylus.is-green .bar:nth-child(15) {
   background: #2ca52c;
   color: #fff;
 }
-.pallet-stylus.is-light-green .bar:first-child {
+.palette-stylus.is-light-green .bar:first-child {
   background: #8cc059;
   color: #fff;
 }
-.pallet-stylus.is-light-green .bar:nth-child(2) {
+.palette-stylus.is-light-green .bar:nth-child(2) {
   background: #edf5e5;
 }
-.pallet-stylus.is-light-green .bar:nth-child(3) {
+.palette-stylus.is-light-green .bar:nth-child(3) {
   background: #e3f0d6;
 }
-.pallet-stylus.is-light-green .bar:nth-child(4) {
+.palette-stylus.is-light-green .bar:nth-child(4) {
   background: #cfe4b9;
 }
-.pallet-stylus.is-light-green .bar:nth-child(5) {
+.palette-stylus.is-light-green .bar:nth-child(5) {
   background: #b8d897;
 }
-.pallet-stylus.is-light-green .bar:nth-child(6) {
+.palette-stylus.is-light-green .bar:nth-child(6) {
   background: #a1cb76;
 }
-.pallet-stylus.is-light-green .bar:nth-child(7) {
+.palette-stylus.is-light-green .bar:nth-child(7) {
   background: #8cc059;
   color: #fff;
 }
-.pallet-stylus.is-light-green .bar:nth-child(8) {
+.palette-stylus.is-light-green .bar:nth-child(8) {
   background: #7ab143;
   color: #fff;
 }
-.pallet-stylus.is-light-green .bar:nth-child(9) {
+.palette-stylus.is-light-green .bar:nth-child(9) {
   background: #73a63f;
   color: #fff;
 }
-.pallet-stylus.is-light-green .bar:nth-child(10) {
+.palette-stylus.is-light-green .bar:nth-child(10) {
   background: #639037;
   color: #fff;
 }
-.pallet-stylus.is-light-green .bar:nth-child(11) {
+.palette-stylus.is-light-green .bar:nth-child(11) {
   background: #52762d;
   color: #fff;
 }
-.pallet-stylus.is-light-green .bar:nth-child(12) {
+.palette-stylus.is-light-green .bar:nth-child(12) {
   background: #d9f4be;
 }
-.pallet-stylus.is-light-green .bar:nth-child(13) {
+.palette-stylus.is-light-green .bar:nth-child(13) {
   background: #bfec93;
 }
-.pallet-stylus.is-light-green .bar:nth-child(14) {
+.palette-stylus.is-light-green .bar:nth-child(14) {
   background: #96e04d;
 }
-.pallet-stylus.is-light-green .bar:nth-child(15) {
+.palette-stylus.is-light-green .bar:nth-child(15) {
   background: #69b21f;
   color: #fff;
 }
-.pallet-stylus.is-lime .bar:first-child {
+.palette-stylus.is-lime .bar:first-child {
   background: #bad147;
 }
-.pallet-stylus.is-lime .bar:nth-child(2) {
+.palette-stylus.is-lime .bar:nth-child(2) {
   background: #f3f7de;
 }
-.pallet-stylus.is-lime .bar:nth-child(3) {
+.palette-stylus.is-lime .bar:nth-child(3) {
   background: #edf3ce;
 }
-.pallet-stylus.is-lime .bar:nth-child(4) {
+.palette-stylus.is-lime .bar:nth-child(4) {
   background: #e2ecb1;
 }
-.pallet-stylus.is-lime .bar:nth-child(5) {
+.palette-stylus.is-lime .bar:nth-child(5) {
   background: #d4e28d;
 }
-.pallet-stylus.is-lime .bar:nth-child(6) {
+.palette-stylus.is-lime .bar:nth-child(6) {
   background: #c6d968;
 }
-.pallet-stylus.is-lime .bar:nth-child(7) {
+.palette-stylus.is-lime .bar:nth-child(7) {
   background: #bad147;
 }
-.pallet-stylus.is-lime .bar:nth-child(8) {
+.palette-stylus.is-lime .bar:nth-child(8) {
   background: #abc431;
   color: #fff;
 }
-.pallet-stylus.is-lime .bar:nth-child(9) {
+.palette-stylus.is-lime .bar:nth-child(9) {
   background: #a1b82e;
   color: #fff;
 }
-.pallet-stylus.is-lime .bar:nth-child(10) {
+.palette-stylus.is-lime .bar:nth-child(10) {
   background: #8b9f28;
   color: #fff;
 }
-.pallet-stylus.is-lime .bar:nth-child(11) {
+.palette-stylus.is-lime .bar:nth-child(11) {
   background: #728321;
   color: #fff;
 }
-.pallet-stylus.is-lime .bar:nth-child(12) {
+.palette-stylus.is-lime .bar:nth-child(12) {
   background: #ebf6b1;
 }
-.pallet-stylus.is-lime .bar:nth-child(13) {
+.palette-stylus.is-lime .bar:nth-child(13) {
   background: #dcf07a;
 }
-.pallet-stylus.is-lime .bar:nth-child(14) {
+.palette-stylus.is-lime .bar:nth-child(14) {
   background: #cdea3e;
 }
-.pallet-stylus.is-lime .bar:nth-child(15) {
+.palette-stylus.is-lime .bar:nth-child(15) {
   background: #9cb814;
 }
-.pallet-stylus.is-yellow .bar:first-child {
+.palette-stylus.is-yellow .bar:first-child {
   background: #f0e142;
 }
-.pallet-stylus.is-yellow .bar:nth-child(2) {
+.palette-stylus.is-yellow .bar:nth-child(2) {
   background: #fcfade;
 }
-.pallet-stylus.is-yellow .bar:nth-child(3) {
+.palette-stylus.is-yellow .bar:nth-child(3) {
   background: #fbf7cb;
 }
-.pallet-stylus.is-yellow .bar:nth-child(4) {
+.palette-stylus.is-yellow .bar:nth-child(4) {
   background: #f8f1a5;
 }
-.pallet-stylus.is-yellow .bar:nth-child(5) {
+.palette-stylus.is-yellow .bar:nth-child(5) {
   background: #f5ec84;
 }
-.pallet-stylus.is-yellow .bar:nth-child(6) {
+.palette-stylus.is-yellow .bar:nth-child(6) {
   background: #f2e663;
 }
-.pallet-stylus.is-yellow .bar:nth-child(7) {
+.palette-stylus.is-yellow .bar:nth-child(7) {
   background: #f0e142;
 }
-.pallet-stylus.is-yellow .bar:nth-child(8) {
+.palette-stylus.is-yellow .bar:nth-child(8) {
   background: #eed12b;
 }
-.pallet-stylus.is-yellow .bar:nth-child(9) {
+.palette-stylus.is-yellow .bar:nth-child(9) {
   background: #ecbd13;
 }
-.pallet-stylus.is-yellow .bar:nth-child(10) {
+.palette-stylus.is-yellow .bar:nth-child(10) {
   background: #eca713;
 }
-.pallet-stylus.is-yellow .bar:nth-child(11) {
+.palette-stylus.is-yellow .bar:nth-child(11) {
   background: #ec9213;
   color: #fff;
 }
-.pallet-stylus.is-yellow .bar:nth-child(12) {
+.palette-stylus.is-yellow .bar:nth-child(12) {
   background: #fdf6aa;
 }
-.pallet-stylus.is-yellow .bar:nth-child(13) {
+.palette-stylus.is-yellow .bar:nth-child(13) {
   background: #fcf179;
 }
-.pallet-stylus.is-yellow .bar:nth-child(14) {
+.palette-stylus.is-yellow .bar:nth-child(14) {
   background: #fae92e;
 }
-.pallet-stylus.is-yellow .bar:nth-child(15) {
+.palette-stylus.is-yellow .bar:nth-child(15) {
   background: #f9d006;
 }
-.pallet-stylus.is-amber .bar:first-child {
+.palette-stylus.is-amber .bar:first-child {
   background: #eebd2b;
 }
-.pallet-stylus.is-amber .bar:nth-child(2) {
+.palette-stylus.is-amber .bar:nth-child(2) {
   background: #fcf5de;
 }
-.pallet-stylus.is-amber .bar:nth-child(3) {
+.palette-stylus.is-amber .bar:nth-child(3) {
   background: #fbefcb;
 }
-.pallet-stylus.is-amber .bar:nth-child(4) {
+.palette-stylus.is-amber .bar:nth-child(4) {
   background: #f8e3a5;
 }
-.pallet-stylus.is-amber .bar:nth-child(5) {
+.palette-stylus.is-amber .bar:nth-child(5) {
   background: #f4d67b;
 }
-.pallet-stylus.is-amber .bar:nth-child(6) {
+.palette-stylus.is-amber .bar:nth-child(6) {
   background: #f1c950;
 }
-.pallet-stylus.is-amber .bar:nth-child(7) {
+.palette-stylus.is-amber .bar:nth-child(7) {
   background: #eebd2b;
 }
-.pallet-stylus.is-amber .bar:nth-child(8) {
+.palette-stylus.is-amber .bar:nth-child(8) {
   background: #ecb613;
 }
-.pallet-stylus.is-amber .bar:nth-child(9) {
+.palette-stylus.is-amber .bar:nth-child(9) {
   background: #eca413;
   color: #fff;
 }
-.pallet-stylus.is-amber .bar:nth-child(10) {
+.palette-stylus.is-amber .bar:nth-child(10) {
   background: #ec8e13;
   color: #fff;
 }
-.pallet-stylus.is-amber .bar:nth-child(11) {
+.palette-stylus.is-amber .bar:nth-child(11) {
   background: #ec7513;
   color: #fff;
 }
-.pallet-stylus.is-amber .bar:nth-child(12) {
+.palette-stylus.is-amber .bar:nth-child(12) {
   background: #fde8aa;
 }
-.pallet-stylus.is-amber .bar:nth-child(13) {
+.palette-stylus.is-amber .bar:nth-child(13) {
   background: #fcdb79;
 }
-.pallet-stylus.is-amber .bar:nth-child(14) {
+.palette-stylus.is-amber .bar:nth-child(14) {
   background: #fac72e;
 }
-.pallet-stylus.is-amber .bar:nth-child(15) {
+.palette-stylus.is-amber .bar:nth-child(15) {
   background: #f9b006;
   color: #fff;
 }
-.pallet-stylus.is-orange .bar:first-child {
+.palette-stylus.is-orange .bar:first-child {
   background: #ee9d2b;
   color: #fff;
 }
-.pallet-stylus.is-orange .bar:nth-child(2) {
+.palette-stylus.is-orange .bar:nth-child(2) {
   background: #fcf0de;
 }
-.pallet-stylus.is-orange .bar:nth-child(3) {
+.palette-stylus.is-orange .bar:nth-child(3) {
   background: #fbe7cb;
 }
-.pallet-stylus.is-orange .bar:nth-child(4) {
+.palette-stylus.is-orange .bar:nth-child(4) {
   background: #f8d5a5;
 }
-.pallet-stylus.is-orange .bar:nth-child(5) {
+.palette-stylus.is-orange .bar:nth-child(5) {
   background: #f4c27b;
 }
-.pallet-stylus.is-orange .bar:nth-child(6) {
+.palette-stylus.is-orange .bar:nth-child(6) {
   background: #f1ae50;
 }
-.pallet-stylus.is-orange .bar:nth-child(7) {
+.palette-stylus.is-orange .bar:nth-child(7) {
   background: #ee9d2b;
   color: #fff;
 }
-.pallet-stylus.is-orange .bar:nth-child(8) {
+.palette-stylus.is-orange .bar:nth-child(8) {
   background: #ec9213;
   color: #fff;
 }
-.pallet-stylus.is-orange .bar:nth-child(9) {
+.palette-stylus.is-orange .bar:nth-child(9) {
   background: #ec8313;
   color: #fff;
 }
-.pallet-stylus.is-orange .bar:nth-child(10) {
+.palette-stylus.is-orange .bar:nth-child(10) {
   background: #e27012;
   color: #fff;
 }
-.pallet-stylus.is-orange .bar:nth-child(11) {
+.palette-stylus.is-orange .bar:nth-child(11) {
   background: #d95e12;
   color: #fff;
 }
-.pallet-stylus.is-orange .bar:nth-child(12) {
+.palette-stylus.is-orange .bar:nth-child(12) {
   background: #fddbaa;
 }
-.pallet-stylus.is-orange .bar:nth-child(13) {
+.palette-stylus.is-orange .bar:nth-child(13) {
   background: #fcc579;
 }
-.pallet-stylus.is-orange .bar:nth-child(14) {
+.palette-stylus.is-orange .bar:nth-child(14) {
   background: #faa52e;
   color: #fff;
 }
-.pallet-stylus.is-orange .bar:nth-child(15) {
+.palette-stylus.is-orange .bar:nth-child(15) {
   background: #f98006;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:first-child {
+.palette-stylus.is-deep-orange .bar:first-child {
   background: #f06e42;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(2) {
+.palette-stylus.is-deep-orange .bar:nth-child(2) {
   background: #fce6de;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(3) {
+.palette-stylus.is-deep-orange .bar:nth-child(3) {
   background: #fbd7cb;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(4) {
+.palette-stylus.is-deep-orange .bar:nth-child(4) {
   background: #f8baa5;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(5) {
+.palette-stylus.is-deep-orange .bar:nth-child(5) {
   background: #f5a184;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(6) {
+.palette-stylus.is-deep-orange .bar:nth-child(6) {
   background: #f28763;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(7) {
+.palette-stylus.is-deep-orange .bar:nth-child(7) {
   background: #f06e42;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(8) {
+.palette-stylus.is-deep-orange .bar:nth-child(8) {
   background: #ed5421;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(9) {
+.palette-stylus.is-deep-orange .bar:nth-child(9) {
   background: #e24612;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(10) {
+.palette-stylus.is-deep-orange .bar:nth-child(10) {
   background: #cb3910;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(11) {
+.palette-stylus.is-deep-orange .bar:nth-child(11) {
   background: #b82e0f;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(12) {
+.palette-stylus.is-deep-orange .bar:nth-child(12) {
   background: #fdc7b4;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(13) {
+.palette-stylus.is-deep-orange .bar:nth-child(13) {
   background: #fca88d;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(14) {
+.palette-stylus.is-deep-orange .bar:nth-child(14) {
   background: #fa7447;
   color: #fff;
 }
-.pallet-stylus.is-deep-orange .bar:nth-child(15) {
+.palette-stylus.is-deep-orange .bar:nth-child(15) {
   background: #ef4006;
   color: #fff;
 }
-.pallet-stylus.is-brown .bar:first-child {
+.palette-stylus.is-brown .bar:first-child {
   background: #7a5c52;
   color: #fff;
 }
-.pallet-stylus.is-brown .bar:nth-child(2) {
+.palette-stylus.is-brown .bar:nth-child(2) {
   background: #f1ebea;
 }
-.pallet-stylus.is-brown .bar:nth-child(3) {
+.palette-stylus.is-brown .bar:nth-child(3) {
   background: #e4dbd7;
 }
-.pallet-stylus.is-brown .bar:nth-child(4) {
+.palette-stylus.is-brown .bar:nth-child(4) {
   background: #c6b0a9;
 }
-.pallet-stylus.is-brown .bar:nth-child(5) {
+.palette-stylus.is-brown .bar:nth-child(5) {
   background: #af9288;
   color: #fff;
 }
-.pallet-stylus.is-brown .bar:nth-child(6) {
+.palette-stylus.is-brown .bar:nth-child(6) {
   background: #997366;
   color: #fff;
 }
-.pallet-stylus.is-brown .bar:nth-child(7) {
+.palette-stylus.is-brown .bar:nth-child(7) {
   background: #7a5c52;
   color: #fff;
 }
-.pallet-stylus.is-brown .bar:nth-child(8) {
+.palette-stylus.is-brown .bar:nth-child(8) {
   background: #6b5047;
   color: #fff;
 }
-.pallet-stylus.is-brown .bar:nth-child(9) {
+.palette-stylus.is-brown .bar:nth-child(9) {
   background: #5c453d;
   color: #fff;
 }
-.pallet-stylus.is-brown .bar:nth-child(10) {
+.palette-stylus.is-brown .bar:nth-child(10) {
   background: #4d3933;
   color: #fff;
 }
-.pallet-stylus.is-brown .bar:nth-child(11) {
+.palette-stylus.is-brown .bar:nth-child(11) {
   background: #3d2e29;
   color: #fff;
 }
-.pallet-stylus.is-grey .bar:first-child {
+.palette-stylus.is-grey .bar:first-child {
   background: #9e9e9e;
   color: #fff;
 }
-.pallet-stylus.is-grey .bar:nth-child(2) {
+.palette-stylus.is-grey .bar:nth-child(2) {
   background: #fafafa;
 }
-.pallet-stylus.is-grey .bar:nth-child(3) {
+.palette-stylus.is-grey .bar:nth-child(3) {
   background: #f5f5f5;
 }
-.pallet-stylus.is-grey .bar:nth-child(4) {
+.palette-stylus.is-grey .bar:nth-child(4) {
   background: #ededed;
 }
-.pallet-stylus.is-grey .bar:nth-child(5) {
+.palette-stylus.is-grey .bar:nth-child(5) {
   background: #e0e0e0;
 }
-.pallet-stylus.is-grey .bar:nth-child(6) {
+.palette-stylus.is-grey .bar:nth-child(6) {
   background: #bdbdbd;
 }
-.pallet-stylus.is-grey .bar:nth-child(7) {
+.palette-stylus.is-grey .bar:nth-child(7) {
   background: #9e9e9e;
   color: #fff;
 }
-.pallet-stylus.is-grey .bar:nth-child(8) {
+.palette-stylus.is-grey .bar:nth-child(8) {
   background: #757575;
   color: #fff;
 }
-.pallet-stylus.is-grey .bar:nth-child(9) {
+.palette-stylus.is-grey .bar:nth-child(9) {
   background: #616161;
   color: #fff;
 }
-.pallet-stylus.is-grey .bar:nth-child(10) {
+.palette-stylus.is-grey .bar:nth-child(10) {
   background: #424242;
   color: #fff;
 }
-.pallet-stylus.is-grey .bar:nth-child(11) {
+.palette-stylus.is-grey .bar:nth-child(11) {
   background: #212121;
   color: #fff;
 }
-.pallet-stylus.is-blue-grey .bar:first-child {
+.palette-stylus.is-blue-grey .bar:first-child {
   background: #667a85;
   color: #fff;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(2) {
+.palette-stylus.is-blue-grey .bar:nth-child(2) {
   background: #eef0f2;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(3) {
+.palette-stylus.is-blue-grey .bar:nth-child(3) {
   background: #d1d8dc;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(4) {
+.palette-stylus.is-blue-grey .bar:nth-child(4) {
   background: #b1bdc3;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(5) {
+.palette-stylus.is-blue-grey .bar:nth-child(5) {
   background: #92a2ab;
   color: #fff;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(6) {
+.palette-stylus.is-blue-grey .bar:nth-child(6) {
   background: #7a8f99;
   color: #fff;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(7) {
+.palette-stylus.is-blue-grey .bar:nth-child(7) {
   background: #667a85;
   color: #fff;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(8) {
+.palette-stylus.is-blue-grey .bar:nth-child(8) {
   background: #596a73;
   color: #fff;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(9) {
+.palette-stylus.is-blue-grey .bar:nth-child(9) {
   background: #49585f;
   color: #fff;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(10) {
+.palette-stylus.is-blue-grey .bar:nth-child(10) {
   background: #3a454b;
   color: #fff;
 }
-.pallet-stylus.is-blue-grey .bar:nth-child(11) {
+.palette-stylus.is-blue-grey .bar:nth-child(11) {
   background: #283034;
   color: #fff;
 }
-.pallet-stylus.is-black-and-white .bar:first-child {
+.palette-stylus.is-black-and-white .bar:first-child {
   background: #000;
   color: #fff;
 }
-.pallet-stylus.is-black-and-white .bar:nth-child(2) {
+.palette-stylus.is-black-and-white .bar:nth-child(2) {
   background: #fff;
 }

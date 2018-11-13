@@ -1,4 +1,4 @@
-.pallet-scss {
+.palette-scss {
   width: 248px;
   width: 72px;
   margin-bottom: 32px;
@@ -9,1276 +9,1276 @@
   overflow: hidden;
 }
 
-.pallet-scss .bar {
+.palette-scss .bar {
   padding: 6px 12px;
   white-space: nowrap;
   overflow: hidden;
 }
 
-.pallet-scss .bar .texts {
+.palette-scss .bar .texts {
   opacity: 0;
 }
 
-.pallet-scss .bar.is-cut + .bar {
+.palette-scss .bar.is-cut + .bar {
   margin-top: 4px;
 }
 
-.pallet-scss .bar:nth-child(12) {
+.palette-scss .bar:nth-child(12) {
   margin-top: 4px;
 }
 
-.pallet-scss.is-red .bar:first-child {
+.palette-scss.is-red .bar:first-child {
   background: #db5757;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(2) {
+.palette-scss.is-red .bar:nth-child(2) {
   background: #fbeaea;
 }
 
-.pallet-scss.is-red .bar:nth-child(3) {
+.palette-scss.is-red .bar:nth-child(3) {
   background: #f5d1d1;
 }
 
-.pallet-scss.is-red .bar:nth-child(4) {
+.palette-scss.is-red .bar:nth-child(4) {
   background: #eeafaf;
 }
 
-.pallet-scss.is-red .bar:nth-child(5) {
+.palette-scss.is-red .bar:nth-child(5) {
   background: #e89292;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(6) {
+.palette-scss.is-red .bar:nth-child(6) {
   background: #e27474;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(7) {
+.palette-scss.is-red .bar:nth-child(7) {
   background: #db5757;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(8) {
+.palette-scss.is-red .bar:nth-child(8) {
   background: #d53939;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(9) {
+.palette-scss.is-red .bar:nth-child(9) {
   background: #c22929;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(10) {
+.palette-scss.is-red .bar:nth-child(10) {
   background: #a42323;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(11) {
+.palette-scss.is-red .bar:nth-child(11) {
   background: #871d1d;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(12) {
+.palette-scss.is-red .bar:nth-child(12) {
   background: #fbb6b6;
 }
 
-.pallet-scss.is-red .bar:nth-child(13) {
+.palette-scss.is-red .bar:nth-child(13) {
   background: #f99090;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(14) {
+.palette-scss.is-red .bar:nth-child(14) {
   background: #f64c4c;
   color: white;
 }
 
-.pallet-scss.is-red .bar:nth-child(15) {
+.palette-scss.is-red .bar:nth-child(15) {
   background: #cb0b0b;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:first-child {
+.palette-scss.is-pink .bar:first-child {
   background: #d14775;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(2) {
+.palette-scss.is-pink .bar:nth-child(2) {
   background: #f8e2ea;
 }
 
-.pallet-scss.is-pink .bar:nth-child(3) {
+.palette-scss.is-pink .bar:nth-child(3) {
   background: #f4d2dd;
 }
 
-.pallet-scss.is-pink .bar:nth-child(4) {
+.palette-scss.is-pink .bar:nth-child(4) {
   background: #ecb1c5;
 }
 
-.pallet-scss.is-pink .bar:nth-child(5) {
+.palette-scss.is-pink .bar:nth-child(5) {
   background: #e28da9;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(6) {
+.palette-scss.is-pink .bar:nth-child(6) {
   background: #d9688e;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(7) {
+.palette-scss.is-pink .bar:nth-child(7) {
   background: #d14775;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(8) {
+.palette-scss.is-pink .bar:nth-child(8) {
   background: #cc3366;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(9) {
+.palette-scss.is-pink .bar:nth-child(9) {
   background: #b82e5c;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(10) {
+.palette-scss.is-pink .bar:nth-child(10) {
   background: #9f2850;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(11) {
+.palette-scss.is-pink .bar:nth-child(11) {
   background: #832141;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(12) {
+.palette-scss.is-pink .bar:nth-child(12) {
   background: #f9b8ce;
 }
 
-.pallet-scss.is-pink .bar:nth-child(13) {
+.palette-scss.is-pink .bar:nth-child(13) {
   background: #f692b4;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(14) {
+.palette-scss.is-pink .bar:nth-child(14) {
   background: #ef3e79;
   color: white;
 }
 
-.pallet-scss.is-pink .bar:nth-child(15) {
+.palette-scss.is-pink .bar:nth-child(15) {
   background: #c1104b;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:first-child {
+.palette-scss.is-purple .bar:first-child {
   background: #8f489d;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(2) {
+.palette-scss.is-purple .bar:nth-child(2) {
   background: #f0e3f2;
 }
 
-.pallet-scss.is-purple .bar:nth-child(3) {
+.palette-scss.is-purple .bar:nth-child(3) {
   background: #e4cee9;
 }
 
-.pallet-scss.is-purple .bar:nth-child(4) {
+.palette-scss.is-purple .bar:nth-child(4) {
   background: #cda4d5;
 }
 
-.pallet-scss.is-purple .bar:nth-child(5) {
+.palette-scss.is-purple .bar:nth-child(5) {
   background: #b67ac2;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(6) {
+.palette-scss.is-purple .bar:nth-child(6) {
   background: #a357b2;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(7) {
+.palette-scss.is-purple .bar:nth-child(7) {
   background: #8f489d;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(8) {
+.palette-scss.is-purple .bar:nth-child(8) {
   background: #793d85;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(9) {
+.palette-scss.is-purple .bar:nth-child(9) {
   background: #693573;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(10) {
+.palette-scss.is-purple .bar:nth-child(10) {
   background: #5c2f65;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(11) {
+.palette-scss.is-purple .bar:nth-child(11) {
   background: #4f2857;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(12) {
+.palette-scss.is-purple .bar:nth-child(12) {
   background: #e3b7eb;
 }
 
-.pallet-scss.is-purple .bar:nth-child(13) {
+.palette-scss.is-purple .bar:nth-child(13) {
   background: #d087de;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(14) {
+.palette-scss.is-purple .bar:nth-child(14) {
   background: #b33fca;
   color: white;
 }
 
-.pallet-scss.is-purple .bar:nth-child(15) {
+.palette-scss.is-purple .bar:nth-child(15) {
   background: #822994;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:first-child {
+.palette-scss.is-deep-purple .bar:first-child {
   background: #7359a6;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(2) {
+.palette-scss.is-deep-purple .bar:nth-child(2) {
   background: #e9e4f1;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(3) {
+.palette-scss.is-deep-purple .bar:nth-child(3) {
   background: #d5cde4;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(4) {
+.palette-scss.is-deep-purple .bar:nth-child(4) {
   background: #b9acd2;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(5) {
+.palette-scss.is-deep-purple .bar:nth-child(5) {
   background: #a08ec2;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(6) {
+.palette-scss.is-deep-purple .bar:nth-child(6) {
   background: #8670b2;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(7) {
+.palette-scss.is-deep-purple .bar:nth-child(7) {
   background: #7359a6;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(8) {
+.palette-scss.is-deep-purple .bar:nth-child(8) {
   background: #675095;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(9) {
+.palette-scss.is-deep-purple .bar:nth-child(9) {
   background: #5a4681;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(10) {
+.palette-scss.is-deep-purple .bar:nth-child(10) {
   background: #4c3b6d;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(11) {
+.palette-scss.is-deep-purple .bar:nth-child(11) {
   background: #40325d;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(12) {
+.palette-scss.is-deep-purple .bar:nth-child(12) {
   background: #c6b4e9;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(13) {
+.palette-scss.is-deep-purple .bar:nth-child(13) {
   background: #a78cde;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(14) {
+.palette-scss.is-deep-purple .bar:nth-child(14) {
   background: #7d55ce;
   color: white;
 }
 
-.pallet-scss.is-deep-purple .bar:nth-child(15) {
+.palette-scss.is-deep-purple .bar:nth-child(15) {
   background: #5e34b2;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:first-child {
+.palette-scss.is-indigo .bar:first-child {
   background: #5d69a8;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(2) {
+.palette-scss.is-indigo .bar:nth-child(2) {
   background: #e4e7f1;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(3) {
+.palette-scss.is-indigo .bar:nth-child(3) {
   background: #cdd1e4;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(4) {
+.palette-scss.is-indigo .bar:nth-child(4) {
   background: #acb3d2;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(5) {
+.palette-scss.is-indigo .bar:nth-child(5) {
   background: #8b94c1;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(6) {
+.palette-scss.is-indigo .bar:nth-child(6) {
   background: #707bb2;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(7) {
+.palette-scss.is-indigo .bar:nth-child(7) {
   background: #5d69a8;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(8) {
+.palette-scss.is-indigo .bar:nth-child(8) {
   background: #505c95;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(9) {
+.palette-scss.is-indigo .bar:nth-child(9) {
   background: #475285;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(10) {
+.palette-scss.is-indigo .bar:nth-child(10) {
   background: #3d4571;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(11) {
+.palette-scss.is-indigo .bar:nth-child(11) {
   background: #343b60;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(12) {
+.palette-scss.is-indigo .bar:nth-child(12) {
   background: #a8b2e6;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(13) {
+.palette-scss.is-indigo .bar:nth-child(13) {
   background: #7989d8;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(14) {
+.palette-scss.is-indigo .bar:nth-child(14) {
   background: #5166cd;
   color: white;
 }
 
-.pallet-scss.is-indigo .bar:nth-child(15) {
+.palette-scss.is-indigo .bar:nth-child(15) {
   background: #364cba;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:first-child {
+.palette-scss.is-blue .bar:first-child {
   background: #4b9bd8;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(2) {
+.palette-scss.is-blue .bar:nth-child(2) {
   background: #deecf8;
 }
 
-.pallet-scss.is-blue .bar:nth-child(3) {
+.palette-scss.is-blue .bar:nth-child(3) {
   background: #c0dcf1;
 }
 
-.pallet-scss.is-blue .bar:nth-child(4) {
+.palette-scss.is-blue .bar:nth-child(4) {
   background: #a3cceb;
 }
 
-.pallet-scss.is-blue .bar:nth-child(5) {
+.palette-scss.is-blue .bar:nth-child(5) {
   background: #82b9e3;
 }
 
-.pallet-scss.is-blue .bar:nth-child(6) {
+.palette-scss.is-blue .bar:nth-child(6) {
   background: #68abde;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(7) {
+.palette-scss.is-blue .bar:nth-child(7) {
   background: #4b9bd8;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(8) {
+.palette-scss.is-blue .bar:nth-child(8) {
   background: #2e8ad1;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(9) {
+.palette-scss.is-blue .bar:nth-child(9) {
   background: #2777b4;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(10) {
+.palette-scss.is-blue .bar:nth-child(10) {
   background: #216497;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(11) {
+.palette-scss.is-blue .bar:nth-child(11) {
   background: #1c537d;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(12) {
+.palette-scss.is-blue .bar:nth-child(12) {
   background: #96cdf8;
 }
 
-.pallet-scss.is-blue .bar:nth-child(13) {
+.palette-scss.is-blue .bar:nth-child(13) {
   background: #66b7f4;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(14) {
+.palette-scss.is-blue .bar:nth-child(14) {
   background: #2497f0;
   color: white;
 }
 
-.pallet-scss.is-blue .bar:nth-child(15) {
+.palette-scss.is-blue .bar:nth-child(15) {
   background: #0d72bf;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:first-child {
+.palette-scss.is-light-blue .bar:first-child {
   background: #37add7;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(2) {
+.palette-scss.is-light-blue .bar:nth-child(2) {
   background: #ddf1f8;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(3) {
+.palette-scss.is-light-blue .bar:nth-child(3) {
   background: #bfe5f2;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(4) {
+.palette-scss.is-light-blue .bar:nth-child(4) {
   background: #9dd7ec;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(5) {
+.palette-scss.is-light-blue .bar:nth-child(5) {
   background: #77c7e4;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(6) {
+.palette-scss.is-light-blue .bar:nth-child(6) {
   background: #5dbcdf;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(7) {
+.palette-scss.is-light-blue .bar:nth-child(7) {
   background: #37add7;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(8) {
+.palette-scss.is-light-blue .bar:nth-child(8) {
   background: #279ac4;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(9) {
+.palette-scss.is-light-blue .bar:nth-child(9) {
   background: #2286aa;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(10) {
+.palette-scss.is-light-blue .bar:nth-child(10) {
   background: #1d7291;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(11) {
+.palette-scss.is-light-blue .bar:nth-child(11) {
   background: #196480;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(12) {
+.palette-scss.is-light-blue .bar:nth-child(12) {
   background: #96def8;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(13) {
+.palette-scss.is-light-blue .bar:nth-child(13) {
   background: #58caf3;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(14) {
+.palette-scss.is-light-blue .bar:nth-child(14) {
   background: #15b5ef;
   color: white;
 }
 
-.pallet-scss.is-light-blue .bar:nth-child(15) {
+.palette-scss.is-light-blue .bar:nth-child(15) {
   background: #0d8fbf;
   color: white;
 }
 
-.pallet-scss.is-cyan .bar:first-child {
+.palette-scss.is-cyan .bar:first-child {
   background: #37b0be;
   color: white;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(2) {
+.palette-scss.is-cyan .bar:nth-child(2) {
   background: #dff4f6;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(3) {
+.palette-scss.is-cyan .bar:nth-child(3) {
   background: #c4eaee;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(4) {
+.palette-scss.is-cyan .bar:nth-child(4) {
   background: #9cdbe2;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(5) {
+.palette-scss.is-cyan .bar:nth-child(5) {
   background: #75cdd7;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(6) {
+.palette-scss.is-cyan .bar:nth-child(6) {
   background: #4dbfcb;
   color: white;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(7) {
+.palette-scss.is-cyan .bar:nth-child(7) {
   background: #37b0be;
   color: white;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(8) {
+.palette-scss.is-cyan .bar:nth-child(8) {
   background: #2f97a2;
   color: white;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(9) {
+.palette-scss.is-cyan .bar:nth-child(9) {
   background: #29848e;
   color: white;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(10) {
+.palette-scss.is-cyan .bar:nth-child(10) {
   background: #25767e;
   color: white;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(11) {
+.palette-scss.is-cyan .bar:nth-child(11) {
   background: #1f636b;
   color: white;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(12) {
+.palette-scss.is-cyan .bar:nth-child(12) {
   background: #9de9f1;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(13) {
+.palette-scss.is-cyan .bar:nth-child(13) {
   background: #63dbe9;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(14) {
+.palette-scss.is-cyan .bar:nth-child(14) {
   background: #1ec0d2;
 }
 
-.pallet-scss.is-cyan .bar:nth-child(15) {
+.palette-scss.is-cyan .bar:nth-child(15) {
   background: #189baa;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:first-child {
+.palette-scss.is-teal .bar:first-child {
   background: #46a495;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:nth-child(2) {
+.palette-scss.is-teal .bar:nth-child(2) {
   background: #e2f3f0;
 }
 
-.pallet-scss.is-teal .bar:nth-child(3) {
+.palette-scss.is-teal .bar:nth-child(3) {
   background: #c6e7e1;
 }
 
-.pallet-scss.is-teal .bar:nth-child(4) {
+.palette-scss.is-teal .bar:nth-child(4) {
   background: #a2d7ce;
 }
 
-.pallet-scss.is-teal .bar:nth-child(5) {
+.palette-scss.is-teal .bar:nth-child(5) {
   background: #7ec8bc;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:nth-child(6) {
+.palette-scss.is-teal .bar:nth-child(6) {
   background: #5bb9a9;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:nth-child(7) {
+.palette-scss.is-teal .bar:nth-child(7) {
   background: #46a495;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:nth-child(8) {
+.palette-scss.is-teal .bar:nth-child(8) {
   background: #3f9284;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:nth-child(9) {
+.palette-scss.is-teal .bar:nth-child(9) {
   background: #378174;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:nth-child(10) {
+.palette-scss.is-teal .bar:nth-child(10) {
   background: #317267;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:nth-child(11) {
+.palette-scss.is-teal .bar:nth-child(11) {
   background: #296057;
   color: white;
 }
 
-.pallet-scss.is-teal .bar:nth-child(12) {
+.palette-scss.is-teal .bar:nth-child(12) {
   background: #a2ebdf;
 }
 
-.pallet-scss.is-teal .bar:nth-child(13) {
+.palette-scss.is-teal .bar:nth-child(13) {
   background: #6ce0cc;
 }
 
-.pallet-scss.is-teal .bar:nth-child(14) {
+.palette-scss.is-teal .bar:nth-child(14) {
   background: #2ac6ac;
 }
 
-.pallet-scss.is-teal .bar:nth-child(15) {
+.palette-scss.is-teal .bar:nth-child(15) {
   background: #22a08b;
   color: white;
 }
 
-.pallet-scss.is-green .bar:first-child {
+.palette-scss.is-green .bar:first-child {
   background: #5cad5c;
   color: white;
 }
 
-.pallet-scss.is-green .bar:nth-child(2) {
+.palette-scss.is-green .bar:nth-child(2) {
   background: #ebf5eb;
 }
 
-.pallet-scss.is-green .bar:nth-child(3) {
+.palette-scss.is-green .bar:nth-child(3) {
   background: #d3e9d3;
 }
 
-.pallet-scss.is-green .bar:nth-child(4) {
+.palette-scss.is-green .bar:nth-child(4) {
   background: #b1d8b1;
 }
 
-.pallet-scss.is-green .bar:nth-child(5) {
+.palette-scss.is-green .bar:nth-child(5) {
   background: #92c892;
 }
 
-.pallet-scss.is-green .bar:nth-child(6) {
+.palette-scss.is-green .bar:nth-child(6) {
   background: #74b974;
   color: white;
 }
 
-.pallet-scss.is-green .bar:nth-child(7) {
+.palette-scss.is-green .bar:nth-child(7) {
   background: #5cad5c;
   color: white;
 }
 
-.pallet-scss.is-green .bar:nth-child(8) {
+.palette-scss.is-green .bar:nth-child(8) {
   background: #509f50;
   color: white;
 }
 
-.pallet-scss.is-green .bar:nth-child(9) {
+.palette-scss.is-green .bar:nth-child(9) {
   background: #468b46;
   color: white;
 }
 
-.pallet-scss.is-green .bar:nth-child(10) {
+.palette-scss.is-green .bar:nth-child(10) {
   background: #3c773c;
   color: white;
 }
 
-.pallet-scss.is-green .bar:nth-child(11) {
+.palette-scss.is-green .bar:nth-child(11) {
   background: #336633;
   color: white;
 }
 
-.pallet-scss.is-green .bar:nth-child(12) {
+.palette-scss.is-green .bar:nth-child(12) {
   background: #bbedbb;
 }
 
-.pallet-scss.is-green .bar:nth-child(13) {
+.palette-scss.is-green .bar:nth-child(13) {
   background: #92e292;
 }
 
-.pallet-scss.is-green .bar:nth-child(14) {
+.palette-scss.is-green .bar:nth-child(14) {
   background: #5ad35a;
 }
 
-.pallet-scss.is-green .bar:nth-child(15) {
+.palette-scss.is-green .bar:nth-child(15) {
   background: #2ca52c;
   color: white;
 }
 
-.pallet-scss.is-light-green .bar:first-child {
+.palette-scss.is-light-green .bar:first-child {
   background: #8cc059;
   color: white;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(2) {
+.palette-scss.is-light-green .bar:nth-child(2) {
   background: #edf5e5;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(3) {
+.palette-scss.is-light-green .bar:nth-child(3) {
   background: #e3f0d6;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(4) {
+.palette-scss.is-light-green .bar:nth-child(4) {
   background: #cfe4b9;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(5) {
+.palette-scss.is-light-green .bar:nth-child(5) {
   background: #b8d897;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(6) {
+.palette-scss.is-light-green .bar:nth-child(6) {
   background: #a1cb76;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(7) {
+.palette-scss.is-light-green .bar:nth-child(7) {
   background: #8cc059;
   color: white;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(8) {
+.palette-scss.is-light-green .bar:nth-child(8) {
   background: #7ab143;
   color: white;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(9) {
+.palette-scss.is-light-green .bar:nth-child(9) {
   background: #73a63f;
   color: white;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(10) {
+.palette-scss.is-light-green .bar:nth-child(10) {
   background: #639037;
   color: white;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(11) {
+.palette-scss.is-light-green .bar:nth-child(11) {
   background: #52762d;
   color: white;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(12) {
+.palette-scss.is-light-green .bar:nth-child(12) {
   background: #d9f4be;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(13) {
+.palette-scss.is-light-green .bar:nth-child(13) {
   background: #bfec93;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(14) {
+.palette-scss.is-light-green .bar:nth-child(14) {
   background: #96e04d;
 }
 
-.pallet-scss.is-light-green .bar:nth-child(15) {
+.palette-scss.is-light-green .bar:nth-child(15) {
   background: #69b21f;
   color: white;
 }
 
-.pallet-scss.is-lime .bar:first-child {
+.palette-scss.is-lime .bar:first-child {
   background: #bad147;
 }
 
-.pallet-scss.is-lime .bar:nth-child(2) {
+.palette-scss.is-lime .bar:nth-child(2) {
   background: #f3f7de;
 }
 
-.pallet-scss.is-lime .bar:nth-child(3) {
+.palette-scss.is-lime .bar:nth-child(3) {
   background: #edf3ce;
 }
 
-.pallet-scss.is-lime .bar:nth-child(4) {
+.palette-scss.is-lime .bar:nth-child(4) {
   background: #e2ecb1;
 }
 
-.pallet-scss.is-lime .bar:nth-child(5) {
+.palette-scss.is-lime .bar:nth-child(5) {
   background: #d4e28d;
 }
 
-.pallet-scss.is-lime .bar:nth-child(6) {
+.palette-scss.is-lime .bar:nth-child(6) {
   background: #c6d968;
 }
 
-.pallet-scss.is-lime .bar:nth-child(7) {
+.palette-scss.is-lime .bar:nth-child(7) {
   background: #bad147;
 }
 
-.pallet-scss.is-lime .bar:nth-child(8) {
+.palette-scss.is-lime .bar:nth-child(8) {
   background: #abc431;
   color: white;
 }
 
-.pallet-scss.is-lime .bar:nth-child(9) {
+.palette-scss.is-lime .bar:nth-child(9) {
   background: #a1b82e;
   color: white;
 }
 
-.pallet-scss.is-lime .bar:nth-child(10) {
+.palette-scss.is-lime .bar:nth-child(10) {
   background: #8b9f28;
   color: white;
 }
 
-.pallet-scss.is-lime .bar:nth-child(11) {
+.palette-scss.is-lime .bar:nth-child(11) {
   background: #728321;
   color: white;
 }
 
-.pallet-scss.is-lime .bar:nth-child(12) {
+.palette-scss.is-lime .bar:nth-child(12) {
   background: #ebf6b1;
 }
 
-.pallet-scss.is-lime .bar:nth-child(13) {
+.palette-scss.is-lime .bar:nth-child(13) {
   background: #dcf07a;
 }
 
-.pallet-scss.is-lime .bar:nth-child(14) {
+.palette-scss.is-lime .bar:nth-child(14) {
   background: #cdea3e;
 }
 
-.pallet-scss.is-lime .bar:nth-child(15) {
+.palette-scss.is-lime .bar:nth-child(15) {
   background: #9cb814;
 }
 
-.pallet-scss.is-yellow .bar:first-child {
+.palette-scss.is-yellow .bar:first-child {
   background: #f0e142;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(2) {
+.palette-scss.is-yellow .bar:nth-child(2) {
   background: #fcfade;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(3) {
+.palette-scss.is-yellow .bar:nth-child(3) {
   background: #fbf7cb;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(4) {
+.palette-scss.is-yellow .bar:nth-child(4) {
   background: #f8f1a5;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(5) {
+.palette-scss.is-yellow .bar:nth-child(5) {
   background: #f5ec84;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(6) {
+.palette-scss.is-yellow .bar:nth-child(6) {
   background: #f2e663;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(7) {
+.palette-scss.is-yellow .bar:nth-child(7) {
   background: #f0e142;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(8) {
+.palette-scss.is-yellow .bar:nth-child(8) {
   background: #eed12b;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(9) {
+.palette-scss.is-yellow .bar:nth-child(9) {
   background: #ecbd13;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(10) {
+.palette-scss.is-yellow .bar:nth-child(10) {
   background: #eca713;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(11) {
+.palette-scss.is-yellow .bar:nth-child(11) {
   background: #ec9213;
   color: white;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(12) {
+.palette-scss.is-yellow .bar:nth-child(12) {
   background: #fdf6aa;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(13) {
+.palette-scss.is-yellow .bar:nth-child(13) {
   background: #fcf179;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(14) {
+.palette-scss.is-yellow .bar:nth-child(14) {
   background: #fae92e;
 }
 
-.pallet-scss.is-yellow .bar:nth-child(15) {
+.palette-scss.is-yellow .bar:nth-child(15) {
   background: #f9d006;
 }
 
-.pallet-scss.is-amber .bar:first-child {
+.palette-scss.is-amber .bar:first-child {
   background: #eebd2b;
 }
 
-.pallet-scss.is-amber .bar:nth-child(2) {
+.palette-scss.is-amber .bar:nth-child(2) {
   background: #fcf5de;
 }
 
-.pallet-scss.is-amber .bar:nth-child(3) {
+.palette-scss.is-amber .bar:nth-child(3) {
   background: #fbefcb;
 }
 
-.pallet-scss.is-amber .bar:nth-child(4) {
+.palette-scss.is-amber .bar:nth-child(4) {
   background: #f8e3a5;
 }
 
-.pallet-scss.is-amber .bar:nth-child(5) {
+.palette-scss.is-amber .bar:nth-child(5) {
   background: #f4d67b;
 }
 
-.pallet-scss.is-amber .bar:nth-child(6) {
+.palette-scss.is-amber .bar:nth-child(6) {
   background: #f1c950;
 }
 
-.pallet-scss.is-amber .bar:nth-child(7) {
+.palette-scss.is-amber .bar:nth-child(7) {
   background: #eebd2b;
 }
 
-.pallet-scss.is-amber .bar:nth-child(8) {
+.palette-scss.is-amber .bar:nth-child(8) {
   background: #ecb613;
 }
 
-.pallet-scss.is-amber .bar:nth-child(9) {
+.palette-scss.is-amber .bar:nth-child(9) {
   background: #eca413;
   color: white;
 }
 
-.pallet-scss.is-amber .bar:nth-child(10) {
+.palette-scss.is-amber .bar:nth-child(10) {
   background: #ec8e13;
   color: white;
 }
 
-.pallet-scss.is-amber .bar:nth-child(11) {
+.palette-scss.is-amber .bar:nth-child(11) {
   background: #ec7513;
   color: white;
 }
 
-.pallet-scss.is-amber .bar:nth-child(12) {
+.palette-scss.is-amber .bar:nth-child(12) {
   background: #fde8aa;
 }
 
-.pallet-scss.is-amber .bar:nth-child(13) {
+.palette-scss.is-amber .bar:nth-child(13) {
   background: #fcdb79;
 }
 
-.pallet-scss.is-amber .bar:nth-child(14) {
+.palette-scss.is-amber .bar:nth-child(14) {
   background: #fac72e;
 }
 
-.pallet-scss.is-amber .bar:nth-child(15) {
+.palette-scss.is-amber .bar:nth-child(15) {
   background: #f9b006;
   color: white;
 }
 
-.pallet-scss.is-orange .bar:first-child {
+.palette-scss.is-orange .bar:first-child {
   background: #ee9d2b;
   color: white;
 }
 
-.pallet-scss.is-orange .bar:nth-child(2) {
+.palette-scss.is-orange .bar:nth-child(2) {
   background: #fcf0de;
 }
 
-.pallet-scss.is-orange .bar:nth-child(3) {
+.palette-scss.is-orange .bar:nth-child(3) {
   background: #fbe7cb;
 }
 
-.pallet-scss.is-orange .bar:nth-child(4) {
+.palette-scss.is-orange .bar:nth-child(4) {
   background: #f8d5a5;
 }
 
-.pallet-scss.is-orange .bar:nth-child(5) {
+.palette-scss.is-orange .bar:nth-child(5) {
   background: #f4c27b;
 }
 
-.pallet-scss.is-orange .bar:nth-child(6) {
+.palette-scss.is-orange .bar:nth-child(6) {
   background: #f1ae50;
 }
 
-.pallet-scss.is-orange .bar:nth-child(7) {
+.palette-scss.is-orange .bar:nth-child(7) {
   background: #ee9d2b;
   color: white;
 }
 
-.pallet-scss.is-orange .bar:nth-child(8) {
+.palette-scss.is-orange .bar:nth-child(8) {
   background: #ec9213;
   color: white;
 }
 
-.pallet-scss.is-orange .bar:nth-child(9) {
+.palette-scss.is-orange .bar:nth-child(9) {
   background: #ec8313;
   color: white;
 }
 
-.pallet-scss.is-orange .bar:nth-child(10) {
+.palette-scss.is-orange .bar:nth-child(10) {
   background: #e27012;
   color: white;
 }
 
-.pallet-scss.is-orange .bar:nth-child(11) {
+.palette-scss.is-orange .bar:nth-child(11) {
   background: #d95e12;
   color: white;
 }
 
-.pallet-scss.is-orange .bar:nth-child(12) {
+.palette-scss.is-orange .bar:nth-child(12) {
   background: #fddbaa;
 }
 
-.pallet-scss.is-orange .bar:nth-child(13) {
+.palette-scss.is-orange .bar:nth-child(13) {
   background: #fcc579;
 }
 
-.pallet-scss.is-orange .bar:nth-child(14) {
+.palette-scss.is-orange .bar:nth-child(14) {
   background: #faa52e;
   color: white;
 }
 
-.pallet-scss.is-orange .bar:nth-child(15) {
+.palette-scss.is-orange .bar:nth-child(15) {
   background: #f98006;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:first-child {
+.palette-scss.is-deep-orange .bar:first-child {
   background: #f06e42;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(2) {
+.palette-scss.is-deep-orange .bar:nth-child(2) {
   background: #fce6de;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(3) {
+.palette-scss.is-deep-orange .bar:nth-child(3) {
   background: #fbd7cb;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(4) {
+.palette-scss.is-deep-orange .bar:nth-child(4) {
   background: #f8baa5;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(5) {
+.palette-scss.is-deep-orange .bar:nth-child(5) {
   background: #f5a184;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(6) {
+.palette-scss.is-deep-orange .bar:nth-child(6) {
   background: #f28763;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(7) {
+.palette-scss.is-deep-orange .bar:nth-child(7) {
   background: #f06e42;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(8) {
+.palette-scss.is-deep-orange .bar:nth-child(8) {
   background: #ed5421;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(9) {
+.palette-scss.is-deep-orange .bar:nth-child(9) {
   background: #e24612;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(10) {
+.palette-scss.is-deep-orange .bar:nth-child(10) {
   background: #cb3910;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(11) {
+.palette-scss.is-deep-orange .bar:nth-child(11) {
   background: #b82e0f;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(12) {
+.palette-scss.is-deep-orange .bar:nth-child(12) {
   background: #fdc7b4;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(13) {
+.palette-scss.is-deep-orange .bar:nth-child(13) {
   background: #fca88d;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(14) {
+.palette-scss.is-deep-orange .bar:nth-child(14) {
   background: #fa7447;
   color: white;
 }
 
-.pallet-scss.is-deep-orange .bar:nth-child(15) {
+.palette-scss.is-deep-orange .bar:nth-child(15) {
   background: #ef4006;
   color: white;
 }
 
-.pallet-scss.is-brown .bar:first-child {
+.palette-scss.is-brown .bar:first-child {
   background: #7a5c52;
   color: white;
 }
 
-.pallet-scss.is-brown .bar:nth-child(2) {
+.palette-scss.is-brown .bar:nth-child(2) {
   background: #f1ebea;
 }
 
-.pallet-scss.is-brown .bar:nth-child(3) {
+.palette-scss.is-brown .bar:nth-child(3) {
   background: #e4dbd7;
 }
 
-.pallet-scss.is-brown .bar:nth-child(4) {
+.palette-scss.is-brown .bar:nth-child(4) {
   background: #c6b0a9;
 }
 
-.pallet-scss.is-brown .bar:nth-child(5) {
+.palette-scss.is-brown .bar:nth-child(5) {
   background: #af9288;
   color: white;
 }
 
-.pallet-scss.is-brown .bar:nth-child(6) {
+.palette-scss.is-brown .bar:nth-child(6) {
   background: #997366;
   color: white;
 }
 
-.pallet-scss.is-brown .bar:nth-child(7) {
+.palette-scss.is-brown .bar:nth-child(7) {
   background: #7a5c52;
   color: white;
 }
 
-.pallet-scss.is-brown .bar:nth-child(8) {
+.palette-scss.is-brown .bar:nth-child(8) {
   background: #6b5047;
   color: white;
 }
 
-.pallet-scss.is-brown .bar:nth-child(9) {
+.palette-scss.is-brown .bar:nth-child(9) {
   background: #5c453d;
   color: white;
 }
 
-.pallet-scss.is-brown .bar:nth-child(10) {
+.palette-scss.is-brown .bar:nth-child(10) {
   background: #4d3933;
   color: white;
 }
 
-.pallet-scss.is-brown .bar:nth-child(11) {
+.palette-scss.is-brown .bar:nth-child(11) {
   background: #3d2e29;
   color: white;
 }
 
-.pallet-scss.is-grey .bar:first-child {
+.palette-scss.is-grey .bar:first-child {
   background: #9e9e9e;
   color: white;
 }
 
-.pallet-scss.is-grey .bar:nth-child(2) {
+.palette-scss.is-grey .bar:nth-child(2) {
   background: #fafafa;
 }
 
-.pallet-scss.is-grey .bar:nth-child(3) {
+.palette-scss.is-grey .bar:nth-child(3) {
   background: whitesmoke;
 }
 
-.pallet-scss.is-grey .bar:nth-child(4) {
+.palette-scss.is-grey .bar:nth-child(4) {
   background: #ededed;
 }
 
-.pallet-scss.is-grey .bar:nth-child(5) {
+.palette-scss.is-grey .bar:nth-child(5) {
   background: #e0e0e0;
 }
 
-.pallet-scss.is-grey .bar:nth-child(6) {
+.palette-scss.is-grey .bar:nth-child(6) {
   background: #bdbdbd;
 }
 
-.pallet-scss.is-grey .bar:nth-child(7) {
+.palette-scss.is-grey .bar:nth-child(7) {
   background: #9e9e9e;
   color: white;
 }
 
-.pallet-scss.is-grey .bar:nth-child(8) {
+.palette-scss.is-grey .bar:nth-child(8) {
   background: #757575;
   color: white;
 }
 
-.pallet-scss.is-grey .bar:nth-child(9) {
+.palette-scss.is-grey .bar:nth-child(9) {
   background: #616161;
   color: white;
 }
 
-.pallet-scss.is-grey .bar:nth-child(10) {
+.palette-scss.is-grey .bar:nth-child(10) {
   background: #424242;
   color: white;
 }
 
-.pallet-scss.is-grey .bar:nth-child(11) {
+.palette-scss.is-grey .bar:nth-child(11) {
   background: #212121;
   color: white;
 }
 
-.pallet-scss.is-blue-grey .bar:first-child {
+.palette-scss.is-blue-grey .bar:first-child {
   background: #667a85;
   color: white;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(2) {
+.palette-scss.is-blue-grey .bar:nth-child(2) {
   background: #eef0f2;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(3) {
+.palette-scss.is-blue-grey .bar:nth-child(3) {
   background: #d1d8dc;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(4) {
+.palette-scss.is-blue-grey .bar:nth-child(4) {
   background: #b1bdc3;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(5) {
+.palette-scss.is-blue-grey .bar:nth-child(5) {
   background: #92a2ab;
   color: white;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(6) {
+.palette-scss.is-blue-grey .bar:nth-child(6) {
   background: #7a8f99;
   color: white;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(7) {
+.palette-scss.is-blue-grey .bar:nth-child(7) {
   background: #667a85;
   color: white;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(8) {
+.palette-scss.is-blue-grey .bar:nth-child(8) {
   background: #596a73;
   color: white;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(9) {
+.palette-scss.is-blue-grey .bar:nth-child(9) {
   background: #49585f;
   color: white;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(10) {
+.palette-scss.is-blue-grey .bar:nth-child(10) {
   background: #3a454b;
   color: white;
 }
 
-.pallet-scss.is-blue-grey .bar:nth-child(11) {
+.palette-scss.is-blue-grey .bar:nth-child(11) {
   background: #283034;
   color: white;
 }
 
-.pallet-scss.is-black-and-white .bar:first-child {
+.palette-scss.is-black-and-white .bar:first-child {
   background: black;
   color: white;
 }
 
-.pallet-scss.is-black-and-white .bar:nth-child(2) {
+.palette-scss.is-black-and-white .bar:nth-child(2) {
   background: white;
 }

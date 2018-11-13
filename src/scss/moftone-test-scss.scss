@@ -6,10 +6,10 @@
 @import "sass-dashi/src/scss/_dashi.scss";
 
 //----------------------------------------------------
-// Module: pallet
+// Module: palette
 //----------------------------------------------------
 
-.pallet-scss {
+.palette-scss {
   width: 248px;
   width: 72px; //Test
   margin-bottom: 32px;
@@ -34,7 +34,7 @@
   }
 }
 
-.pallet-scss.is-red {
+.palette-scss.is-red {
   .bar:first-child {
     background: $red-500;
     color: $light;
@@ -93,7 +93,7 @@
   }
 }
 
-.pallet-scss.is-pink {
+.palette-scss.is-pink {
   .bar:first-child {
     background: $pink-500;
     color: $light;
@@ -152,7 +152,7 @@
   }
 }
 
-.pallet-scss.is-purple {
+.palette-scss.is-purple {
   .bar:first-child {
     background: $purple-500;
     color: $light;
@@ -211,7 +211,7 @@
   }
 }
 
-.pallet-scss.is-deep-purple {
+.palette-scss.is-deep-purple {
   .bar:first-child {
     background: $deep-purple-500;
     color: $light;
@@ -270,7 +270,7 @@
   }
 }
 
-.pallet-scss.is-indigo {
+.palette-scss.is-indigo {
   .bar:first-child {
     background: $indigo-500;
     color: $light;
@@ -329,7 +329,7 @@
   }
 }
 
-.pallet-scss.is-blue {
+.palette-scss.is-blue {
   .bar:first-child {
     background: $blue-500;
     color: $light;
@@ -387,7 +387,7 @@
   }
 }
 
-.pallet-scss.is-light-blue {
+.palette-scss.is-light-blue {
   .bar:first-child {
     background: $light-blue-500;
     color: $light;
@@ -444,7 +444,7 @@
   }
 }
 
-.pallet-scss.is-cyan {
+.palette-scss.is-cyan {
   .bar:first-child {
     background: $cyan-500;
     color: $light;
@@ -500,7 +500,7 @@
   }
 }
 
-.pallet-scss.is-teal {
+.palette-scss.is-teal {
   .bar:first-child {
     background: $teal-500;
     color: $light;
@@ -557,7 +557,7 @@
   }
 }
 
-.pallet-scss.is-green {
+.palette-scss.is-green {
   .bar:first-child {
     background: $green-500;
     color: $light;
@@ -613,7 +613,7 @@
   }
 }
 
-.pallet-scss.is-light-green {
+.palette-scss.is-light-green {
   .bar:first-child {
     background: $light-green-500;
     color: $light;
@@ -668,7 +668,7 @@
   }
 }
 
-.pallet-scss.is-lime {
+.palette-scss.is-lime {
   .bar:first-child {
     background: $lime-500;
   }
@@ -720,7 +720,7 @@
   }
 }
 
-.pallet-scss.is-yellow {
+.palette-scss.is-yellow {
   .bar:first-child {
     background: $yellow-500;
   }
@@ -769,7 +769,7 @@
   }
 }
 
-.pallet-scss.is-amber {
+.palette-scss.is-amber {
   .bar:first-child {
     background: $amber-500;
   }
@@ -821,7 +821,7 @@
   }
 }
 
-.pallet-scss.is-orange {
+.palette-scss.is-orange {
   .bar:first-child {
     background: $orange-500;
     color: $light;
@@ -877,7 +877,7 @@
   }
 }
 
-.pallet-scss.is-deep-orange {
+.palette-scss.is-deep-orange {
   .bar:first-child {
     background: $deep-orange-500;
     color: $light;
@@ -935,7 +935,7 @@
   }
 }
 
-.pallet-scss.is-brown {
+.palette-scss.is-brown {
   .bar:first-child {
     background: $brown-500;
     color: $light;
@@ -979,7 +979,7 @@
   }
 }
 
-.pallet-scss.is-grey {
+.palette-scss.is-grey {
   .bar:first-child {
     background: $grey-500;
     color: $light;
@@ -1021,7 +1021,7 @@
   }
 }
 
-.pallet-scss.is-blue-grey {
+.palette-scss.is-blue-grey {
   .bar:first-child {
     background: $blue-grey-500;
     color: $light;
@@ -1065,7 +1065,7 @@
   }
 }
 
-.pallet-scss.is-black-and-white {
+.palette-scss.is-black-and-white {
   .bar:first-child {
     background: $black;
     color: $light;
