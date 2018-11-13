@@ -80,6 +80,23 @@ gulp.task("scss", () => {
     .pipe(gulp.dest(paths.dist.css))
 })
 
+// SCSS > Stylus
+gulp.task("scss2stylus", () => {
+  return gulp
+    .src(paths.src.scss + "tone/_" + pkg.name + ".scss")
+    .pipe(
+      plumber({ errorHandler: notify.onError("Error: <%= error.message %>") })
+    )
+    .pipe(replace(/\:/g, " ?="))
+    .pipe(replace(/ \!default\;/g, ""))
+    .pipe(
+      rename({
+        extname: ".styl"
+      })
+    )
+    .pipe(gulp.dest(paths.src.stylus + "./tone/"))
+})
+
 // Stylus > CSS
 gulp.task("stylus", () => {
   return gulp
@@ -92,19 +109,6 @@ gulp.task("stylus", () => {
     )
     .pipe(stylus(stylusOptions))
     .pipe(gulp.dest(paths.dist.css))
-})
-
-// SCSS Export
-gulp.task("sass-export", () => {
-  return gulp
-    .src(paths.src.scss + "tone/_" + pkg.name + ".scss")
-    .pipe(
-      sassExport({
-        fileName: pkg.name + "-data.json",
-        type: "array"
-      })
-    )
-    .pipe(gulp.dest(paths.dist.data))
 })
 
 gulp.task("sass-export", () => {
@@ -201,7 +205,10 @@ gulp.task("reload", function(done) {
 // Watch
 gulp.task("watch", () => {
   gulp.watch(paths.dist.html + "index.html", gulp.series("reload"))
-  gulp.watch(paths.src.scss + "**/*.scss", gulp.series("scss", "reload"))
+  gulp.watch(
+    paths.src.scss + "**/*.scss",
+    gulp.series("scss", "scss2stylus", "reload")
+  )
   gulp.watch(paths.src.stylus + "**/*.styl", gulp.series("stylus", "reload"))
 })
 
@@ -214,7 +221,7 @@ gulp.task("default", gulp.parallel("browser-sync", "watch"))
 gulp.task(
   "build",
   gulp.parallel(
-    gulp.series("scss", "stylus"),
+    gulp.series("scss", "scss2stylus", "stylus"),
     gulp.series(
       "sass-export",
       "data-replace",
