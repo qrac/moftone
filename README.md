@@ -2,7 +2,7 @@
 
 ## Site
 
-- https://qrac.github.io/moftone/
+- https://mixtone.qranoko.jp/moftone/
 
 ## About
 
